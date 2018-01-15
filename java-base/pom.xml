@@ -11,6 +11,7 @@
     <modules>
         <module>java-common</module>
         <module>java-jvm</module>
+        <module>java-thread</module>
     </modules>
 
 
