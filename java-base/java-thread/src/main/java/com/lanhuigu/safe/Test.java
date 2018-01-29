@@ -8,10 +8,10 @@ import java.util.concurrent.atomic.AtomicLong;
 public class Test {
     volatile boolean asleep;
     public static void main(String[] args) {
-        Hashtable h = new Hashtable();
+        /*Hashtable h = new Hashtable();
         AtomicLong i = new AtomicLong();
         i.incrementAndGet();
         ThreadLocal;
-        ConcurrentHashMap;
+        ConcurrentHashMap;*/
     }
 }
