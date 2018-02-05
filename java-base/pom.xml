@@ -16,6 +16,7 @@
         <module>java-io</module>
         <module>java-nio</module>
         <module>java-reflection</module>
+        <module>java-collection</module>
     </modules>
 
     <dependencies>
