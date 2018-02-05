@@ -13,6 +13,9 @@
         <module>java-jvm</module>
         <module>java-thread</module>
         <module>java8</module>
+        <module>java-io</module>
+        <module>java-nio</module>
+        <module>java-reflection</module>
     </modules>
 
     <dependencies>
