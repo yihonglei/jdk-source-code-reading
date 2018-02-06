@@ -1,5 +1,5 @@
 # Java-Base
-深入理解java基础才是走上技术巅峰的必经之路。
+深入理解java基础才是走上java技术巅峰的必经之路。
 
 java8           java8新特性
 
