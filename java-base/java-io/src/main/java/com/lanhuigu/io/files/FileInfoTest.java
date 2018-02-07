@@ -1,4 +1,4 @@
-package com.lanhuigu.io.file;
+package com.lanhuigu.io.files;
 
 import java.io.IOException;
 import java.nio.file.Files;
