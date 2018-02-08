@@ -7,7 +7,7 @@ import java.io.PipedOutputStream;
 /**
  * 管道流测试类，通过WriteThread线程写入数据，ReadThread线程读取数据并打印到控制台。
  */
-public class PipedTest {
+public class TestPiped {
 
     public static void main(String[] args) {
         try {

@@ -10,7 +10,7 @@ import java.io.*;
  * 4、向文件写入内容
  * 5、关闭输入流
  */
-public class FileWriterTest {
+public class TestFileWriter {
     public static void main(String[] args) {
         // 构建指定文件
         File file = new File("C:\\mycode\\hello.txt");

@@ -3,7 +3,7 @@ package com.lanhuigu.io.files;
 import java.io.File;
 import java.io.RandomAccessFile;
 
-public class RandomAccessFileTest {
+public class TestRandomAccessFile {
     public static void main(String[] args) {
         File file = new File("C:\\mycode\\hello.txt");
         /**
