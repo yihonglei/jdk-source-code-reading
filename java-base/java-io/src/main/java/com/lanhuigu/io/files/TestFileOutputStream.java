@@ -19,7 +19,7 @@ public class TestFileOutputStream {
             String str = "我是中国人";
             // 把内容转换成字节数组
             byte[] data = str.getBytes();
-            // 向文件写入内容
+            // 向文件内容写入
             os.write(data);
         } catch (Exception e) {
             e.printStackTrace();

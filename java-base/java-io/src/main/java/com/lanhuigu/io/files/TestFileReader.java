@@ -18,7 +18,7 @@ public class TestFileReader {
         try (Reader reader = new FileReader(file)) {
             // 创建字符数组
             char[] data = new char[1024];
-            // 读取内容，放到字符数组里面
+            // 读取内容，存储到缓冲字符数组里面
             reader.read(data);
             System.out.println("文件内容:" + new String(data));
         } catch (Exception e) {

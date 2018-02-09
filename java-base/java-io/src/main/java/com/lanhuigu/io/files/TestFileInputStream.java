@@ -20,9 +20,9 @@ public class TestFileInputStream {
         try (InputStream is = new FileInputStream(file)) {
             // 创建字节数组
             byte[] data = new byte[1024];
-            // 读取内容，放到字节数组里面
+            // 读取内容，存储到缓冲字节数组里面
             is.read(data);
-            // 将字节数组转化为字符串输出到控制台
+            // 将缓冲字节数组转化为字符串输出到控制台
             System.out.println("文件内容:" + new String(data));
         } catch (Exception e) {
             e.printStackTrace();
