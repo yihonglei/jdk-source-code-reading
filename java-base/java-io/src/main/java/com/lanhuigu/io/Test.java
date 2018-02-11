@@ -1,13 +1,10 @@
 package com.lanhuigu.io;
 
 
-import java.io.*;
+import java.io.OutputStream;
 
 public class Test {
     public static void main(String[] args) {
-        /*TestByteArrayInputStream;
-        ByteArrayOutputStream;
-        CharArrayReader;
-        CharArrayWriter;*/
+        /*OutputStream;*/
     }
 }
