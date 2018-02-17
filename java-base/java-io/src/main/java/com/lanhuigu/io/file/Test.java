@@ -11,6 +11,7 @@ public class Test {
         /*FilterInputStream;
         PipedInputStream;
         ByteArrayOutputStream;
-        InputStreamReader;*/
+        InputStreamReader;
+        System;*/
     }
 }
