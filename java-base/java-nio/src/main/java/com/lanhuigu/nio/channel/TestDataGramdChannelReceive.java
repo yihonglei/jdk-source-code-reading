@@ -9,7 +9,7 @@ import java.nio.channels.DatagramChannel;
 /**
  * 服务端: 接收客户端发送消息，收取到消息后，给发送方一个回应
  */
-public class TestDataDramdChannelReceive {
+public class TestDataGramdChannelReceive {
     public static void main(String[] args) throws IOException {
         // 获取通道
         DatagramChannel datagramChannel = DatagramChannel.open();
