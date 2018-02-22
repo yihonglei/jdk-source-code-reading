@@ -2,13 +2,13 @@ package com.lanhuigu.nio.selector;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.*;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-/**
- * server端实例代码
- */
-public class NIOServer {
+public class TestServer {
     // 通道管理器
     private Selector selector;
 
