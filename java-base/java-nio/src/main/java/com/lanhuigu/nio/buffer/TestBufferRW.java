@@ -1,5 +1,6 @@
 package com.lanhuigu.nio.buffer;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -23,25 +24,31 @@ public class TestBufferRW {
      *  文件复制实例
      */
     public static void main(String[] args) {
+        // 源文件
+        File fromFile = new File("C:\\mycode\\hello.txt");
+        // 目标文件
+        File toFile = new File("C:\\mycode\\hello-copy.txt");
+
         try (
-                // 根据指定文件创建文件输入流
-                FileInputStream fis = new FileInputStream("C:\\mycode\\hello.txt");
-                // 根据文件创建文件输出流，如果文件不存在，自动创建文件
-                FileOutputStream fos = new FileOutputStream("C:\\mycode\\hello-copy.txt");
-                // 获取通道
-                FileChannel inChannel = fis.getChannel(); FileChannel outChannel = fos.getChannel()
-             ) {
-                // 分配指定大小的缓冲区
-                ByteBuffer buffer = ByteBuffer.allocate(48);
-                // 写入到Buffer: 将通道中的数据读取到缓冲区中
-                while (inChannel.read(buffer) != -1) {
-                    // 切换成数据模式
-                    buffer.flip();
-                    // 从Buffer读取: 将缓冲区中的数据写入到通道中
-                    outChannel.write(buffer);
-                    // 清空缓冲区
-                    buffer.clear();
-                }
+                // 根据源文件创建文件输入流
+                FileInputStream fis = new FileInputStream(fromFile);
+                // 根据目标文件创建文件输出流，如果文件不存在，自动创建
+                FileOutputStream fos = new FileOutputStream(toFile);
+                // 1. 获取通道
+                FileChannel inChannel = fis.getChannel();
+                FileChannel outChannel = fos.getChannel();
+        ) {
+            // 2. 分配指定大小的缓冲区
+            ByteBuffer buffer = ByteBuffer.allocate(48);
+            // 3. 将通道中的数据读取到缓冲区
+            while (inChannel.read(buffer) != -1) {
+                // 切换成写数据模式
+                buffer.flip();
+                // 4. 将缓冲区数据写入到通道中
+                outChannel.write(buffer);
+                // 清空缓冲区
+                buffer.clear();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
