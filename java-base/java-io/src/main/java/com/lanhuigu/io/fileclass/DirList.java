@@ -1,4 +1,4 @@
-package com.lanhuigu.io.file;
+package com.lanhuigu.io.fileclass;
 
 import java.io.File;
 import java.util.Arrays;

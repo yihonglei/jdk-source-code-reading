@@ -1,4 +1,4 @@
-package com.lanhuigu.io.file;
+package com.lanhuigu.io.fileclass;
 
 import java.io.File;
 
@@ -25,7 +25,7 @@ public class MakeDirectories {
                 "\n length: " + f.length() +
                 "\n lastModified: " + f.lastModified());
         if (f.isFile()) {
-            System.out.println("It’s a file");
+            System.out.println("It’s a fileclass");
         } else if(f.isDirectory()) {
             System.out.println("It’s a directory");
         }

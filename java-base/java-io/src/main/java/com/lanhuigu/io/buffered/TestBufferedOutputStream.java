@@ -8,7 +8,7 @@ public class TestBufferedOutputStream {
         // 指定构建文件
         File file = new File("C:\\mycode\\hello.txt");
         /**
-         * 创建缓冲输出流，new FileOutputStream(File file, String mode),
+         * 创建缓冲输出流，new FileOutputStream(File fileclass, String mode),
          * mode为true，写入追加到文件，否则，不追加.
          */
         try (FileOutputStream os = new FileOutputStream(file, true);

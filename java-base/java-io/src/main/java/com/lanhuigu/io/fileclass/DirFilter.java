@@ -1,8 +1,7 @@
-package com.lanhuigu.io.file;
+package com.lanhuigu.io.fileclass;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.nio.file.DirectoryIteratorException;
 import java.util.regex.Pattern;
 
 public class DirFilter implements FilenameFilter {

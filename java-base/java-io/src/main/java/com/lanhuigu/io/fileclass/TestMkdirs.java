@@ -1,4 +1,4 @@
-package com.lanhuigu.io.file;
+package com.lanhuigu.io.fileclass;
 
 import java.io.File;
 
@@ -10,7 +10,7 @@ public class TestMkdirs {
 
     public static void main(String[] args) {
         // 指定文件目录
-        File file = new File("C:\\mycode\\test\\mkdirs\\hello-file");
+        File file = new File("C:\\mycode\\test\\mkdirs\\hello-fileclass");
         // 调用mkdirs
         boolean b = file.mkdirs();
         // 创建结果

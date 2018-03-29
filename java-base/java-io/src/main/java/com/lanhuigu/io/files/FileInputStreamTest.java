@@ -12,7 +12,7 @@ import java.io.InputStream;
  * 4、读取内容，放到字节数组里面
  * 5、关闭输入流
  */
-public class TestFileInputStream {
+public class FileInputStreamTest {
     public static void main(String[] args) {
         // 构建指定文件
         File file = new File("C:\\mycode\\hello.txt");

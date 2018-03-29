@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * FileOutputStream(File file, boolean append)的append设置为false，覆盖掉文件。
+ * FileOutputStream(File fileclass, boolean append)的append设置为false，覆盖掉文件。
  * 如果为false，与FileOutputStream(File)构造器一致。
  */
 public class TestFileOutputStream5 {

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * FileOutputStream(File file, boolean append)的append设置为true，输出流内容追加到文件。
+ * FileOutputStream(File fileclass, boolean append)的append设置为true，输出流内容追加到文件。
  */
 public class TestFileOutputStream4 {
 

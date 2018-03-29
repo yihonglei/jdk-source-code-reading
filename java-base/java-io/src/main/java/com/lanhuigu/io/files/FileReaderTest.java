@@ -10,7 +10,7 @@ import java.io.*;
  * 4、读取内容，放到字符数组里面
  * 5、关闭输入流
  */
-public class TestFileReader {
+public class FileReaderTest {
     public static void main(String[] args) {
         // 构建指定文件
         File file = new File("C:\\mycode\\hello.txt");

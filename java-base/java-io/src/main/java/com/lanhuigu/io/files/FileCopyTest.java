@@ -10,7 +10,7 @@ import java.io.*;
  * 4、使用循环，源文件读取一部分内容，目标文件写入一部分内容，直到写完所有内容
  * 5、关闭源文件输入流，目标文件输出流
  */
-public class TestFileCopy {
+public class FileCopyTest {
     public static void main(String[] args) {
         // 构建源文件
         File file = new File("C:\\mycode\\hello.txt");

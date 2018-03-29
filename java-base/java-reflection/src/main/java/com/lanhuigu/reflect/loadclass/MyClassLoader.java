@@ -17,7 +17,7 @@ public class MyClassLoader extends ClassLoader {
         if(!"com.lanhuigu.reflect.loadclass.MyObject".equals(name))
             return super.loadClass(name);
         try {
-            String url = "file:D:\\yhlGitHub\\Java-Base\\java-base\\java-reflection\\target\\classes\\com\\lanhuigu\\reflect\\loadclass\\MyObject.class";
+            String url = "fileclass:D:\\yhlGitHub\\Java-Base\\java-base\\java-reflection\\target\\classes\\com\\lanhuigu\\reflect\\loadclass\\MyObject.class";
             URL myUrl = new URL(url);
             URLConnection connection = myUrl.openConnection();
             InputStream input = connection.getInputStream();
