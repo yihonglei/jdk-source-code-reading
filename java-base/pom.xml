@@ -17,6 +17,7 @@
         <module>java-reflection</module>
         <module>java-collection</module>
         <module>java-net</module>
+        <module>java-others</module>
     </modules>
 
     <properties>

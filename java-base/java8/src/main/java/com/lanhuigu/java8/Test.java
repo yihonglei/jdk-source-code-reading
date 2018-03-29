@@ -1,8 +1,11 @@
 package com.lanhuigu.java8;
 
-import java.util.stream.Stream;
 
 public class Test {
-    /*Runnable;
-    Stream;*/
+    public static void main(String[] args) {
+        String idNum = "52232419911208401X";
+        if (idNum.contains("X") || idNum.contains("x")) {
+            idNum = "****" + idNum.substring(idNum.length() - 4, idNum.length());
+        }
+    }
 }
