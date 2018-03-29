@@ -2,7 +2,7 @@ package com.lanhuigu.io.arrays;
 
 import java.io.CharArrayWriter;
 
-public class TestCharArrayWriter {
+public class CharArrayWriterTest {
     public static void main(String[] args) {
         try {
             // 创建字符数组输出流

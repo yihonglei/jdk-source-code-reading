@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream;
  * ByteArrayOutputStream中的数据可以通过调用toByteArray方法以字节数组形式返回，
  * 然后我们可以对数组做相应的操作。
  */
-public class TestByteArrayOutputStream {
+public class ByteArrayOutputStreamTest {
 
     public static void main(String[] args) {
         try {
@@ -31,7 +31,7 @@ public class TestByteArrayOutputStream {
             }
             System.out.println("内容:" + sb.toString());
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 

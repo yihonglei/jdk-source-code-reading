@@ -3,7 +3,7 @@ package com.lanhuigu.io.arrays;
 import java.io.CharArrayReader;
 import java.io.Reader;
 
-public class TestCharArrayReader {
+public class CharArrayReaderTest {
 
     public static void main(String[] args) {
         try {

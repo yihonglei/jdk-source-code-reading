@@ -9,7 +9,7 @@ import java.io.InputStream;
  * 2. 将字节数组内容放入ByteArrayInputStream，转化为输入流
  * 3. 通过read方法读取数据并进行相应处理
  */
-public class TestByteArrayInputStream {
+public class ByteArrayInputStreamTest {
 
     public static void main(String[] args) {
         try {
