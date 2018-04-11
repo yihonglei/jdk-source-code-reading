@@ -1,6 +1,7 @@
 package com.lanhuigu.others;
 
-import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author yihonglei
@@ -11,15 +12,20 @@ import java.math.BigDecimal;
  */
 public class Test {
     public static void main(String[] args) {
-        BigDecimal b = BigDecimal.valueOf(0.12).divide(BigDecimal.valueOf(12), 2, BigDecimal.ROUND_DOWN);
-        System.out.println(b);
+        long defaultScore = 0;
+        String idNum = "522324199112084010";
+        int leh = idNum.length();
+        String dates = "";
+        if (leh == 18) {
+            dates = idNum.substring(6, 10);
+            SimpleDateFormat df = new SimpleDateFormat("yyyy");
+            String year = df.format(new Date());
+            defaultScore = Integer.parseInt(year) - Integer.parseInt(dates);
+        } else {
+            dates = idNum.substring(6, 8);
+            defaultScore = Integer.parseInt(dates);
+        }
 
-        /*BigDecimal decimal = new BigDecimal("1.12345");
-        System.out.println(decimal);
-        BigDecimal setScale = decimal.setScale(4,BigDecimal.ROUND_HALF_DOWN);
-        System.out.println(setScale);
-
-        BigDecimal setScale1 = decimal.setScale(4,BigDecimal.ROUND_HALF_UP);
-        System.out.println(setScale1);*/
+        System.out.println("defaultScore;" + defaultScore);
     }
 }

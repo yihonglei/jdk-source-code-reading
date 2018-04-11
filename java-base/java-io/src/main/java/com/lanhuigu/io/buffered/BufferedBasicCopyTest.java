@@ -6,7 +6,7 @@ import java.io.*;
  * 基于Buffered进行文件复制:
  * 从源文件读取--》写入到目标文件
  */
-public class TestBufferedBasicCopy {
+public class BufferedBasicCopyTest {
     public static void main(String[] args) {
         // 源文件
         File oldFile = new File("C:\\mycode\\hello.txt");

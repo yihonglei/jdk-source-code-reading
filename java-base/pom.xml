@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>java-jvm</module>
-        <module>java-thread</module>
         <module>java8</module>
         <module>java-io</module>
         <module>java-nio</module>
@@ -18,6 +17,7 @@
         <module>java-collection</module>
         <module>java-net</module>
         <module>java-others</module>
+        <module>java-thread</module>
     </modules>
 
     <properties>

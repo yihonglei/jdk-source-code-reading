@@ -2,7 +2,7 @@ package com.lanhuigu.io.buffered;
 
 import java.io.*;
 
-public class TestBufferedReader {
+public class BufferedReaderTest {
 
     public static void main(String[] args) {
         // 指定构建文件

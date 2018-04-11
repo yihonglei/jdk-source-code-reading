@@ -12,7 +12,7 @@ import java.io.IOException;
  * 读取多个字节来填充byte数组，当程序读取一个或多个字节时，可直接从缓存区byte数组中获取，
  * 当内存中的byte读取完后，会再次用底层输入流填充缓冲区数组。
  */
-public class TestBufferedInputStream {
+public class BufferedInputStreamTest {
 
     public static void main(String[] args) {
         // 指定构建文件

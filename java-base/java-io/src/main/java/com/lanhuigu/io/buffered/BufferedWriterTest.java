@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TestBufferedWriter {
+public class BufferedWriterTest {
 
     public static void main(String[] args) {
         // 指定构建文件
