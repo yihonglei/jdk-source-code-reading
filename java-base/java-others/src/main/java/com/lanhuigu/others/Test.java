@@ -1,31 +1,35 @@
 package com.lanhuigu.others;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * @author yihonglei
- * @version 1.0.0
  * @ClassName: Test
  * @Package: com.lanhuigu.others
  * @date 2018/3/22 9:26
+ * @version 1.0.0
  */
 public class Test {
-    public static void main(String[] args) {
-        long defaultScore = 0;
-        String idNum = "522324199112084010";
-        int leh = idNum.length();
-        String dates = "";
-        if (leh == 18) {
-            dates = idNum.substring(6, 10);
-            SimpleDateFormat df = new SimpleDateFormat("yyyy");
-            String year = df.format(new Date());
-            defaultScore = Integer.parseInt(year) - Integer.parseInt(dates);
-        } else {
-            dates = idNum.substring(6, 8);
-            defaultScore = Integer.parseInt(dates);
-        }
+    public static String datePattern = "yyyy-MM-dd";
+    public static String strPattern = "yyyy年MM月dd日";
 
-        System.out.println("defaultScore;" + defaultScore);
+    public static void main(String[] args) throws ParseException {
+        String date = stringToStringDate("2018-04-28", datePattern, strPattern);
+        System.out.println("strDate:" + date);
     }
+
+    public static String stringToStringDate(String stringDate, String datePattern, String strPattern) {
+        SimpleDateFormat dfDate = new SimpleDateFormat(datePattern);
+        SimpleDateFormat dfStr = new SimpleDateFormat(strPattern);
+        try {
+            Date date = dfDate.parse(stringDate);
+            return dfStr.format(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }
