@@ -25,7 +25,8 @@ public class JConsoleGC {
         System.gc();
     }
 
-    public static void main(String[] args) {
-        fillHeap();
+    public static void main(String[] args) throws InterruptedException {
+        fillHeap(1000);
     }
+
 }
