@@ -1,4 +1,4 @@
-package com.lanhuigu.others;
+package com.lanhuigu.others.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,12 +6,12 @@ import java.util.Date;
 
 /**
  * @author yihonglei
- * @ClassName: Test
+ * @ClassName: SimpleDateFormatTest
  * @Package: com.lanhuigu.others
  * @date 2018/3/22 9:26
  * @version 1.0.0
  */
-public class Test {
+public class SimpleDateFormatTest {
     public static String datePattern = "yyyy-MM-dd";
     public static String strPattern = "yyyy年MM月dd日";
 
