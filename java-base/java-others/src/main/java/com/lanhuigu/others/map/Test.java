@@ -14,9 +14,9 @@ import java.util.concurrent.ConcurrentMap;
  */
 public class Test {
     public static void main(String[] args) {
-        Hashtable;
+        /*Hashtable;
         HashMap;
         ConcurrentMap;
-        ConcurrentHashMap;
+        ConcurrentHashMap;*/
     }
 }
