@@ -9,11 +9,11 @@ public class LambdaThreadTest {
         Thread thread1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                System.out.println("Thread1-Test");
+                System.out.println("Thread1-Demo01Test");
             }
         });
         // Java8 lambda方式
-        Thread thread2 = new Thread(() -> System.out.println("Thread2-Test"));
+        Thread thread2 = new Thread(() -> System.out.println("Thread2-Demo01Test"));
 
         // 启动线程
         thread1.start();

@@ -8,4 +8,5 @@ package com.lanhuigu.java8.stream;
  * @date 2018/6/12 19:57
  */
 public enum Type {
+    MEAT,OTHER,FISH
 }
