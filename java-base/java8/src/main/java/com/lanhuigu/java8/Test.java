@@ -1,9 +1,13 @@
 package com.lanhuigu.java8;
 
-import java.util.Comparator;
-import java.util.Spliterator;
-import java.util.concurrent.RecursiveTask;
-import java.util.function.*;
+import javax.swing.text.html.Option;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
 
 /**
  * @author yihonglei
@@ -13,12 +17,10 @@ import java.util.function.*;
  * @date 2018/5/28 16:39
  */
 public class Test {
-    /*Predicate;
-    Supplier;
-    Consumer;
-    Function;
-    ToIntFunction;
-    Comparator;*/
-    /*RecursiveTask;*/
-    Spliterator;
+    public static void main(String[] args) {
+        IntStream evenNumbers = IntStream.rangeClosed(1, 100)
+                                        .filter(n -> n % 2 == 0);
+
+        System.out.println(evenNumbers.count());
+    }
 }
