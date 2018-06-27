@@ -1,15 +1,10 @@
-package com.lanhuigu.others.map;
-
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
+package com.lanhuigu.map;
 
 /**
  * @author yihonglei
  * @version 1.0.0
- * @ClassName: Test
- * @Package: com.lanhuigu.others.map
+ * @ClassName: TestMyAnnotation
+ * @Package: com.lanhuigu.map
  * @date 2018/5/25 17:13
  */
 public class Test {

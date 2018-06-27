@@ -1,10 +1,10 @@
-package com.lanhuigu.others.staticdemo;
+package com.lanhuigu.staticdemo;
 
 /**
  * @author yihonglei
  * @version 1.0.0
  * @ClassName: StaticInitialization
- * @Package: com.lanhuigu.others.staticdemo
+ * @Package: com.lanhuigu.staticdemo
  * @date 2018/6/23 22:36
  */
 public class StaticInitialization {

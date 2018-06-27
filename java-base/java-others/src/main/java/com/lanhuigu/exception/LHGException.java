@@ -1,4 +1,4 @@
-package com.lanhuigu.others.exception;
+package com.lanhuigu.exception;
 
 /**
  * @author yihonglei

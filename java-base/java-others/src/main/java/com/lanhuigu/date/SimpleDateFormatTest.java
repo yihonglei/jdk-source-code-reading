@@ -1,4 +1,4 @@
-package com.lanhuigu.others.date;
+package com.lanhuigu.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
