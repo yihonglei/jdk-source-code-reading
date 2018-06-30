@@ -1,4 +1,4 @@
-package com.lanhuigu.io.inputstream;
+package com.lanhuigu.io.bytestream;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.lanhuigu.io.reader;
+package com.lanhuigu.io.charstream;
 
 import java.io.File;
 import java.io.RandomAccessFile;
