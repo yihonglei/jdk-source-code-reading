@@ -4,10 +4,15 @@ import javax.swing.text.html.Option;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.Spliterator;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.Future;
+import java.util.concurrent.RecursiveTask;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.*;
 
 /**
  * @author yihonglei
@@ -18,9 +23,13 @@ import static java.util.stream.Collectors.toList;
  */
 public class Test {
     public static void main(String[] args) {
-        IntStream evenNumbers = IntStream.rangeClosed(1, 100)
-                                        .filter(n -> n % 2 == 0);
+        System.out.println(sequentialSum(100));
+    }
 
-        System.out.println(evenNumbers.count());
+    public static long sequentialSum(long n) {
+        /*ForkJoinPool;
+        RecursiveTask;*/
+        /*Future;*/
+        return 0;
     }
 }
