@@ -1,10 +1,7 @@
 package com.lanhuigu.java8;
 
 import javax.swing.text.html.Option;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-import java.util.Spliterator;
+import java.util.*;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 import java.util.concurrent.RecursiveTask;
@@ -23,13 +20,5 @@ import static java.util.stream.Collectors.*;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(sequentialSum(100));
-    }
-
-    public static long sequentialSum(long n) {
-        /*ForkJoinPool;
-        RecursiveTask;*/
-        /*Future;*/
-        return 0;
     }
 }
