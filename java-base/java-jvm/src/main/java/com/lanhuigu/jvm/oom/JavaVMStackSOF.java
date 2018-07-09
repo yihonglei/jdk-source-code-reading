@@ -1,12 +1,7 @@
-package com.lanhuigu.jvm.stack;
+package com.lanhuigu.jvm.oom;
 
 /**
  * VM Args: -Xss128k
- * @author yihonglei
- * @ClassName: JavaVMStackSOF
- * @Package: com.lanhuigu.jvm.stack
- * @date 2018/4/24 19:32
- * @version 1.0.0
  */
 public class JavaVMStackSOF {
     private int stackLength = 1;
