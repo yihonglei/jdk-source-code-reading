@@ -1,7 +1,5 @@
 package com.lanhuigu.thread.threadpool;
 
-import java.util.concurrent.ForkJoinPool;
-
 /**
  * @author yihonglei
  * @ClassName: ForkAndJoinPoolTest
@@ -11,6 +9,5 @@ import java.util.concurrent.ForkJoinPool;
  */
 public class ForkAndJoinPoolTest {
     public static void main(String[] args) {
-        ForkJoinPool;
     }
 }
