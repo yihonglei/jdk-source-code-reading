@@ -8,7 +8,7 @@ package com.lanhuigu.thread;
  * @date 2018/7/21 14:39
  */
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         //Thread;
     }
 }
