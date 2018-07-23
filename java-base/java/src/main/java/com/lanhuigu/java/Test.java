@@ -1,6 +1,7 @@
 package com.lanhuigu.java;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
+
+import java.util.Arrays;
 
 /**
  * @author yihonglei
@@ -10,7 +11,15 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
  * @date 2018/7/8 17:16
  */
 public class Test {
-    public static void main(String sgf[]) {
+    public final static String D = "\n";
+    public final static String D2 = "\101";
+    public final static String D3 = "1";
+    public final static String D4 = "a";
+    public static void main(String[] args) {
+        System.out.println(D);
+        System.out.println(D2);
+        System.out.println(D3);
+        System.out.println(D4);
     }
 
 }
