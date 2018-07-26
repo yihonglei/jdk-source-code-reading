@@ -1,5 +1,13 @@
 package com.lanhuigu.thread;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.concurrent.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReadWriteLock;
+
 /**
  * @author yihonglei
  * @version 1.0.0
@@ -9,6 +17,19 @@ package com.lanhuigu.thread;
  */
 public class Test {
     public static void main(String args[]) {
-        //Thread;
+//        Thread;
+//        ThreadPoolExecutor;
+//        Lock;
+//        ReadWriteLock;
+//        LockSupport;
+//        HashMap;
+//        ConcurrentHashMap;
+//        Hashtable;
+//        ConcurrentLinkedQueue;
+//        LinkedBlockingQueue;
+        ThreadPoolExecutor;
+        Executors;
+        HashMap;
+        CopyOnWriteArrayList;
     }
 }
