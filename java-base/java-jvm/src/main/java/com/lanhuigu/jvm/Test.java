@@ -1,6 +1,8 @@
 package com.lanhuigu.jvm;
 
 
+import sun.misc.Launcher;
+
 /**
  * @author yihonglei
  * @ClassName: Test
@@ -11,5 +13,6 @@ package com.lanhuigu.jvm;
 public class Test {
     public static void main(String[] args) {
       // test
+//        Launcher;
     }
 }

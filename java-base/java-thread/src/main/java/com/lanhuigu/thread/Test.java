@@ -27,9 +27,9 @@ public class Test {
 //        Hashtable;
 //        ConcurrentLinkedQueue;
 //        LinkedBlockingQueue;
-        ThreadPoolExecutor;
+        /*ThreadPoolExecutor;
         Executors;
         HashMap;
-        CopyOnWriteArrayList;
+        CopyOnWriteArrayList;*/
     }
 }
