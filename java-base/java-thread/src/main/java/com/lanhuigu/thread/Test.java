@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicStampedReference;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReadWriteLock;
@@ -32,5 +33,6 @@ public class Test {
         HashMap;*/
 //        CopyOnWriteArrayList;
 //        LinkedTransferQueue;
+//        AtomicStampedReference;
     }
 }
