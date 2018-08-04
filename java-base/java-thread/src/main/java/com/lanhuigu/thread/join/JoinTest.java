@@ -7,6 +7,7 @@ public class JoinTest {
         Thread previous = Thread.currentThread();
 
         for (int i = 0; i < 10; i++) {
+            // 每一个线程拥有前一个线程的引用，需要等待前一个线程终止，才能从等待中返回
             Thread thread = new Thread(new Domino(previous), String.valueOf(i));
             thread.start();
             previous = thread;
