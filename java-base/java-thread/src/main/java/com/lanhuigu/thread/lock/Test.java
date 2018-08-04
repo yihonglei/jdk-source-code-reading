@@ -1,6 +1,8 @@
 package com.lanhuigu.thread.lock;
 
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * @author yihonglei
@@ -12,5 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Test {
     public static void main(String[] args) {
 //        ConcurrentHashMap;
+//        ConcurrentLinkedQueue;
+//        BlockingQueue;
     }
 }
