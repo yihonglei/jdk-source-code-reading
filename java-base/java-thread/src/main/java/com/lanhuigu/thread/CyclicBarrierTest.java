@@ -17,17 +17,15 @@ public class CyclicBarrierTest {
         new Thread(() -> {
             try {
                 c.await();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (BrokenBarrierException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             System.out.println(1);
         }).start();
 
         try {
-            c.wait();
-        } catch (InterruptedException e) {
+            c.await();
+        } catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println(2);
