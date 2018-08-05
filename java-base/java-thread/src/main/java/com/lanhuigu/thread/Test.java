@@ -18,21 +18,7 @@ import java.util.concurrent.locks.ReadWriteLock;
  */
 public class Test {
     public static void main(String args[]) {
-//        Thread;
-//        ThreadPoolExecutor;
-//        Lock;
-//        ReadWriteLock;
-//        LockSupport;
-//        HashMap;
-//        ConcurrentHashMap;
-//        Hashtable;
-//        ConcurrentLinkedQueue;
-//        LinkedBlockingQueue;
-        /*ThreadPoolExecutor;
-        Executors;
-        HashMap;*/
-//        CopyOnWriteArrayList;
-//        LinkedTransferQueue;
-//        AtomicStampedReference;
+        /*Callable;
+        Thread;*/
     }
 }
