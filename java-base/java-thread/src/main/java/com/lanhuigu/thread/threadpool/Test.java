@@ -1,5 +1,9 @@
 package com.lanhuigu.thread.threadpool;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -14,5 +18,9 @@ public class Test {
     public static void main(String[] args) {
 //        ReentrantLock;
 //        ReentrantReadWriteLock;
+//        Executors;
+        Executor;
+        Future;
+        Callable;
     }
 }
