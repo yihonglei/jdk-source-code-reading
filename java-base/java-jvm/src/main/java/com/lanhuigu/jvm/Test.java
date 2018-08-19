@@ -12,7 +12,6 @@ import sun.misc.Launcher;
  */
 public class Test {
     public static void main(String[] args) {
-      // test
-//        Launcher;
+        System.out.println(BankContractFlow.Status.INIT.value());
     }
 }
