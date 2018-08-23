@@ -1,11 +1,5 @@
 package com.lanhuigu.thread.lock;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
-import java.util.concurrent.locks.Condition;
-
 /**
  * @author yihonglei
  * @version 1.0.0

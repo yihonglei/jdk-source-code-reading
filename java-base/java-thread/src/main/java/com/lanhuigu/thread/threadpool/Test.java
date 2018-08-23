@@ -1,12 +1,5 @@
 package com.lanhuigu.thread.threadpool;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
-
 /**
  * @author yihonglei
  * @version 1.0.0
@@ -19,8 +12,8 @@ public class Test {
 //        ReentrantLock;
 //        ReentrantReadWriteLock;
 //        Executors;
-        Executor;
-        Future;
-        Callable;
+//        Executor;
+//        Future;
+//        Callable;
     }
 }

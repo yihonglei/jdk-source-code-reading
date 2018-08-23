@@ -1,24 +1,8 @@
 package com.lanhuigu.thread;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicStampedReference;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.LockSupport;
-import java.util.concurrent.locks.ReadWriteLock;
-
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: Run
- * @Package: com.lanhuigu.thread
- * @date 2018/7/21 14:39
+ * @date 2018/8/23 17:09
  */
 public class Test {
-    public static void main(String args[]) {
-        /*Callable;
-        Thread;*/
-    }
 }

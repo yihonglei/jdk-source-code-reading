@@ -1,7 +1,5 @@
 package com.lanhuigu.thread.queue;
 
-import java.util.concurrent.BlockingQueue;
-
 /**
  * @author yihonglei
  * @version 1.0.0

@@ -1,9 +1,5 @@
 package com.lanhuigu.thread.lock;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentLinkedQueue;
-
 /**
  * @author yihonglei
  * @version 1.0.0
