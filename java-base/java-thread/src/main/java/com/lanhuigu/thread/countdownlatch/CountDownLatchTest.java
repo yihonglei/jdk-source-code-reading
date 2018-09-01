@@ -33,7 +33,7 @@ public class CountDownLatchTest{
             while (true) {
                 // 模拟数据库查询出的List
                 List<String> list = new ArrayList<>();
-                for (int i = 0; i < 100; i++) {
+                for (int i = 0; i < 10; i++) {
                     list.add("aaa");
                 }
                 // 计数器大小定义为集合大小，避免处理不一致导致主线程无限等待
