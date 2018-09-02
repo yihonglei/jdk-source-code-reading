@@ -1,8 +1,6 @@
 package com.lanhuigu.jvm;
 
 
-import sun.misc.Launcher;
-
 /**
  * @author yihonglei
  * @ClassName: Test
@@ -12,6 +10,5 @@ import sun.misc.Launcher;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(BankContractFlow.Status.INIT.value());
     }
 }
