@@ -14,6 +14,11 @@ public class RuntimePoolOOM {
         // 疯狂添加常量到list
         int i=1;
         while (true) {
+            /**
+             * String.intern()方法是一个Native方法，它的作用是：
+             * 如果字符串常量池中已经包含一个等于此String对象的字符串，则返回代表池中这个字符串的String对象；
+             * 否则将此String对象包含的字符串添加到常量池中，并返回此String对象的引用。
+             */
             list.add(String.valueOf(i++).intern());
         }
     }

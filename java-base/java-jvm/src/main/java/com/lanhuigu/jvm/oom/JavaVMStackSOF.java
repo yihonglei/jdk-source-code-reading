@@ -1,7 +1,7 @@
 package com.lanhuigu.jvm.oom;
 
 /**
- * VM Args: -Xss128k
+ * VM Args: -Xss200k
  */
 public class JavaVMStackSOF {
     private int stackLength = 1;
