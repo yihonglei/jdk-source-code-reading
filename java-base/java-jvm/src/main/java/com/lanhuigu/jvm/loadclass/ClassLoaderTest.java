@@ -5,6 +5,8 @@ import java.io.InputStream;
 
 /**
  * 类加载器与instanceof关键字演示
+ * @author yihonglei
+ * @date 2018/4/29 22:33
  */
 public class ClassLoaderTest {
     public static void main(String[] args) throws Exception {

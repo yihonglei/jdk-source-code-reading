@@ -1,11 +1,10 @@
 package com.lanhuigu.jvm.loadclass;
 
 /**
+ * 被动使用类字段演示：
+ * 通过子类引用父类的静态字段，不会导致子类初始化
  * @author yihonglei
- * @ClassName: SuperClass
- * @Package: com.lanhuigu.jvm.loadclass
  * @date 2018/4/29 22:06
- * @version 1.0.0
  */
 public class SuperClass {
     static {

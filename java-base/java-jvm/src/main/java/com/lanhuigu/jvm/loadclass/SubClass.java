@@ -1,11 +1,9 @@
 package com.lanhuigu.jvm.loadclass;
 
 /**
+ * 子类
  * @author yihonglei
- * @ClassName: SubClass
- * @Package: com.lanhuigu.jvm.loadclass
  * @date 2018/4/29 22:07
- * @version 1.0.0
  */
 public class SubClass extends SuperClass {
     static {
