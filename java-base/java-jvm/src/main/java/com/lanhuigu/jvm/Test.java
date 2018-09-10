@@ -1,6 +1,9 @@
 package com.lanhuigu.jvm;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author yihonglei
  * @ClassName: Test
@@ -10,5 +13,21 @@ package com.lanhuigu.jvm;
  */
 public class Test {
     public static void main(String[] args) {
+        List<String> listR = new ArrayList<>();
+
+        listR.add("1");
+        listR.add("2");
+        listR.add("3");
+
+        for (int i = 0;i < listR.size(); i++) {
+            if (listR.get(i).equals("2")) {
+                listR.remove(i);
+            }
+        }
+
+        System.out.println("==============");
+        for (String str : listR) {
+            System.out.println(str);
+        }
     }
 }
