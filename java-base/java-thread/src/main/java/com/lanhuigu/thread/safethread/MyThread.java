@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.safe;
+package com.lanhuigu.thread.safethread;
 
 public class MyThread extends Thread{
     private int count = 5;
