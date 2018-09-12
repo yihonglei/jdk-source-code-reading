@@ -1,12 +1,10 @@
-package com.lanhuigu.thread;
+package com.lanhuigu.thread.semaphore;
 
 import java.util.concurrent.*;
 
 /**
+ * Semaphore实例演示
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: SemaphoreTest
- * @Package: com.lanhuigu.thread
  * @date 2018/8/5 11:35
  */
 public class SemaphoreTest {

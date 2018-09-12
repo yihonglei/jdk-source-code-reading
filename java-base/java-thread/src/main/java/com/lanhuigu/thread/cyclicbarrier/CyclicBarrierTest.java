@@ -1,12 +1,10 @@
-package com.lanhuigu.thread;
+package com.lanhuigu.thread.cyclicbarrier;
 
 import java.util.concurrent.CyclicBarrier;
 
 /**
+ * CyclicBarrier实例演示
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: CyclicBarrierTest
- * @Package: com.lanhuigu.thread
  * @date 2018/7/24 23:39
  */
 public class CyclicBarrierTest {
