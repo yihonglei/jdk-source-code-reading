@@ -17,6 +17,7 @@
         <module>java-thread</module>
         <module>java-collection</module>
         <module>java-net</module>
+        <module>java-jdbc</module>
     </modules>
 
     <properties>
@@ -24,21 +25,16 @@
         <servlet-version>3.1.0</servlet-version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
     </properties>
 
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>javax.servlet</groupId>-->
-            <!--<artifactId>javax.servlet-api</artifactId>-->
-            <!--<version>${servlet-version}</version>-->
-            <!--<scope>provided</scope>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>junit</groupId>-->
-            <!--<artifactId>junit</artifactId>-->
-            <!--<version>${junit-version}</version>-->
-        <!--</dependency>-->
+        <!-- mysql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
