@@ -1,10 +1,9 @@
 package com.lanhuigu.thread.threadstate;
 
 /**
+ * 线程生命周期
+ *
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: ThreadState
- * @Package: com.lanhuigu.thread.threadstate
  * @date 2018/8/3 15:56
  */
 public class ThreadState {

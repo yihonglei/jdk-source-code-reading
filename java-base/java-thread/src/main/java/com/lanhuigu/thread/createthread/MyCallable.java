@@ -5,11 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
- * @author yihonglei
- * @version 1.0.0
- * @ClassName: MyCallable
- * @Package: com.lanhuigu.thread.createthread
- * @date 2018/8/5 13:14
+ * 实现Callable，返回值
  */
 public class MyCallable implements Callable<String>{
     @Override
