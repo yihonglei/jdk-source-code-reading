@@ -1,9 +1,9 @@
-package com.lanhuigu.thread.threadpool.newSingleThreadExecutor;
+package com.lanhuigu.thread.threadpool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class RunTest {
+public class NewSingleThreadExecutorTest {
     public static void main(String[] args) throws InterruptedException {
         final Thread t1 = new Thread(new Runnable() {
             @Override
@@ -33,12 +33,12 @@ public class RunTest {
                 }
             }
         }, "T3");
-        // method1
+        //方式1：直接启动三个线程，通过join保证线程执行顺序。
         //t1.start();
         //t2.start();
         //t3.start();
 
-//        method 2 使用 单个任务的线程池来实现。保证线程的依次执行
+        //方式2：使用单个任务的线程池来实现，保证线程执行顺序。
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(t1);
         executor.submit(t2);
