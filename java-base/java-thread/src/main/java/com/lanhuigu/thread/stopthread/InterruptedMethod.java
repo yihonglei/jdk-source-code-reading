@@ -1,11 +1,14 @@
 package com.lanhuigu.thread.stopthread;
 
-public class InterruptedMethod extends Thread{
+/**
+ * 判断当前线程是否已经中断，同时执行结束时清除线程状态并将线程状态标识为默认状态false。
+ */
+public class InterruptedMethod extends Thread {
     @Override
     public void run() {
         // 循环50万次
         for (int i = 0; i < 500000; i++) {
-            System.out.println("i = " + (i+1));
+            System.out.println("i = " + (i + 1));
         }
     }
 

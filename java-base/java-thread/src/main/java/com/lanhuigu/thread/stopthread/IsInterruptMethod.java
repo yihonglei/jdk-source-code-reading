@@ -1,10 +1,13 @@
 package com.lanhuigu.thread.stopthread;
 
-public class IsInterruptMethod extends Thread{
+/**
+ * 判断线程是否已经中断，不清除线程的中断状态标识状态。
+ */
+public class IsInterruptMethod extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 500000; i++) {
-            System.out.println("i = " + (i+1));
+            System.out.println("i = " + (i + 1));
         }
     }
 

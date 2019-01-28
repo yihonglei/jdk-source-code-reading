@@ -1,6 +1,10 @@
 package com.lanhuigu.thread.stopthread;
 
-public class ExceptionMethod extends Thread{
+/**
+ * 异常法：
+ * 判断线程中断状态为true时，抛线程中断异常。
+ */
+public class ExceptionMethod extends Thread {
     @Override
     public void run() {
         try {
@@ -9,7 +13,7 @@ public class ExceptionMethod extends Thread{
                     System.out.println("线程已经停止，退出代码执行");
                     throw new InterruptedException();
                 }
-                System.out.println("i = " + (i+1));
+                System.out.println("i = " + (i + 1));
             }
 
             System.out.println("跳出for循环，执行for循环后的代码");
@@ -22,7 +26,7 @@ public class ExceptionMethod extends Thread{
             ExceptionMethod exceptionMethod = new ExceptionMethod();
             exceptionMethod.start();
 
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             exceptionMethod.interrupt();
         } catch (InterruptedException ex) {
             ex.printStackTrace();

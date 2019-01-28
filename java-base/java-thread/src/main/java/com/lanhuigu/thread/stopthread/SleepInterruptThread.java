@@ -1,8 +1,10 @@
 package com.lanhuigu.thread.stopthread;
+
 /**
- * 在sleep状态下停止某个线程，会进入catch语句，同时清除线程停止状态值变为false.
+ * 休眠停止：
+ * 让线程处于休眠状态，再调用interrupt()，线程抛异常中断。
  */
-public class SleepInterruptThread extends Thread{
+public class SleepInterruptThread extends Thread {
     @Override
     public void run() {
         try {
