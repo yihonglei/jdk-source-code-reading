@@ -1,20 +1,19 @@
 # Java-Base
-深入理解java基础才是走上java技术巅峰的必经之路。
 
-java8           java8新特性
+【java-jvm（深入理解jvm）】 
 
-java-io         深入理解io
+【java8（java8新特性）】           
 
-java-nio        深入理解nio
+【java-io（深入理解io）】         
 
-java-reflection 深入理解反射机制
+【java-nio（深入理解nio）】       
 
-java-collection 深入理解集合框架
+【java-reflection（深入理解反射机制）】 
 
-java-net        深入理解网络编程
+【java-collection（深入理解集合框架）】 
 
-java-thread     深入理解多线程/高并发
+【java-net（深入理解网络编程）】        
 
-java-jvm        深入理解jvm
+【java-thread（深入理解多线程/高并发）】           
 
-java-jdbc       深入理解jdbc
+【java-jdbc（深入理解jdbc）】      
