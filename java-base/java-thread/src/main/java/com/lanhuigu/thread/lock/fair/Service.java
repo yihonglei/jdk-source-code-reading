@@ -2,6 +2,9 @@ package com.lanhuigu.thread.lock.fair;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ *
+ */
 public class Service {
     private ReentrantLock lock;
 
