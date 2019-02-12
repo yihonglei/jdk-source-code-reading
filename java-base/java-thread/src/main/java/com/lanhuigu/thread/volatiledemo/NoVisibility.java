@@ -2,6 +2,7 @@ package com.lanhuigu.thread.volatiledemo;
 
 /**
  * 线程可见性测试，这是一段结果不可控的代码
+ *
  * @author yihonglei
  * @date 2018/9/16 22:04
  */
@@ -19,8 +20,10 @@ public class NoVisibility {
         }
     }
 
+
     public static void main(String[] args) {
-        new ReaderThread().start();
+        ReaderThread t = new ReaderThread();
+        t.start();
         /**
          * 主线程修写值，其子线程可能读到不同的情况，因为线程的执行顺序是由CPU控制执行的；
          *
