@@ -3,7 +3,7 @@ package com.lanhuigu.thread.threadpool;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class NewSingleThreadExecutorTest {
+public class SingleThreadExecutorTest {
     public static void main(String[] args) throws InterruptedException {
         final Thread t1 = new Thread(new Runnable() {
             @Override
