@@ -5,11 +5,9 @@ import java.util.List;
 
 /**
  * 阻塞队列
+ *
  * @author yihonglei
- * @ClassName: BlockingQueue
- * @Package: com.lanhuigu.thread.queue
  * @date 2018/4/20 17:58
- * @version 1.0.0
  */
 public class BlockingQueue {
     private List queue = new LinkedList();
@@ -27,6 +25,7 @@ public class BlockingQueue {
      */
     /**
      * 入队: 当队列满时，阻塞入队
+     *
      * @param item 队列元素
      * @throws InterruptedException
      */
@@ -42,6 +41,7 @@ public class BlockingQueue {
 
     /**
      * 出队: 当队列为空时，阻塞出队
+     *
      * @return Object 队列元素
      * @throws InterruptedException
      */
