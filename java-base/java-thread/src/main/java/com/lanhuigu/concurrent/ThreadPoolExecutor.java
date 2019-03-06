@@ -7,7 +7,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 自定义ThreadPoolExecutor
+ * hreadPoolExecutor仿写
  *
  * @author yihonglei
  * @date 2019/3/2 11:35
