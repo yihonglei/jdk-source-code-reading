@@ -3,7 +3,7 @@ package com.lanhuigu.concurrent;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * 测试自定义并发包
+ * 测试自定义并发包【胜者为王，败者为寇】
  *
  * @author yihonglei
  * @date 2019/3/2 11:35
