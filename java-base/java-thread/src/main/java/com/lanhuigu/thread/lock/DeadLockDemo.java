@@ -1,5 +1,11 @@
 package com.lanhuigu.thread.lock;
 
+/**
+ * 死锁演示
+ *
+ * @author yihonglei
+ * @date 2019/3/23 15:41
+ */
 public class DeadLockDemo {
     private static String A = "A";
     private static String B = "B";
