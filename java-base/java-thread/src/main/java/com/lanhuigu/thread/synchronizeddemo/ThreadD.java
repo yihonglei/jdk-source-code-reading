@@ -1,9 +1,9 @@
 package com.lanhuigu.thread.synchronizeddemo;
 
-public class ThreadD extends Thread{
+public class ThreadD extends Thread {
     private Task mTask;
 
-    public ThreadD(Task tk){
+    public ThreadD(Task tk) {
         mTask = tk;
     }
 

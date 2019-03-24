@@ -29,6 +29,8 @@ package com.lanhuigu.thread.synchronizeddemo;
  *     synchronized (Task.class) {
  *     }
  * }
+ *
+ * @author yihonglei
  */
 public class Task {
 

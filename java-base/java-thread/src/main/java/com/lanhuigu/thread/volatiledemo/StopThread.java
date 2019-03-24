@@ -12,16 +12,13 @@ public class StopThread {
     //volatile private static boolean sign; // volatile变量
 
     public static void main(String[] args) throws InterruptedException {
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (!sign) {
-                    // System.out.println("加上println方法");
-                }
+        Thread readThread = new Thread(() -> {
+            while (!sign) {
+                // System.out.println("加上println方法");
             }
         });
 
-        thread1.start(); // 启动线程
+        readThread.start(); // 启动线程
         Thread.sleep(1000); // 休眠一秒
         sign = true; // 期望过一秒后线程停止
     }
