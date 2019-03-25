@@ -6,6 +6,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * CAS实现原子操作
+ *
+ * @author yihonglei
+ * @date 2019/3/25 12:20
  */
 public class Counter {
     private AtomicInteger atomicI = new AtomicInteger(0);
@@ -46,7 +49,7 @@ public class Counter {
      * 使用CAS实现线程安全计数器
      */
     private void safeCount() {
-        for (;;) {
+        for (; ; ) {
             int i = atomicI.get();
             boolean suc = atomicI.compareAndSet(i, ++i);
             if (suc) {
