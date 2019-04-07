@@ -12,7 +12,9 @@ import java.util.List;
  * @version 1.0.0
  */
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        Thread.sleep(10000000);
+
         List<String> listR = new ArrayList<>();
 
         listR.add("1");
