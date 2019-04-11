@@ -1,12 +1,12 @@
 package com.lanhuigu.jvm.gc;
 
+/**
+ * VM参数: -verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8
+ * -XX:+HandlePromotionFailture
+ */
 public class HandlePromotionTest {
     private static final int _1MB = 1024 * 1024;
 
-    /**
-     * VM参数: -verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8
-     * -XX:+HandlePromotionFailture
-     */
     public static void main(String[] args) {
         byte[] allocation1, allocation2, allocation3, allocation4,
                 allocation5, allocation6, allocation7, allocation8;

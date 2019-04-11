@@ -16,7 +16,7 @@ public class ReferenceCountingGC {
         ReferenceCountingGC objA = new ReferenceCountingGC();
         ReferenceCountingGC objB = new ReferenceCountingGC();
         objA.instance = objB;
-        objB.instance  = objA;
+        objB.instance = objA;
 
         objA = null;
         objB = null;
