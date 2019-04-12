@@ -1,13 +1,16 @@
 package com.lanhuigu.jvm.gc;
 
 /**
- * VM参数: -verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:+UseSerialGC
+ * @author yihonglei
+ * @date 2019/4/12 18:51
  */
-public class GCTest {
-    public static void main(String[] args) {
+public class Tmp {
+    public static void main(String[] args) throws InterruptedException {
         byte[] allocation1, allocation2, allocation3;
         allocation1 = new byte[5 * 1024 * 1024];
         allocation2 = new byte[800 * 1024];
         allocation3 = new byte[800 * 1024];
+
+        Thread.sleep(30000000);
     }
 }
