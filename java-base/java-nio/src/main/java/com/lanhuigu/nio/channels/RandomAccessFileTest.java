@@ -1,4 +1,4 @@
-package com.lanhuigu.nio.channel;
+package com.lanhuigu.nio.channels;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -7,10 +7,7 @@ import java.nio.channels.FileChannel;
 
 /**
  * @author yihonglei
- * @ClassName: RandomAccessFileTest
- * @Package: com.lanhuigu.nio.channel
  * @date 2018/5/14 20:27
- * @version 1.0.0
  */
 public class RandomAccessFileTest {
     public static void main(String[] args) {
