@@ -24,19 +24,23 @@ public class ChannelCopyFileTest {
                 FileInputStream fis = new FileInputStream(fromFile);
                 // 根据目标文件创建文件输入流，如果文件不存在，自动创建
                 FileOutputStream fos = new FileOutputStream(toFile);
-                // 1. 获取通道
+
+                //1、获取通道
                 FileChannel inChannel = fis.getChannel();
                 FileChannel outChannel = fos.getChannel();
         ) {
-            // 2. 分配指定大小缓冲区
+            // 2、分配指定大小缓冲区
             ByteBuffer buffer = ByteBuffer.allocate(48);
-            // 3. 将通道的数据读取到缓冲区
+
+            // 3、将通道的数据读取到缓冲区
             while (inChannel.read(buffer) != -1) {
                 // 切换模式
                 buffer.flip();
-                // 4. 从缓冲区写入到通道
+
+                //4、从缓冲区写入到通道
                 outChannel.write(buffer);
-                // 5. 清空缓冲区
+
+                //5、清空缓冲区
                 buffer.clear();
             }
         } catch (IOException e) {

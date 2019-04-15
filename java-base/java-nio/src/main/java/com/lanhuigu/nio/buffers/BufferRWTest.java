@@ -45,12 +45,15 @@ public class BufferRWTest {
         ) {
             // 2、分配指定大小的缓冲区
             ByteBuffer buffer = ByteBuffer.allocate(48);
+
             // 3、将通道中的数据读取到缓冲区
             while (inChannel.read(buffer) != -1) {
                 // 切换成读数据模式
                 buffer.flip();
+
                 // 4、从缓冲区读取数据写入到通道中
                 outChannel.write(buffer);
+
                 // 5、清空缓冲区
                 buffer.clear();
             }

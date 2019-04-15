@@ -7,26 +7,24 @@ import java.nio.channels.FileChannel;
 
 /**
  * 多个缓冲区中的数据聚合写入到通道
+ *
  * @author yihonglei
- * @ClassName: GatherTest
- * @Package: com.lanhuigu.nio.scattergather
  * @date 2018/5/15 9:33
- * @version 1.0.0
  */
 public class GatherTest {
     public static void main(String[] args) {
         // 指定构建文件
         File file = new File("C:\\mycode\\hello.txt");
         try (RandomAccessFile raf = new RandomAccessFile(file, "rw");
-             FileChannel channel = raf.getChannel()){
+             FileChannel channel = raf.getChannel()) {
 
             // 分配缓冲区大小
             ByteBuffer header = ByteBuffer.allocate(8);
             ByteBuffer body = ByteBuffer.allocate(8);
 
             // 写入数据到Buffer
-            header.put(new byte[]{1,2,3,4,5,6,7,8});
-            body.put(new byte[]{9,10,11,12,13,14,15,16});
+            header.put(new byte[]{1, 2, 3, 4, 5, 6, 7, 8});
+            body.put(new byte[]{9, 10, 11, 12, 13, 14, 15, 16});
 
             // Buffer放入数组
             ByteBuffer[] bufferArray = {header, body};
