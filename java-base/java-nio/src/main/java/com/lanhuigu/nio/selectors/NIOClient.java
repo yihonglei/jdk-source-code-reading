@@ -74,33 +74,38 @@ public class NIOClient {
 
                 // 连接事件发生
                 if (key.isConnectable()) {
-                    // 如果正在连接，则完成连接
-                    SocketChannel channel = (SocketChannel) key.channel();
-                    if (channel.isConnectionPending()) {
-                        channel.finishConnect();
-                    }
-
-                    // 设置成非阻塞
-                    channel.configureBlocking(false);
-
-                    // 在这里可以给服务端发送信息哦
-                    channel.write(ByteBuffer.wrap(new String("hello server").getBytes()));
-
-                    // 在和服务端连接成功之后，为了可以接收到服务端的信息，需要给通道设置读的权限。
-                    channel.register(this.selector, SelectionKey.OP_READ);
-
+                    handleConnect(key);
                 } else if (key.isReadable()) {// 获得了可读的事件
-                    read(key);
+                    handleRead(key);
                 }
             }
         }
     }
 
     /**
-     * @param key
-     * @throws Exception
+     * 处理客户端连接服务端成功事件
      */
-    private void read(SelectionKey key) throws Exception {
+    private void handleConnect(SelectionKey key) throws Exception {
+        // 如果正在连接，则完成连接
+        SocketChannel channel = (SocketChannel) key.channel();
+        if (channel.isConnectionPending()) {
+            channel.finishConnect();
+        }
+
+        // 设置成非阻塞
+        channel.configureBlocking(false);
+
+        // 在这里可以给服务端发送信息哦
+        channel.write(ByteBuffer.wrap(new String("hello server").getBytes()));
+
+        // 在和服务端连接成功之后，为了可以接收到服务端的信息，需要给通道设置读的权限。
+        channel.register(this.selector, SelectionKey.OP_READ);
+    }
+
+    /**
+     * 处理读取服务端发来的信息事件
+     */
+    private void handleRead(SelectionKey key) throws Exception {
         SocketChannel channel = (SocketChannel) key.channel();
         // 分配缓冲区
         ByteBuffer buffer = ByteBuffer.allocate(200);
