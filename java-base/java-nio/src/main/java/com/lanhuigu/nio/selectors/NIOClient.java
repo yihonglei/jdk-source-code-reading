@@ -49,11 +49,9 @@ public class NIOClient {
      */
     @SuppressWarnings("unchecked")
     private void listen() throws Exception {
+        System.out.println("start client");
         // 轮询访问selector
         while (true) {
-            // 停顿下，为了观察效果
-            Thread.sleep(3000);
-
             /*
              * 选择一组可以进行I/O操作的事件，放在selector中,客户端的该方法不会阻塞，
              * selector的wakeup方法被调用，方法返回，而对于客户端来说，通道一直是被选中的
