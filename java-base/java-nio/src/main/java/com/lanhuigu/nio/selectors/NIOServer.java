@@ -81,7 +81,7 @@ public class NIOServer {
     }
 
     /**
-     * 处理接受客户端事件
+     * 处理客户端请求成功事件
      */
     private void handleAccept(SelectionKey key) throws Exception {
         ServerSocketChannel server = (ServerSocketChannel) key.channel();
@@ -100,7 +100,7 @@ public class NIOServer {
     }
 
     /**
-     * 处理读取客户端发来的信息事件
+     * 处理客户端发来的信息读取事件
      */
     private void handleRead(SelectionKey key) throws Exception {
         // 服务器可读消息，得到事件发生的socket通道

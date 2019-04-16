@@ -101,7 +101,7 @@ public class NIOClient {
     }
 
     /**
-     * 处理读取服务端发来的信息事件
+     * 处理服务端响应的信息读取事件
      */
     private void handleRead(SelectionKey key) throws Exception {
         SocketChannel channel = (SocketChannel) key.channel();
