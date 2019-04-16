@@ -29,15 +29,13 @@ public class NIOClient {
      * @throws IOException
      */
     private void initClient(String ip, int port) throws IOException {
-        // 获得一个Socket通道
-        SocketChannel channel = SocketChannel.open();
-
-        // 设置通道为非阻塞
-        channel.configureBlocking(false);
-
         // 获得一个通道管理器
         this.selector = Selector.open();
 
+        // 获得一个Socket通道
+        SocketChannel channel = SocketChannel.open();
+        // 设置通道为非阻塞
+        channel.configureBlocking(false);
         // 用channel.finishConnect();才能完成连接
         // 客户端连接服务器,其实方法执行并没有实现连接，需要在listen()方法中调
         channel.connect(new InetSocketAddress(ip, port));
@@ -105,7 +103,7 @@ public class NIOClient {
     private void read(SelectionKey key) throws Exception {
         SocketChannel channel = (SocketChannel) key.channel();
         // 分配缓冲区
-        ByteBuffer buffer = ByteBuffer.allocate(20);
+        ByteBuffer buffer = ByteBuffer.allocate(200);
         channel.read(buffer);
         byte[] data = buffer.array();
 
@@ -114,8 +112,6 @@ public class NIOClient {
 
         String msg = new String(data).trim();
         System.out.println("client receive msg from server:" + msg);
-        ByteBuffer outBuffer = ByteBuffer.wrap(msg.getBytes());
-        channel.write(outBuffer);
     }
 
     /**

@@ -27,17 +27,15 @@ public class NIOServer {
      * 2、Channel注册到Selector
      */
     private void initServer(int port) throws Exception {
-        // 获取一个ServerSocket通道
-        ServerSocketChannel serverChannel = ServerSocketChannel.open();
-
-        // 设置通道为非阻塞
-        serverChannel.configureBlocking(false);
-
-        // 将该通道对于的serverSocket绑定到port端口
-        serverChannel.socket().bind(new InetSocketAddress(port));
-
         // 获得一个通道管理器(选择器)
         this.selector = Selector.open();
+
+        // 获取一个ServerSocket通道
+        ServerSocketChannel serverChannel = ServerSocketChannel.open();
+        // 设置通道为非阻塞
+        serverChannel.configureBlocking(false);
+        // 将该通道对于的serverSocket绑定到port端口
+        serverChannel.socket().bind(new InetSocketAddress(port));
 
         /**
          * 将通道管理器和该通道绑定，并为该通道注册selectionKey.OP_ACCEPT事件
@@ -103,7 +101,7 @@ public class NIOServer {
         SocketChannel channel = (SocketChannel) key.channel();
 
         // 读取的缓冲区
-        ByteBuffer buffer = ByteBuffer.allocate(20);
+        ByteBuffer buffer = ByteBuffer.allocate(200);
         channel.read(buffer);
         byte[] data = buffer.array();
 
@@ -112,8 +110,6 @@ public class NIOServer {
 
         String msg = new String(data).trim();
         System.out.println("server receive from client: " + msg);
-        ByteBuffer outBuffer = ByteBuffer.wrap(msg.getBytes());
-        channel.write(outBuffer);
     }
 
     /**
