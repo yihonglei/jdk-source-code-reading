@@ -1,4 +1,4 @@
-package com.lanhuigu.nio.selectors;
+package com.lanhuigu.nio.selector;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

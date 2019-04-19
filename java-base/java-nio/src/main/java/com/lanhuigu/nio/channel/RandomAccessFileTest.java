@@ -1,4 +1,4 @@
-package com.lanhuigu.nio.channels;
+package com.lanhuigu.nio.channel;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

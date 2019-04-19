@@ -1,4 +1,4 @@
-package com.lanhuigu.nio.buffers;
+package com.lanhuigu.nio.buffer;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.lanhuigu.nio.selectors;
+package com.lanhuigu.nio.selector;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -39,7 +39,7 @@ public class NIOServer {
 
         /**
          * 将通道管理器和该通道绑定，并为该通道注册selectionKey.OP_ACCEPT事件
-         * 注册该事件后，当事件到达的时候，selectors.select()会返回，
+         * 注册该事件后，当事件到达的时候，selector.select()会返回，
          * 如果事件没有到达selector.select()会一直阻塞
          */
         serverChannel.register(selector, SelectionKey.OP_ACCEPT);
