@@ -55,10 +55,10 @@ public class NIOServer {
                 // 移除事件，避免重复处理
                 iterator.remove();
 
-                // 客户端请求连接事件，接受客户端连接就绪
+                // 检查是否是一个就绪的可以被接受的客户端请求连接
                 if (key.isAcceptable()) {
                     handleAccept(key);
-                } else if (key.isReadable()) {// 监听到读事件，对读事件进行处理
+                } else if (key.isReadable()) {// 检查套接字是否已经准备好读数据
                     handleRead(key);
                 }
 

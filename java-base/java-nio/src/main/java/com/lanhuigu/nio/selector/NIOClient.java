@@ -59,10 +59,10 @@ public class NIOClient {
                 // 移除事件，避免重复处理
                 iterator.remove();
 
-                // 连接事件发生
+                // 检查是否是一个就绪的已经连接服务端成功事件
                 if (key.isConnectable()) {
                     handleConnect(key);
-                } else if (key.isReadable()) {// 监听到读事件，对读事件进行处理
+                } else if (key.isReadable()) {// 检查套接字是否已经准备好读数据
                     handleRead(key);
                 }
 
