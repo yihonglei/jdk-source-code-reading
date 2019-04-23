@@ -78,7 +78,8 @@ public class NIOServer {
         socketChannel.configureBlocking(false);
 
         // 信息通过通道发送给客户端
-        socketChannel.write(ByteBuffer.wrap(new String("Hello Client!").getBytes()));
+        String msg = "Hello Client!";
+        socketChannel.write(ByteBuffer.wrap(msg.getBytes()));
 
         // 给通道设置读事件，客户端监听到读事件后，进行读取操作
         socketChannel.register(selector, SelectionKey.OP_READ);
@@ -97,6 +98,6 @@ public class NIOServer {
         // 输出客户端发送过来的消息
         byte[] data = buffer.array();
         String msg = new String(data).trim();
-        System.out.println("server receive msg from client：" + msg);
+        System.out.println("server received msg from client：" + msg);
     }
 }

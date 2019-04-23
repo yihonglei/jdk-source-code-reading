@@ -84,7 +84,8 @@ public class NIOClient {
         channel.configureBlocking(false);
 
         // 数据写入通道
-        channel.write(ByteBuffer.wrap(new String("Hello Server!").getBytes()));
+        String msg = "Hello Server!";
+        channel.write(ByteBuffer.wrap(msg.getBytes()));
 
         // 通道注册到选择器，并且这个通道只对读事件感兴趣
         channel.register(selector, SelectionKey.OP_READ);
@@ -103,6 +104,6 @@ public class NIOClient {
         // 输出服务端响应发送过来的消息
         byte[] data = buffer.array();
         String msg = new String(data).trim();
-        System.out.println("client receive msg from server：" + msg);
+        System.out.println("client received msg from server：" + msg);
     }
 }
