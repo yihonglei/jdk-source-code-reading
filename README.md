@@ -49,6 +49,12 @@ java通过sftp上传文件 https://blog.csdn.net/yhl_jxy/article/details/7263303
 
 ## java-collection（深入理解集合框架）
 
+list,set,map关系和使用 https://blog.csdn.net/yhl_jxy/article/details/48262223
+
+list添加实体对象重复解决办法 https://blog.csdn.net/yhl_jxy/article/details/49071813
+
+Iterator和ListIterator https://blog.csdn.net/yhl_jxy/article/details/53394567
+
 ## java-annotation（深入理解注解实现）
 
 java注解实现原理 https://blog.csdn.net/yhl_jxy/article/details/80826238
