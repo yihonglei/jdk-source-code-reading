@@ -76,6 +76,28 @@ Java IO深入理解BufferedWriter https://blog.csdn.net/yhl_jxy/article/details/
 
 ## java-nio（深入理解nio）    
 
+Java NIO概述 https://blog.csdn.net/yhl_jxy/article/details/79327212
+
+Java NIO深入理解Channel（通道） https://blog.csdn.net/yhl_jxy/article/details/79329521
+
+Java NIO深入理解Buffer（缓冲区） https://blog.csdn.net/yhl_jxy/article/details/79331010
+
+Java NIO深入理解通道之间数据传输 https://blog.csdn.net/yhl_jxy/article/details/79331309
+
+Java NIO深入理解Selector（选择器） https://blog.csdn.net/yhl_jxy/article/details/79332092
+
+Java NIO深入理解FileChannel https://blog.csdn.net/yhl_jxy/article/details/79335384
+
+Java NIO深入理解SocketChannel https://blog.csdn.net/yhl_jxy/article/details/79335552
+
+Java NIO深入理解ServerSocketChannel https://blog.csdn.net/yhl_jxy/article/details/79335692
+
+Java NIO深入理解DatagramChannel https://blog.csdn.net/yhl_jxy/article/details/79336635
+
+Java NIO深入理解Pipe(管道) https://blog.csdn.net/yhl_jxy/article/details/79336762
+
+Java NIO深入理解scatter/gather https://blog.csdn.net/yhl_jxy/article/details/79419822
+
 ## java-reflection（深入理解反射机制）
 
 ## java-collection（深入理解集合框架）
