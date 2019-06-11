@@ -49,6 +49,10 @@ java通过sftp上传文件 https://blog.csdn.net/yhl_jxy/article/details/7263303
 
 ## java-collection（深入理解集合框架）
 
+## java-annotation（深入理解注解实现）
+
+java注解实现原理 https://blog.csdn.net/yhl_jxy/article/details/80826238
+
 ## java-net（深入理解网络编程）  
 
 ## java-jdbc（深入理解jdbc）
