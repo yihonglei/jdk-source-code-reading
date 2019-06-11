@@ -55,6 +55,36 @@ java通过sftp上传文件 https://blog.csdn.net/yhl_jxy/article/details/7263303
 
 ## java-thread（深入理解多线程/高并发）
 
+线程实现方式 https://blog.csdn.net/yhl_jxy/article/details/86665107
+
+线程生命周期 https://blog.csdn.net/yhl_jxy/article/details/86668152
+
+线程终止 https://blog.csdn.net/yhl_jxy/article/details/86673805
+
+线程池实现原理、源码分析（jdk8）https://blog.csdn.net/yhl_jxy/article/details/86677049
+
+synchronized实战和实现原理分析 https://blog.csdn.net/yhl_jxy/article/details/87008888
+
+synchronized对象锁和类锁 https://blog.csdn.net/yhl_jxy/article/details/87012803
+
+volatile实战和实现原理分析 https://blog.csdn.net/yhl_jxy/article/details/87072642
+
+ReentrantLock，Condition实战、原理和源码分析 https://blog.csdn.net/yhl_jxy/article/details/87088314
+
+CountDownLatch实战、实现原理和源码分析 https://blog.csdn.net/yhl_jxy/article/details/87181895
+
+CyclicBarrier实战、实现原理和源码分析 https://blog.csdn.net/yhl_jxy/article/details/87256321
+
+Semaphore实战、实现原理和源码分析 https://blog.csdn.net/yhl_jxy/article/details/87279383
+
+wait、notify、notifyAll https://blog.csdn.net/yhl_jxy/article/details/87347946
+
+PipedOutputStream和PipedInputStream管道实现线程通信 https://blog.csdn.net/yhl_jxy/article/details/87372602
+
+CAS和ABA https://blog.csdn.net/yhl_jxy/article/details/87520148
+
+ThreadLocal实战、实现原理和源码分析 https://blog.csdn.net/yhl_jxy/article/details/87866907
+
 ## java-jvm（深入理解jvm）
 
 ## java8（java8新特性）
