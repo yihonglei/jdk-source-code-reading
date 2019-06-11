@@ -43,6 +43,37 @@ java通过sftp上传文件 https://blog.csdn.net/yhl_jxy/article/details/7263303
 
 ## java-io（深入理解io） 
 
+Java IO概述 https://blog.csdn.net/yhl_jxy/article/details/79269481
+
+Java IO深入理解读写文件(FileInputStream、FileOutputStream、FileReader、FileWriter、RandomAccessFile) https://blog.csdn.net/yhl_jxy/article/details/79272792
+
+
+Java IO深入理解管道(PipedInputStream、PipedOutputStream、PipedReader、PipedWriter)
+https://blog.csdn.net/yhl_jxy/article/details/79283851
+
+Java IO深入理解字节和字符数组(ByteArrayInputStream、ByteArrayOutputStream、CharArrayReader、CharArrayWriter)
+https://blog.csdn.net/yhl_jxy/article/details/79287693
+
+Java IO深入理解InputStream https://blog.csdn.net/yhl_jxy/article/details/79293064
+
+Java IO深入理解OutputStream https://blog.csdn.net/yhl_jxy/article/details/79306969
+
+Java IO深入理解FileInputStream https://blog.csdn.net/yhl_jxy/article/details/79309114
+
+Java IO深入理解FileOutputStream https://blog.csdn.net/yhl_jxy/article/details/79309856
+
+Java IO深入理解RandomAccessFile https://blog.csdn.net/yhl_jxy/article/details/79311286
+
+Java IO深入理解File https://blog.csdn.net/yhl_jxy/article/details/79313737
+
+Java IO深入理解BufferedInputStream https://blog.csdn.net/yhl_jxy/article/details/79318713
+
+Java IO深入理解BufferedOutputStream https://blog.csdn.net/yhl_jxy/article/details/79319121
+
+Java IO深入理解BufferedReader https://blog.csdn.net/yhl_jxy/article/details/79319447
+
+Java IO深入理解BufferedWriter https://blog.csdn.net/yhl_jxy/article/details/79319467
+
 ## java-nio（深入理解nio）    
 
 ## java-reflection（深入理解反射机制）
