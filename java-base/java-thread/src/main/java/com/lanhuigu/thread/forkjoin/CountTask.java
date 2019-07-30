@@ -6,6 +6,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.RecursiveTask;
 
 /**
+ * ForkJoin任务拆分，并行计算【分而治之的思想】
+ *
  * @author yihonglei
  * @date 2018/8/4 20:01
  */
@@ -38,9 +40,9 @@ public class CountTask extends RecursiveTask<Integer> {
             rightTask.fork();
 
             int leftResult = leftTask.join();
-            System.out.println("leftResult");
+            System.out.println("leftResult：" + leftResult);
             int rightResult = rightTask.join();
-            System.out.println("rightResult");
+            System.out.println("rightResult：" + rightResult);
 
             sum = leftResult + rightResult;
         }

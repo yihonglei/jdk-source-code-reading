@@ -7,18 +7,16 @@ import java.nio.channels.FileChannel;
 
 /**
  * 通道中的数据分散写入到多个缓冲区
+ *
  * @author yihonglei
- * @ClassName: ScatterTest
- * @Package: com.lanhuigu.nio.scattergather
  * @date 2018/5/15 9:50
- * @version 1.0.0
  */
 public class ScatterTest {
     public static void main(String[] args) {
         // 指定构建文件
         File file = new File("C:\\mycode\\hello.txt");
         try (RandomAccessFile raf = new RandomAccessFile(file, "rw");
-             FileChannel channel = raf.getChannel()){
+             FileChannel channel = raf.getChannel()) {
 
             // 分配缓冲区大小
             ByteBuffer header = ByteBuffer.allocate(48);
@@ -51,11 +49,11 @@ public class ScatterTest {
 
             // 打印缓冲区数据
             while (header.hasRemaining()) {
-                System.out.print((char)header.get());
+                System.out.print((char) header.get());
             }
             System.out.println("\n=============================");
             while (body.hasRemaining()) {
-                System.out.print((char)body.get());
+                System.out.print((char) body.get());
             }
         } catch (Exception e) {
             e.printStackTrace();

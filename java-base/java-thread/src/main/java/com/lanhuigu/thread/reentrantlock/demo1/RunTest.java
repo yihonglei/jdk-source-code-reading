@@ -9,11 +9,11 @@ public class RunTest {
         MyThread t4 = new MyThread(service);
         MyThread t5 = new MyThread(service);
 
-        t1.setName("A");
-        t2.setName("B");
-        t3.setName("C");
-        t4.setName("D");
-        t5.setName("E");
+        t1.setName("Thread-A");
+        t2.setName("Thread-B");
+        t3.setName("Thread-C");
+        t4.setName("Thread-D");
+        t5.setName("Thread-E");
 
         t1.start();
         t2.start();

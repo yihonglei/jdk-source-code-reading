@@ -1,37 +1,42 @@
 package com.lanhuigu.thread.join;
 
-import java.util.concurrent.TimeUnit;
-
+/**
+ * Join线程等待排队执行测试。
+ *
+ * @author yihonglei
+ * @date 2019/2/13 10:41
+ */
 public class JoinTest {
+
     public static void main(String[] args) throws InterruptedException {
-        Thread previous = Thread.currentThread();
-
-        for (int i = 0; i < 10; i++) {
-            // 每一个线程拥有前一个线程的引用，需要等待前一个线程终止，才能从等待中返回
-            Thread thread = new Thread(new Domino(previous), String.valueOf(i));
-            thread.start();
-            previous = thread;
-        }
-
-        TimeUnit.SECONDS.sleep(5);
-        System.out.println(Thread.currentThread().getName() + " terminate.");
-    }
-
-    static class Domino implements Runnable{
-        private Thread thread;
-
-        public Domino(Thread thread) {
-            this.thread = thread;
-        }
-
-        @Override
-        public void run() {
-            try {
-                thread.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("线程1");
             }
-            System.out.println(Thread.currentThread().getName() + " terminate.");
-        }
+        });
+
+
+        // 等线程1执行完之后再执行线程2
+        Thread t2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    t1.join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("线程2");
+            }
+        });
+
+        t2.start();
+        t1.start();
+
+        // 线程1和线程2执行完后再执行main线程
+        t1.join();
+        t2.join();
+        System.out.println("线程main");
     }
+
 }

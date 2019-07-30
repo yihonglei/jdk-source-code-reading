@@ -1,7 +1,7 @@
 package com.lanhuigu.java.object;
 
-import org.junit.Assert;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Test;
 
 /**
  * @author yihonglei
@@ -29,15 +29,15 @@ public class Person {
         return false;
     }
 
-    @Test
-    public void testEqual() throws Exception {
-        Person x = new Person("aa", 1234);
-        Person y = new Person("aa", 12345);
-        Person z = new Person("bb", 1234);
-        Assert.assertTrue(x.equals(x));
-        Assert.assertTrue(x.equals(z));
-        Assert.assertTrue(z.equals(x));
-        Assert.assertFalse(x.equals(y));
-        Assert.assertFalse(x.equals(null));
-    }
+//    @Test
+//    public void testEqual() throws Exception {
+//        Person x = new Person("aa", 1234);
+//        Person y = new Person("aa", 12345);
+//        Person z = new Person("bb", 1234);
+//        Assert.assertTrue(x.equals(x));
+//        Assert.assertTrue(x.equals(z));
+//        Assert.assertTrue(z.equals(x));
+//        Assert.assertFalse(x.equals(y));
+//        Assert.assertFalse(x.equals(null));
+//    }
 }

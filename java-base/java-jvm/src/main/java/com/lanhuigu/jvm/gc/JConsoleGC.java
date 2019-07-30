@@ -5,10 +5,7 @@ import java.util.List;
 
 /**
  * @author yihonglei
- * @ClassName: JConsoleGC
- * @Package: com.lanhuigu.jvm.gc
  * @date 2018/4/26 20:15
- * @version 1.0.0
  */
 public class JConsoleGC {
 

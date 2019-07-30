@@ -6,11 +6,12 @@ public class MyService {
     private ReentrantLock lock = new ReentrantLock();
 
     public void serviceMethod() {
-        lock.lock();
-        for (int i = 0; i < 10; i++) {
-            System.out.println("ThreadName = " + Thread.currentThread().getName()
-                    + ", valiable = " + (i + 1));
+        try {
+            lock.lock();
+            System.out.println(Thread.currentThread().getName() + ", begin ");
+        } finally {
+            System.out.println(Thread.currentThread().getName() + ", end ");
+            lock.unlock();
         }
-        lock.unlock();
     }
 }

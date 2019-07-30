@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * VM Args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ * VM Args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError (导出xx.hprof文件默认在当前工程所在目录)
+ * 可以通过增加-XX:HeapDumpPath=./来指定dump文件存储路径。
  * 描述: -XX:+HeapDumpOnOutOfMemoryError 生成hprof文件，该文件在项目目录下
  */
 public class HeapOOM {
 
-    static class OOMObject {
-    }
+    static class OOMObject {}
 
     public static void main(String[] args) {
         List<OOMObject> list = new ArrayList<>();
