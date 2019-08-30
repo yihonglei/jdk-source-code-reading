@@ -7,6 +7,7 @@
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>java</module>
         <module>java-jvm</module>
@@ -15,7 +16,7 @@
         <module>java-nio</module>
         <module>java-reflection</module>
         <module>java-thread</module>
-        <module>java-collection</module>
+        <module>java-collections</module>
         <module>java-net</module>
         <module>java-jdbc</module>
     </modules>
@@ -23,7 +24,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <servlet-version>3.1.0</servlet-version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
