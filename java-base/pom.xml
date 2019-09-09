@@ -19,6 +19,7 @@
         <module>java-net</module>
         <module>java-jdbc</module>
         <module>java8</module>
+        <module>rxjava</module>
     </modules>
 
     <properties>
