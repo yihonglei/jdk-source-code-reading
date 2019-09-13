@@ -7,7 +7,7 @@ import java.util.List;
  * 用JConsole进行性能监控
  * VM Args: -Xms100m -Xmx100m -XX:+UseSerialGC
  */
-public class JConsoleTest {
+public class JConsole {
     /**
      * 内存占位符对象，一个OOMObject大约占64KB
      */

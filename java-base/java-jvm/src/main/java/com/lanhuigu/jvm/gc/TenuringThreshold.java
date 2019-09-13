@@ -4,7 +4,7 @@ package com.lanhuigu.jvm.gc;
  * VM参数: -verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8
  * -XX:+UseSerialGC -XX:MaxTenuringThreshold=15 -XX:+PrintTenuringDistribution
  */
-public class TenuringThresholdTest {
+public class TenuringThreshold {
     private static final int _1MB = 1024 * 1024;
 
     public static void main(String[] args) {

@@ -8,9 +8,9 @@ import java.io.InputStream;
  * @author yihonglei
  * @date 2018/4/29 22:33
  */
-public class ClassLoaderTest {
+public class ClassLoader {
     public static void main(String[] args) throws Exception {
-        ClassLoader myLoader = new ClassLoader() {
+        java.lang.ClassLoader myLoader = new java.lang.ClassLoader() {
             @Override
             public Class<?> loadClass(String name) throws ClassNotFoundException {
                 try {
@@ -29,8 +29,8 @@ public class ClassLoaderTest {
             }
         };
 
-        Object obj = myLoader.loadClass("com.lanhuigu.jvm.loadclass.ClassLoaderTest").newInstance();
+        Object obj = myLoader.loadClass("com.lanhuigu.jvm.loadclass.ClassLoader").newInstance();
         System.out.println(obj.getClass());
-        System.out.println(obj instanceof com.lanhuigu.jvm.loadclass.ClassLoaderTest);
+        System.out.println(obj instanceof ClassLoader);
     }
 }
