@@ -5,10 +5,8 @@ import java.io.InputStream;
 
 /**
  * 类加载器与instanceof关键字演示
- * @author yihonglei
- * @date 2018/4/29 22:33
  */
-public class ClassLoader {
+public class ClassLoaderTest {
     public static void main(String[] args) throws Exception {
         java.lang.ClassLoader myLoader = new java.lang.ClassLoader() {
             @Override
@@ -29,8 +27,8 @@ public class ClassLoader {
             }
         };
 
-        Object obj = myLoader.loadClass("com.lanhuigu.jvm.loadclass.ClassLoader").newInstance();
+        Object obj = myLoader.loadClass("com.lanhuigu.jvm.loadclass.ClassLoaderTest").newInstance();
         System.out.println(obj.getClass());
-        System.out.println(obj instanceof ClassLoader);
+        System.out.println(obj instanceof ClassLoaderTest);
     }
 }

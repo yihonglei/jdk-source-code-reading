@@ -6,13 +6,16 @@ import java.util.LinkedList;
  * VM Args:
  * jdk6以前：-XX:PermSize=10M -XX:MaxPermSize=10M
  * jdk7开始：-Xms10m -Xmx10m -XX:-UseGCOverheadLimit
+ *
+ * 参数说明：
+ * XX:+UseGCOverheadLimit：限制GC的运行时间。如果GC耗时过长，就抛OOM。
  */
 public class RuntimePoolOOM {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 使用list保持常量的引用，避免Full GC回收常量池
-        LinkedList<String> list=new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         // 疯狂添加常量到list
-        int i=1;
+        int i = 1;
         while (true) {
             /**
              * String.intern()方法是一个Native方法，它的作用是：

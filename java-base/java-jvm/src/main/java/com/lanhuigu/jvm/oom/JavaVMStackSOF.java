@@ -1,6 +1,7 @@
 package com.lanhuigu.jvm.oom;
 
 /**
+ * StackOverflowError栈溢出演示！
  * VM Args: -Xss200k
  */
 public class JavaVMStackSOF {

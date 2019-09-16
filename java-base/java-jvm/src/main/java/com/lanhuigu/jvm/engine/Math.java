@@ -1,10 +1,7 @@
-package com.lanhuigu.jvm.oom;
+package com.lanhuigu.jvm.engine;
 
 /**
  * Java内存结构分析
- *
- * @author yihonglei
- * @date 2019/4/6 16:03
  */
 public class Math {
     public static final Integer CONSTANT_1 = 666;

@@ -2,7 +2,7 @@ package com.lanhuigu.jvm.gc;
 
 /**
  * VM Args: -XX:+PrintGCDetails
- * 参数描述: 用于打印GC日志，可以指定GC文件目录-XX:+PrintGCDetails -Xloggc:d:\gc.log
+ * 参数描述: 用于打印GC日志，可以指定GC文件目录-XX:+PrintGCDetails -Xloggc:/Users/hongqi/gc.log
  */
 public class ReferenceCountingGC {
     public Object instance = null;
