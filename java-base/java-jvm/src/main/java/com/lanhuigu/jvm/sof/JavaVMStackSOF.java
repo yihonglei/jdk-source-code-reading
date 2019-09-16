@@ -1,8 +1,8 @@
-package com.lanhuigu.jvm.oom;
+package com.lanhuigu.jvm.sof;
 
 /**
  * StackOverflowError栈溢出演示！
- * VM Args: -Xss128k
+ * VM Args: -Xss256k
  */
 public class JavaVMStackSOF {
     private int stackLength = 1;
