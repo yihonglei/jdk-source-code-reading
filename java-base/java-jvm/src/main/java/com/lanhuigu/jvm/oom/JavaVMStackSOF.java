@@ -2,7 +2,7 @@ package com.lanhuigu.jvm.oom;
 
 /**
  * StackOverflowError栈溢出演示！
- * VM Args: -Xss200k
+ * VM Args: -Xss128k
  */
 public class JavaVMStackSOF {
     private int stackLength = 1;
