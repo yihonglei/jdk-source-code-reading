@@ -1,7 +1,7 @@
 package com.lanhuigu.jvm.gc;
 
 /**
- * VM Args: -XX:+PrintGCDetails
+ * VM Args: -Xms20m -Xmx20m -XX:+PrintGCDetails
  * 参数描述: 用于打印GC日志，可以指定GC文件目录-XX:+PrintGCDetails -Xloggc:/Users/hongqi/gc.log
  */
 public class ReferenceCountingGC {
@@ -21,7 +21,20 @@ public class ReferenceCountingGC {
         objA = null;
         objB = null;
 
+        try {
+            Thread.sleep(1000 * 60);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // 告诉jvm，希望进行一次垃圾回收
         System.gc();
+
+//        try {
+//            Thread.sleep(1000 * 600);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
     }
 
     public static void main(String[] args) {
