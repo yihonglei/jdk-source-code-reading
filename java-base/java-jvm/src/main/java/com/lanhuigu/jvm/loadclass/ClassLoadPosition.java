@@ -71,6 +71,9 @@ public class ClassLoadPosition {
     }
 
     private static class Person {
+        /*
+         * 存储在线程方法对应虚拟机栈的局部变量表里面
+         */
         private String userName = "村里的哪个小芳";
         private int age = 18;
     }
