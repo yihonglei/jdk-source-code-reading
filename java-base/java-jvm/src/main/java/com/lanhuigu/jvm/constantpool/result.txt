@@ -1,0 +1,20 @@
+// true
+System.out.println(str1 == str3);
+
+// false
+System.out.println(str2 == str4);
+
+// true
+System.out.println(str4 == str5);
+
+// 另外一个对象
+HelloWord2 h2 = new HelloWord2();
+
+// true
+System.out.println(h2.str100 == str1);
+
+// false
+System.out.println(h2.str200 == str2);
+
+// true
+System.out.println(h2.str300 == str4);
