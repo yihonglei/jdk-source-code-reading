@@ -1,10 +1,10 @@
 package com.lanhuigu.jvm.loadclass;
 
 /**
- * VM Args：-verbose:class
- * 打印类加载详细信息。
+ * 动态类加载！
+ * VM Args：-verbose:class 打印类加载过程详细信息。
  */
-public class DynamicLoadTest {
+public class DynamicLoad {
     static {
         System.out.println("******static code******");
     }
