@@ -1,0 +1,74 @@
+Classfile /Users/hongqi/Documents/lanhuigu/Java-Base/java-base/java-jvm/src/main/java/com/lanhuigu/jvm/clazz/IntAndFloatTest.class
+  Last modified Sep 23, 2019; size 437 bytes
+  MD5 checksum f5cb0756c3388df6f2b1e1c39ab27a53
+  Compiled from "IntAndFloatTest.java"
+public class com.lanhuigu.jvm.clazz.IntAndFloatTest
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #9.#25         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #8.#26         // com/lanhuigu/jvm/clazz/IntAndFloatTest.a:I
+   #3 = Fieldref           #8.#27         // com/lanhuigu/jvm/clazz/IntAndFloatTest.b:I
+   #4 = Float              11.0f
+   #5 = Fieldref           #8.#28         // com/lanhuigu/jvm/clazz/IntAndFloatTest.c:F
+   #6 = Fieldref           #8.#29         // com/lanhuigu/jvm/clazz/IntAndFloatTest.d:F
+   #7 = Fieldref           #8.#30         // com/lanhuigu/jvm/clazz/IntAndFloatTest.e:F
+   #8 = Class              #31            // com/lanhuigu/jvm/clazz/IntAndFloatTest
+   #9 = Class              #32            // java/lang/Object
+  #10 = Utf8               a
+  #11 = Utf8               I
+  #12 = Utf8               ConstantValue
+  #13 = Integer            10
+  #14 = Utf8               b
+  #15 = Utf8               c
+  #16 = Utf8               F
+  #17 = Utf8               d
+  #18 = Utf8               e
+  #19 = Utf8               <init>
+  #20 = Utf8               ()V
+  #21 = Utf8               Code
+  #22 = Utf8               LineNumberTable
+  #23 = Utf8               SourceFile
+  #24 = Utf8               IntAndFloatTest.java
+  #25 = NameAndType        #19:#20        // "<init>":()V
+  #26 = NameAndType        #10:#11        // a:I
+  #27 = NameAndType        #14:#11        // b:I
+  #28 = NameAndType        #15:#16        // c:F
+  #29 = NameAndType        #17:#16        // d:F
+  #30 = NameAndType        #18:#16        // e:F
+  #31 = Utf8               com/lanhuigu/jvm/clazz/IntAndFloatTest
+  #32 = Utf8               java/lang/Object
+{
+  public com.lanhuigu.jvm.clazz.IntAndFloatTest();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        10
+         7: putfield      #2                  // Field a:I
+        10: aload_0
+        11: bipush        10
+        13: putfield      #3                  // Field b:I
+        16: aload_0
+        17: ldc           #4                  // float 11.0f
+        19: putfield      #5                  // Field c:F
+        22: aload_0
+        23: ldc           #4                  // float 11.0f
+        25: putfield      #6                  // Field d:F
+        28: aload_0
+        29: ldc           #4                  // float 11.0f
+        31: putfield      #7                  // Field e:F
+        34: return
+      LineNumberTable:
+        line 6: 0
+        line 7: 4
+        line 8: 10
+        line 9: 16
+        line 10: 22
+        line 11: 28
+}
+SourceFile: "IntAndFloatTest.java"
