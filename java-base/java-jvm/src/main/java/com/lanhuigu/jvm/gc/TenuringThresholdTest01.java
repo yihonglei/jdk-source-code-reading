@@ -36,6 +36,7 @@ public class TenuringThresholdTest01 {
         allocation1 = new byte[_1MB / 4];
         allocation2 = new byte[4 * _1MB];
         allocation3 = new byte[4 * _1MB];
+
         allocation3 = null;
         allocation3 = new byte[4 * _1MB];
     }

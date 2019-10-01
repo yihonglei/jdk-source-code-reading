@@ -28,7 +28,7 @@ public class AthleteThread extends Thread {
      *
      * @param num 运动员编号
      */
-    public AthleteThread(Integer num) {
+    private AthleteThread(Integer num) {
         this.num = num;
     }
 
@@ -41,9 +41,7 @@ public class AthleteThread extends Thread {
              */
             playGround.await();
             System.out.println("运动员编号：" + num + "开跑>>>>>>>>>>>>>>>>>>>");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (BrokenBarrierException e) {
+        } catch (InterruptedException | BrokenBarrierException e) {
             e.printStackTrace();
         }
     }

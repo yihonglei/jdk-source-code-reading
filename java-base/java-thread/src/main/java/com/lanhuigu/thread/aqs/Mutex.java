@@ -9,7 +9,6 @@ import java.util.concurrent.locks.Lock;
  * 自定义同步组件
  */
 public class Mutex implements Lock{
-
     private static class Sync extends AbstractQueuedSynchronizer{
         private static final long serialVersionUID = 2088842616331418447L;
 

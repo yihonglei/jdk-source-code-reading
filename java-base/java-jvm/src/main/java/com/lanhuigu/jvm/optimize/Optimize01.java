@@ -16,7 +16,7 @@ public class Optimize01 {
          */
         String str = "";
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 10000; i++) {
             str += i;
         }
         System.out.println("String耗时:" + (System.currentTimeMillis() - start));
@@ -30,7 +30,7 @@ public class Optimize01 {
          */
         StringBuilder sb = new StringBuilder();
         long startSb = System.currentTimeMillis();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 10000; i++) {
             sb.append(i);
         }
         System.out.println("StringBuilder耗时:" + (System.currentTimeMillis() - startSb));
