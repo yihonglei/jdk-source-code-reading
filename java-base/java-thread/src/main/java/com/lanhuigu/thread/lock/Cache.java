@@ -7,9 +7,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: Cache
- * @Package: com.lanhuigu.thread.lock
  * @date 2018/8/4 12:11
  */
 public class Cache {

@@ -10,9 +10,12 @@ public class RunClasstTest {
         ThreadD td = new ThreadD(mTask);
         ThreadE te = new ThreadE(mTask);
 
-        tc.setName("C");// 静态同步方法
-        td.setName("D");// 静态同步方法
-        te.setName("E");// 静态方法同步代码块
+        // 静态同步方法
+        tc.setName("C");
+        // 静态同步方法
+        td.setName("D");
+        // 静态方法同步代码块
+        te.setName("E");
 
         tc.start();
         td.start();

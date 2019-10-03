@@ -60,9 +60,7 @@ public class CountTask extends RecursiveTask<Integer> {
             System.out.println("在等执行结果的时候，干点别的事......");
             // 输出计算结果
             System.out.println(result.get());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
     }
