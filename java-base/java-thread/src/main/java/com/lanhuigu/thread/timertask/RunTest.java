@@ -10,24 +10,19 @@ import java.util.Timer;
  */
 public class RunTest {
     public static void main(String[] args) {
+        // 日历
         System.out.println("curSystemTime:" + new Date());
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.SECOND, 10);
-
         Date runStartDate = calendar.getTime();
-		/**
-		 * 新建一个任务
-		 */
+
+		// 新建一个任务
         MyTask task = new MyTask();
-		/**
-		 * 定义一个任务调度器
-		 */
+
+        // 定义一个任务调度器
         Timer timer = new Timer();
-		/*
-		 * 将task任务交给timer去安排执行，
-		 * 什么时候执行由timer决定，
-		 * 执行什么内容由task决定
-		 */
+
+		// 将task任务交给timer去安排执行，什么时候执行由timer决定，执行什么内容由task决定。
         timer.schedule(task, runStartDate);
     }
 }

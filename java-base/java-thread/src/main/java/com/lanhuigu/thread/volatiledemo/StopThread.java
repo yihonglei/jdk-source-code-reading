@@ -8,8 +8,10 @@ package com.lanhuigu.thread.volatiledemo;
  * @date 2019/2/12 12:37
  */
 public class StopThread {
-    private static boolean sign; // 非volatile变量
-    //volatile private static boolean sign; // volatile变量
+    /** 非volatile变量 */
+    private static boolean sign;
+    /** volatile变量 */
+    //volatile private static boolean sign;
 
     public static void main(String[] args) throws InterruptedException {
         Thread readThread = new Thread(() -> {
@@ -18,8 +20,11 @@ public class StopThread {
             }
         });
 
-        readThread.start(); // 启动线程
-        Thread.sleep(1000); // 休眠一秒
-        sign = true; // 期望过一秒后线程停止
+        // 启动线程
+        readThread.start();
+        // 休眠一秒
+        Thread.sleep(1000);
+        // 期望过一秒后线程停止
+        sign = true;
     }
 }
