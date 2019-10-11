@@ -16,7 +16,7 @@ import java.util.concurrent.Executors;
 public class CountDownLatchTest {
     // 线程池
     private static ExecutorService executorService =
-            Executors.newFixedThreadPool(10);
+            Executors.newFixedThreadPool(1);
 
     public static void main(String[] args) {
         int counterBatch = 1;
@@ -32,18 +32,34 @@ public class CountDownLatchTest {
                 // 计数器大小定义为集合大小，避免处理不一致导致主线程无限等待
                 CountDownLatch countDownLatch = new CountDownLatch(list.size());
 
+//                for (int i = 0; i < list.size(); i++) {
+//                    countDownLatch.countDown();
+//                }
+
                 // 循环处理List
-                list.parallelStream().forEach(userId -> {
-                    // 任务提交线程池
-                    CompletableFuture.supplyAsync(() -> {
+//                list.parallelStream().forEach(userId -> {
+//                    // 任务提交线程池
+//                    CompletableFuture.supplyAsync(() -> {
+//                        try {
+//                            // 处理用户数据
+//                            dealUser(userId);
+//                        } finally {
+//                            countDownLatch.countDown();
+//                        }
+//                        return 1;
+//                    }, executorService);
+//                });
+
+                // 循环处理List
+                list.forEach(userId -> {
+                    executorService.execute(new Thread(() -> {
                         try {
-                            // 处理用户数据
-                            dealUser(userId);
-                        } finally {
-                            countDownLatch.countDown();
-                        }
-                        return 1;
-                    }, executorService);
+                                // 处理用户数据
+                                dealUser(userId);
+                            } finally {
+                                countDownLatch.countDown();
+                            }
+                    }));
                 });
 
                 // 主线程等待所有子线程都执行完成时，恢复执行主线程
@@ -53,10 +69,12 @@ public class CountDownLatchTest {
                 // 数据批次计数器
                 counterBatch++;
 
+                break;
+
                 // 模拟执行5批
-                if (counterBatch > 5) {
-                    break;
-                }
+//                if (counterBatch > 5) {
+//                    break;
+//                }
             }
             System.out.println("循环退出，程序执行完成，counterBatch=" + counterBatch);
 
