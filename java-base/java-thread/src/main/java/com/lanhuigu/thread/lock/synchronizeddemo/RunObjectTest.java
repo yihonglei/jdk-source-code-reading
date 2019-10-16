@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.synchronizeddemo;
+package com.lanhuigu.thread.lock.synchronizeddemo;
 
 /**
  * 对象锁测试

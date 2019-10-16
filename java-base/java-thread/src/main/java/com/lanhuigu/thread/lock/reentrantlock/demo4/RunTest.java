@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo4;
+package com.lanhuigu.thread.lock.reentrantlock.demo4;
 
 /**
  * Condition实现生产/消费模式测试

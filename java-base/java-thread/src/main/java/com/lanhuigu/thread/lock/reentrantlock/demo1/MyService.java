@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo1;
+package com.lanhuigu.thread.lock.reentrantlock.demo1;
 
 import java.util.concurrent.locks.ReentrantLock;
 

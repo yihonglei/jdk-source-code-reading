@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo2;
+package com.lanhuigu.thread.lock.reentrantlock.demo2;
 
 /**
  * 关键字synchronized与wait()合notify()或notifyAll()结合可以实现等待/通知机制。

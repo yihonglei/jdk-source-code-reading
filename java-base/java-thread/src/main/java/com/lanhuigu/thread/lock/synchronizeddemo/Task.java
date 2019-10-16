@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.synchronizeddemo;
+package com.lanhuigu.thread.lock.synchronizeddemo;
 
 /**
  * 可以从synchronized加锁位置区分对象锁和类锁：

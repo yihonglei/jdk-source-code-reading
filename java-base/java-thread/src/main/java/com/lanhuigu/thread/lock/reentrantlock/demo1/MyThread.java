@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo2;
+package com.lanhuigu.thread.lock.reentrantlock.demo1;
 
 public class MyThread extends Thread{
     private MyService service;
@@ -10,6 +10,6 @@ public class MyThread extends Thread{
 
     @Override
     public void run() {
-        service.await();
+        service.serviceMethod();
     }
 }

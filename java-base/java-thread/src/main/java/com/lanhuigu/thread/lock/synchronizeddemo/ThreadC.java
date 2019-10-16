@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.synchronizeddemo;
+package com.lanhuigu.thread.lock.synchronizeddemo;
 
 public class ThreadC extends Thread {
     private Task mTask;

@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo4;
+package com.lanhuigu.thread.lock.reentrantlock.demo4;
 
 /**
  * @author yihonglei

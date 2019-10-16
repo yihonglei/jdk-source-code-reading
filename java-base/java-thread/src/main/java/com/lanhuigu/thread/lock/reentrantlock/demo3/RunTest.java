@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.reentrantlock.demo3;
+package com.lanhuigu.thread.lock.reentrantlock.demo3;
 public class RunTest {
     public static void main(String[] args) {
         try {
