@@ -15,7 +15,7 @@
         <module>java-io</module>
         <module>java-nio</module>
         <module>java-reflection</module>
-        <module>java-collections</module>
+        <module>java-collection</module>
         <module>java-net</module>
         <module>java-jdbc</module>
         <module>java8</module>
