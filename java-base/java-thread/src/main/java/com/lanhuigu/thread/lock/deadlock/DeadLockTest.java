@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.lock;
+package com.lanhuigu.thread.lock.deadlock;
 
 /**
  * 死锁演示:
@@ -11,12 +11,12 @@ package com.lanhuigu.thread.lock;
  * @author yihonglei
  * @date 2019/3/23 15:41
  */
-public class DeadLockDemo {
+public class DeadLockTest {
     private static Object lock1 = new Object();
     private static Object lock2 = new Object();
 
     public static void main(String[] args) {
-        new DeadLockDemo().deadLock();
+        new DeadLockTest().deadLock();
     }
 
     private void deadLock() {

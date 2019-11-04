@@ -1,4 +1,4 @@
-package com.lanhuigu.thread.lock;
+package com.lanhuigu.thread.lock.reentrantlock;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,10 +6,12 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
+ * 缓存测试
+ *
  * @author yihonglei
  * @date 2018/8/4 12:11
  */
-public class Cache {
+public class CacheTest {
     static Map<String, Object> map = new HashMap<>();
     static ReentrantReadWriteLock rwl = new ReentrantReadWriteLock();
     static Lock r = rwl.readLock();
