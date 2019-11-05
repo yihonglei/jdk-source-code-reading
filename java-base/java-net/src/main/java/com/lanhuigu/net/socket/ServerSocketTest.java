@@ -1,4 +1,4 @@
-package com.lanhuigu.net;
+package com.lanhuigu.net.socket;
 
 import java.io.BufferedReader;
 import java.io.IOException;
