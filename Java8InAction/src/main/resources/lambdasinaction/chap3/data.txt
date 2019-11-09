@@ -1,5 +1,0 @@
-Java
-8
-Lambdas
-In
-Action
