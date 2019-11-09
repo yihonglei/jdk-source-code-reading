@@ -7,11 +7,10 @@ package com.lanhuigu.thread.threadsafe;
  * @date 2019/2/11 17:45
  */
 public class HasSelfPrivateNum {
-    int num = 0;
     public synchronized void addUser(String username) {
         try {
-
-            if (username.equals("a")) {
+            int num = 0;
+            if ("a".equals(username)) {
                 num = 500;
                 System.out.println("a set over!");
                 Thread.sleep(2000);

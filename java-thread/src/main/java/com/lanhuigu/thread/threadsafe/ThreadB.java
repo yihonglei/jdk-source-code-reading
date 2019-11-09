@@ -1,6 +1,11 @@
 package com.lanhuigu.thread.threadsafe;
-
-public class ThreadB extends Thread{
+/**
+ * 定义线程B
+ *
+ * @author yihonglei
+ * @date 2019/2/11 17:45
+ */
+public class ThreadB extends Thread {
     private HasSelfPrivateNum hasSelfPrivateNum;
 
     public ThreadB(HasSelfPrivateNum hasSelfPrivateNum) {
