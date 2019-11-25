@@ -28,24 +28,24 @@ public class ScheduledThreadPoolExecutorTest {
 //        }, 5, TimeUnit.SECONDS);
 
         // 【固定速率连续执行】程序启动3秒之后第一次执行任务，之后每隔3秒检查上一个任务是否执行完成，如果执行完成，则执行任务。
-//        executorService.scheduleAtFixedRate(()->{
-//            System.out.println("2，" + new Date());
-//            try {
-//                Thread.sleep(10000);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }, 3, 3, TimeUnit.SECONDS);
-
-        // 【非固定速率连续执行】程序启动3秒之后第一次执行任务，下一次任务执行时间为上一次任务执行结束延迟3秒后立即执行。
-        executorService.scheduleWithFixedDelay(()->{
-            System.out.println("3，" + new Date());
+        executorService.scheduleAtFixedRate(()->{
+            System.out.println("2，" + new Date());
             try {
                 Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }, 3, 3, TimeUnit.SECONDS);
+
+        // 【非固定速率连续执行】程序启动3秒之后第一次执行任务，下一次任务执行时间为上一次任务执行结束延迟3秒后立即执行。
+//        executorService.scheduleWithFixedDelay(()->{
+//            System.out.println("3，" + new Date());
+//            try {
+//                Thread.sleep(10000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }, 3, 3, TimeUnit.SECONDS);
     }
 
 }
