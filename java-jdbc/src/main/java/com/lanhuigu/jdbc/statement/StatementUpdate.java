@@ -9,7 +9,7 @@ import java.sql.Statement;
  *
  * @author yihonglei
  */
-public class StatementUpdateSimple {
+public class StatementUpdate {
     public static void main(String[] args) {
         String user = "root";
         String password = "123456";

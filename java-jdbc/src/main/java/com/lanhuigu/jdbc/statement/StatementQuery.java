@@ -10,7 +10,7 @@ import java.sql.Statement;
  *
  * @author yihonglei
  */
-public class StatementQuerySimple {
+public class StatementQuery {
     public static void main(String[] args) {
         String user = "root";
         String password = "123456";
