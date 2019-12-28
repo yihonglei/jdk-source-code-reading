@@ -9,7 +9,6 @@ import java.nio.channels.FileChannel;
  * 多个缓冲区中的数据聚合写入到通道
  *
  * @author yihonglei
- * @date 2018/5/15 9:33
  */
 public class GatherTest {
     public static void main(String[] args) {

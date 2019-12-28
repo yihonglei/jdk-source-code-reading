@@ -11,7 +11,6 @@ import java.nio.channels.FileChannel;
  * 基于NIO完成文件复制
  *
  * @author yihonglei
- * @date 2018/5/14 11:35
  */
 public class ChannelCopyFileTest {
     public static void main(String[] args) {

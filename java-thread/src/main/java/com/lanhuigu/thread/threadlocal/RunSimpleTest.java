@@ -1,6 +1,8 @@
 package com.lanhuigu.thread.threadlocal;
 /**
  * ThreadLocal类的get方法和null值
+ *
+ * @author yihonglei
  */
 public class RunSimpleTest {
     public static ThreadLocal tl = new ThreadLocal();

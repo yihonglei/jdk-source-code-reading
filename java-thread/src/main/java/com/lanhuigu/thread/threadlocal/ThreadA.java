@@ -1,5 +1,8 @@
 package com.lanhuigu.thread.threadlocal;
 
+/**
+ * @author yihonglei
+ */
 public class ThreadA extends Thread {
     @Override
     public void run() {

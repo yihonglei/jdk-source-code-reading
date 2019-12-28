@@ -9,7 +9,6 @@ import java.nio.channels.FileChannel;
  * 文件随机读取
  *
  * @author yihonglei
- * @date 2018/5/14 20:27
  */
 public class RandomAccessFileTest {
     public static void main(String[] args) {

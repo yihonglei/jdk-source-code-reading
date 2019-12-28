@@ -11,12 +11,9 @@ import java.util.concurrent.Executors;
  * 多线程+CountDownLatch演示
  *
  * @author yihonglei
- * @date 2018/8/31 17:22
  */
-public class CountDownLatchTest {
-    // 线程池
-    private static ExecutorService executorService =
-            Executors.newFixedThreadPool(1);
+public class CountDownLatchDemo {
+    private static ExecutorService executorService = Executors.newFixedThreadPool(1);
 
     public static void main(String[] args) {
         int counterBatch = 1;
@@ -54,11 +51,11 @@ public class CountDownLatchTest {
                 list.forEach(userId -> {
                     executorService.execute(new Thread(() -> {
                         try {
-                                // 处理用户数据
-                                dealUser(userId);
-                            } finally {
-                                countDownLatch.countDown();
-                            }
+                            // 处理用户数据
+                            dealUser(userId);
+                        } finally {
+                            countDownLatch.countDown();
+                        }
                     }));
                 });
 

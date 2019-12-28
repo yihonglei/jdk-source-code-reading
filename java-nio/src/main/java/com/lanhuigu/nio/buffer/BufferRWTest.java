@@ -21,7 +21,6 @@ import java.nio.channels.FileChannel;
  * 2）compact()方法只会清除已经读过的数据。任何未读的数据都被移到缓冲区的起始处，新写入的数据将放到缓冲区未读数据的后面。
  *
  * @author yihonglei
- * @date 2019/4/13 10:17
  */
 public class BufferRWTest {
     /**

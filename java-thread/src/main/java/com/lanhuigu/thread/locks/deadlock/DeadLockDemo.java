@@ -9,14 +9,13 @@ package com.lanhuigu.thread.locks.deadlock;
  * 相互等待，导致了死锁问题。
  *
  * @author yihonglei
- * @date 2019/3/23 15:41
  */
-public class DeadLockTest {
+public class DeadLockDemo {
     private static Object lock1 = new Object();
     private static Object lock2 = new Object();
 
     public static void main(String[] args) {
-        new DeadLockTest().deadLock();
+        new DeadLockDemo().deadLock();
     }
 
     private void deadLock() {

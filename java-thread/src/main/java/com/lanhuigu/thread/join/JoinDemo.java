@@ -1,12 +1,11 @@
 package com.lanhuigu.thread.join;
 
 /**
- * Join线程等待排队执行测试。
+ * Join线程等待排队执行测试
  *
  * @author yihonglei
- * @date 2019/2/13 10:41
  */
-public class JoinTest {
+public class JoinDemo {
 
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(new Runnable() {

@@ -11,7 +11,6 @@ import java.nio.channels.FileChannel;
  * transferTo()方法将数据从FileChannel传输到其他的Channel中。
  *
  * @author yihonglei
- * @date 2018/5/15 11:03
  */
 public class TransferToTest {
     /**

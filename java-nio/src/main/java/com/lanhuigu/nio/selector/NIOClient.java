@@ -13,7 +13,6 @@ import java.util.Set;
  * client实例代码
  *
  * @author yihonglei
- * @date 2018/5/15 13:48
  */
 public class NIOClient {
     // 通道管理器(Selector)

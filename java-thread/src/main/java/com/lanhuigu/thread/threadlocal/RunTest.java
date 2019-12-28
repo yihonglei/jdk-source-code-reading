@@ -1,5 +1,8 @@
 package com.lanhuigu.thread.threadlocal;
 
+/**
+ * @author yihonglei
+ */
 public class RunTest {
     public static void main(String[] args) {
         try {

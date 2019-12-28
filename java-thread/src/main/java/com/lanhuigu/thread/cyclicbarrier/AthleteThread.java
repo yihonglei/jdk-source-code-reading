@@ -6,7 +6,6 @@ import java.util.concurrent.*;
  * 运动员跑步全部就绪-->鸣枪-->开跑！
  *
  * @author yihonglei
- * @date 2019/2/14 11:35
  */
 public class AthleteThread extends Thread {
     /**
@@ -20,7 +19,9 @@ public class AthleteThread extends Thread {
         }
     });
 
-    // 运动员编号
+    /**
+     * 运动员编号
+     */
     private Integer num;
 
     /**

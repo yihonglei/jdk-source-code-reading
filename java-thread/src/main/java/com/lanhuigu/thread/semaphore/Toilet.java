@@ -6,7 +6,6 @@ import java.util.concurrent.Semaphore;
  * 卫生间有5个坑
  *
  * @author yihonglei
- * @date 2019/2/14 17:17
  */
 public class Toilet {
     /**

@@ -4,7 +4,6 @@ package com.lanhuigu.thread.semaphore;
  * 大便！！！（画面感很强！）
  *
  * @author yihonglei
- * @date 2019/2/14 17:19
  */
 public class ShiftThread extends Thread {
     private Toilet toilet;
@@ -20,7 +19,7 @@ public class ShiftThread extends Thread {
         try {
             // 获得坑
             Toilet.Pit pitAcquire = toilet.getPit();
-            System.out.println("序号：" + num + "， " +pitAcquire.getDesc());
+            System.out.println("序号：" + num + "， " + pitAcquire.getDesc());
             // 解决大号
             Thread.sleep(2000);
         } catch (InterruptedException e) {

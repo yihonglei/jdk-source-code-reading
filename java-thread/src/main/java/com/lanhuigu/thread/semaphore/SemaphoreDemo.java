@@ -6,9 +6,8 @@ import java.util.concurrent.*;
  * Semaphore（信号量）测试
  *
  * @author yihonglei
- * @date 2018/8/5 11:35
  */
-public class SemaphoreTest {
+public class SemaphoreDemo {
     public static void main(String[] args) {
         try {
             Toilet toilet = new Toilet();

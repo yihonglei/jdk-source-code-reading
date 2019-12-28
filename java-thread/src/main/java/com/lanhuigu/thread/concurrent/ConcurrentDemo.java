@@ -2,9 +2,8 @@ package com.lanhuigu.thread.concurrent;
 
 /**
  * @author yihonglei
- * @date 2019/11/3 8:55 PM
  */
-public class ConcurrentTest {
+public class ConcurrentDemo {
     private static final long COUNT = 10001;
 
     public static void main(String[] args) throws InterruptedException {

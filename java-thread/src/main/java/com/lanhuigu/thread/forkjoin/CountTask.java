@@ -9,7 +9,6 @@ import java.util.concurrent.RecursiveTask;
  * ForkJoin任务拆分，并行计算【分而治之的思想】
  *
  * @author yihonglei
- * @date 2018/8/4 20:01
  */
 public class CountTask extends RecursiveTask<Integer> {
     // 阀值

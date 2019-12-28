@@ -11,7 +11,6 @@ import java.nio.channels.FileChannel;
  * FileChannel的transferFrom()方法可以将数据从源通道传输到FileChannel中。
  *
  * @author yihonglei
- * @date 2018/5/15 11:02
  */
 public class TransferFromTest {
     /**
