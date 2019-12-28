@@ -2,7 +2,7 @@ package com.lanhuigu.jvm.gc;
 
 /**
  * @author yihonglei
- * @date 2019/4/12 18:51
+ *  2019/4/12 18:51
  */
 public class Tmp {
     public static void main(String[] args) throws InterruptedException {

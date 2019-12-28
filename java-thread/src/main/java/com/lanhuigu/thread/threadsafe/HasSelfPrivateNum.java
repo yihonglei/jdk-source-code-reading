@@ -4,7 +4,7 @@ package com.lanhuigu.thread.threadsafe;
  * 方法内部的私有变量都是线程安全的。
  *
  * @author yihonglei
- * @date 2019/2/11 17:45
+ *  2019/2/11 17:45
  */
 public class HasSelfPrivateNum {
     public synchronized void addUser(String username) {

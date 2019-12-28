@@ -6,7 +6,6 @@ import java.util.Date;
 
 /**
  * @author yihonglei
- * @date 2018/3/22 9:26
  */
 public class SimpleDateFormatTest {
     public static String datePattern = "yyyy-MM-dd";

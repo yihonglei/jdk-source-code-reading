@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * @author yihonglei
- * @date 2018/4/26 20:15
  */
 public class JConsoleGC {
 
@@ -13,7 +12,7 @@ public class JConsoleGC {
         public byte[] placeholder = new byte[1024 * 1024];
     }
 
-    public static void fillHeap(int num)  throws InterruptedException{
+    public static void fillHeap(int num) throws InterruptedException {
         List<OOMObject> list = new ArrayList<>();
         for (int i = 0; i < num; i++) {
             Thread.sleep(50);

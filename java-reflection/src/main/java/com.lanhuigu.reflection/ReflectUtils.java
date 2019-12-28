@@ -6,14 +6,12 @@ import java.lang.reflect.Field;
  * 反射工具（能不用反射，尽量不要用反射）
  *
  * @author yihonglei
- * @date 2019/11/7 7:41 PM
  */
 public class ReflectUtils {
     /**
      * 获取对象属性集合
      *
      * @author yihonglei
-     * @date 2019/11/7 7:46 PM
      */
     public static String[] getFileNames(Object object) {
         try {
@@ -33,7 +31,6 @@ public class ReflectUtils {
      * 根据对象属性名，获取属性值
      *
      * @author yihonglei
-     * @date 2019/11/7 7:42 PM
      */
     public static Object getFieldValueByFieldName(String fieldName, Object object) {
         try {

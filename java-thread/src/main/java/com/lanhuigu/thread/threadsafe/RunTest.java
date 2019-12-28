@@ -4,7 +4,7 @@ package com.lanhuigu.thread.threadsafe;
  * 测试代码。
  *
  * @author yihonglei
- * @date 2019/2/11 17:46
+ *  2019/2/11 17:46
  */
 public class RunTest {
     public static void main(String[] args) {

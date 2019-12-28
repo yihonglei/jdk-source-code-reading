@@ -14,7 +14,7 @@ package com.lanhuigu.thread.waitnotify.general;
  *     哪么就会出现，B线程错过了与A线程精准对接的条件，导致B线程与A线程错过了通信的机会
  *
  * @author yihonglei
- * @date 2019/2/15 11:19
+ *  2019/2/15 11:19
  */
 public class RunTest {
     public static void main(String[] args) {

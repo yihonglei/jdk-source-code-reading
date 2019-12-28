@@ -7,7 +7,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * ConcurrentHashMap 线程安全，put时使用分段锁。
  *
  * @author yihonglei
- * @date 2019/2/17 21:01
  */
 public class ConcurrentHashMapTest {
     public static final Map<String, String> map = new ConcurrentHashMap<>();

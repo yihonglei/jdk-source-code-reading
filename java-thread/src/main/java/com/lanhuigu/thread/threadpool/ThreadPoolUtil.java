@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 自定义线程池
  *
  * @author yihonglei
- * @date 2018/8/31 15:07
+ *  2018/8/31 15:07
  */
 public class ThreadPoolUtil {
     public static final int DEFAULT_CORE_THREADS = Runtime.getRuntime().availableProcessors();
@@ -19,7 +19,7 @@ public class ThreadPoolUtil {
      * @param threadPrefix 线程名称前缀，给线程取一个有意义的名称，方便问题排查
      * @return java.util.concurrent.ExecutorService
      * @author yihonglei
-     * @date 2018/8/31 15:16
+     *  2018/8/31 15:16
      */
     public static ExecutorService newThreadPool(String threadPrefix) {
         return doNewThreadPool(threadPrefix, DEFAULT_CORE_THREADS, DEFAULT_CORE_THREADS);
@@ -33,7 +33,7 @@ public class ThreadPoolUtil {
      * @param maxThreads   最大线程池数
      * @return java.util.concurrent.ExecutorService
      * @author yihonglei
-     * @date 2018/8/31 15:50
+     *  2018/8/31 15:50
      */
     public static ExecutorService newThreadPool(String threadPrefix, int coreThreads, int maxThreads) {
         return doNewThreadPool(threadPrefix, coreThreads, maxThreads);
@@ -47,7 +47,7 @@ public class ThreadPoolUtil {
      * @param maxThreads   最大线程池数
      * @return java.util.concurrent.ExecutorService
      * @author yihonglei
-     * @date 2018/8/31 15:50
+     *  2018/8/31 15:50
      */
     private static ExecutorService doNewThreadPool(final String threadPrefix, int coreThreads, int maxThreads) {
         /** 线程池阻塞队列 */
@@ -84,7 +84,7 @@ public class ThreadPoolUtil {
      * @param executorService
      * @return void
      * @author yihonglei
-     * @date 2018/8/31 19:00
+     *  2018/8/31 19:00
      */
     public static void shutdown(ExecutorService executorService) {
         if (!executorService.isShutdown()) {

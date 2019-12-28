@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * 增加标记，解决ABA问题
  *
  * @author yihonglei
- * @date 2019/2/17 10:39
+ *  2019/2/17 10:39
  */
 public class AtomicStampesABA {
     private static AtomicStampedReference atomicStampedRef = new AtomicStampedReference(18,0);

@@ -5,10 +5,6 @@ package com.lanhuigu.java.object;
 
 /**
  * @author yihonglei
- * @version 1.0.0
- * @ClassName: Person
- * @Package: com.lanhuigu.java.object
- * @date 2018/8/6 7:04
  */
 public class Person {
     public String name;

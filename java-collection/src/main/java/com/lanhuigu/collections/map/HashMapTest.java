@@ -7,7 +7,6 @@ import java.util.Map;
  * HashMap 非线程安全。
  *
  * @author yihonglei
- * @date 2019/2/17 21:01
  */
 public class HashMapTest {
     public static final Map<String, String> map = new HashMap<>();

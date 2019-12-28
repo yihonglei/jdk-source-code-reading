@@ -7,7 +7,6 @@ import java.util.Map;
  * Hashtable 线程安全，put时底层使用synchronized。
  *
  * @author yihonglei
- * @date 2019/2/17 21:01
  */
 public class HashTableTest {
     public static final Map<String, String> map = new Hashtable<>();

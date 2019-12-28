@@ -11,7 +11,6 @@ import java.net.Socket;
  * java net
  *
  * @author yihonglei
- * @date 2019/4/19 11:46
  */
 public class ServerSocketTest {
     private static int portNumber = 8889;

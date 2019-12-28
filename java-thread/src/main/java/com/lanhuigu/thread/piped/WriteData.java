@@ -7,7 +7,7 @@ import java.io.PipedOutputStream;
  * 写入数据
  *
  * @author yihonglei
- * @date 2019/2/15 17:21
+ *  2019/2/15 17:21
  */
 public class WriteData {
     public void writeMethod(PipedOutputStream out) throws IOException {

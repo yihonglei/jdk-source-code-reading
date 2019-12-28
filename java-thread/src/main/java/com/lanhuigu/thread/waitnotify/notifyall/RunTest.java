@@ -7,7 +7,7 @@ package com.lanhuigu.thread.waitnotify.notifyall;
  * notifyAll(): 唤醒所有线程。
  *
  * @author yihonglei
- * @date 2019/2/15 11:24
+ *  2019/2/15 11:24
  */
 public class RunTest {
     public static void main(String[] args) {

@@ -4,7 +4,6 @@ package com.lanhuigu.java.equals;
  * 重写equals：对称性研究
  *
  * @author yihonglei
- * @date 2019/11/26 11:05 AM
  */
 public class CaseInsensitiveString {
     private final String s;

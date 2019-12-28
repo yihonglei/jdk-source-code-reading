@@ -10,7 +10,6 @@ import static java.util.regex.Pattern.*;
  * matches()、replaceAll()、replaceFirst()、split()；
  *
  * @author yihonglei
- * @date 2019/11/10 10:13 PM
  */
 public class RegexTest {
     public static void main(String[] args) {

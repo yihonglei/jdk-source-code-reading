@@ -7,7 +7,7 @@ import java.util.List;
  * 阻塞队列
  *
  * @author yihonglei
- * @date 2018/4/20 17:58
+ *  2018/4/20 17:58
  */
 public class BlockingQueue {
     private List queue = new LinkedList();

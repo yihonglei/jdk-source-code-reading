@@ -4,7 +4,6 @@ package com.lanhuigu.java.compute;
  * 移位
  *
  * @author yihonglei
- * @date 2019/11/22 10:53 AM
  */
 public class MoveTest {
     public static void main(String[] args) {

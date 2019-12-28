@@ -4,7 +4,7 @@ package com.lanhuigu.thread.waitnotify.notify;
  * 测试代码
  *
  * @author yihonglei
- * @date 2019/2/15 16:43
+ *  2019/2/15 16:43
  */
 public class RunTest {
     public static void main(String[] args) {

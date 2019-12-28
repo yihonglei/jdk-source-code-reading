@@ -2,7 +2,7 @@ package com.lanhuigu.thread.waitnotify.notifyall;
 
 /**
  * @author yihonglei
- * @date 2019/2/15 11:23
+ *  2019/2/15 11:23
  */
 public class ThreadC extends Thread{
     private Object lock;

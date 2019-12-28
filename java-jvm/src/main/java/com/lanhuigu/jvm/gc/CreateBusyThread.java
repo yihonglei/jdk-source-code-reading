@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 
 /**
  * @author yihonglei
- * @date 2018/4/27 20:45
  */
 public class CreateBusyThread {
     /**

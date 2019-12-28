@@ -23,7 +23,6 @@ import java.net.SocketException;
  * 5）关闭连接
  *
  * @author yihonglei
- * @date 2019/11/5 4:13 PM
  */
 public class UDPClient {
     public static void main(String[] args) throws Exception {

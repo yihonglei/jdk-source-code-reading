@@ -7,7 +7,7 @@ import java.io.PipedOutputStream;
  * 写入数据线程
  *
  * @author yihonglei
- * @date 2019/2/15 17:25
+ *  2019/2/15 17:25
  */
 public class WriteThread extends Thread {
     private WriteData writeData;

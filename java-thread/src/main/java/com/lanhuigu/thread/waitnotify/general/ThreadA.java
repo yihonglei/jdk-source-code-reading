@@ -2,7 +2,7 @@ package com.lanhuigu.thread.waitnotify.general;
 
 /**
  * @author yihonglei
- * @date 2019/2/15 11:18
+ *  2019/2/15 11:18
  */
 public class ThreadA extends Thread {
     private MyList myList;

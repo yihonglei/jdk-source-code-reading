@@ -4,7 +4,7 @@ package com.lanhuigu.thread.waitnotify.notify;
  * 用于处理通知
  *
  * @author yihonglei
- * @date 2019/2/15 16:42
+ *  2019/2/15 16:42
  */
 public class ThreadB extends Thread {
     private Object lock;

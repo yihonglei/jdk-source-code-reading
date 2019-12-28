@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0.0
  * @ClassName: ConnectionDriver
  * @Package: com.lanhuigu.thread.threadpool.dbpool
- * @date 2018/7/24 9:36
+ *  2018/7/24 9:36
  */
 public class ConnectionDriver {
     static class ConnectionHandler implements InvocationHandler {

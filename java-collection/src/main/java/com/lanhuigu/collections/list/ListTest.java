@@ -9,7 +9,6 @@ package com.lanhuigu.collections.list;
  * Vector线程安全，效率低;
  *
  * @author yihonglei
- * @date 2019/11/3 6:35 PM
  */
 public class ListTest {
     public static void main(String[] args) {

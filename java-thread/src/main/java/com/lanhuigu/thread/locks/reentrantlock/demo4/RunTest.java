@@ -4,7 +4,7 @@ package com.lanhuigu.thread.locks.reentrantlock.demo4;
  * Condition实现生产/消费模式测试
  *
  * @author yihonglei
- * @date 2019/2/12 17:19
+ *  2019/2/12 17:19
  */
 public class RunTest {
 

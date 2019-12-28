@@ -6,7 +6,7 @@ import java.util.List;
 /**
  *
  * @author yihonglei
- * @date 2019/2/15 11:17
+ *  2019/2/15 11:17
  */
 public class MyList {
     private List<String> list = new ArrayList<String>();

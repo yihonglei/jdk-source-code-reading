@@ -2,7 +2,7 @@ package com.lanhuigu.thread.waitnotify.notifyall;
 
 /**
  * @author yihonglei
- * @date 2019/2/15 11:21
+ *  2019/2/15 11:21
  */
 public class MyService {
     public void serviceMethod(Object lock) {

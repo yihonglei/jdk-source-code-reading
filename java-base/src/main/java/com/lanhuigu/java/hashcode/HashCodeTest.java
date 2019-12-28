@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * @author yihonglei
- * @date 2019/11/14 1:13 PM
  */
 public class HashCodeTest {
     public static void main(String[] args) {
@@ -20,12 +19,12 @@ public class HashCodeTest {
         list.add(13);
         list.add(15);
 
-        for (int i=0;i < list.size();i++) {
+        for (int i = 0; i < list.size(); i++) {
             Integer id = list.get(i);
 
             int i1 = System.identityHashCode(id);
             System.out.println(i1);
-            System.out.println(i1%2);
+            System.out.println(i1 % 2);
         }
     }
 }

@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * ABA问题演示
  *
  * @author yihonglei
- * @date 2019/2/17 10:38
+ *  2019/2/17 10:38
  */
 public class AtomicIntegerABA {
     private static AtomicInteger atomicInt = new AtomicInteger(18);

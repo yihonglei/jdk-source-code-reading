@@ -7,7 +7,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * CopyOnWriteArrayList 线程安全，使用副本，实现读写分离。
  *
  * @author yihonglei
- * @date 2019/2/17 21:18
  */
 public class CopyOnWriteArrayListTest {
     public static void main(String[] args) throws InterruptedException {

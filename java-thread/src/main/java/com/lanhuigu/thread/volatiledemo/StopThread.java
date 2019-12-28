@@ -5,7 +5,7 @@ package com.lanhuigu.thread.volatiledemo;
  * sign false表示不停止，如果为true 表示停止。
  *
  * @author yihonglei
- * @date 2019/2/12 12:37
+ *  2019/2/12 12:37
  */
 public class StopThread {
     /** 非volatile变量 */

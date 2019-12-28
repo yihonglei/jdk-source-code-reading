@@ -4,7 +4,7 @@ package com.lanhuigu.thread.threadstate;
  * 线程生命周期
  *
  * @author yihonglei
- * @date 2018/8/3 15:56
+ *  2018/8/3 15:56
  */
 public class ThreadState {
     public static void main(String[] args) {

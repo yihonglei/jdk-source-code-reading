@@ -17,7 +17,6 @@ import java.net.DatagramSocket;
  * 5）关闭连接
  *
  * @author yihonglei
- * @date 2019/11/5 4:18 PM
  */
 public class UDPServer {
     public static void main(String[] args) throws Exception {

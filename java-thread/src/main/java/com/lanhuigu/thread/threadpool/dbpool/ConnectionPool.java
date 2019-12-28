@@ -8,7 +8,7 @@ import java.util.LinkedList;
  * @version 1.0.0
  * @ClassName: ConnectionPool
  * @Package: com.lanhuigu.thread.threadpool.dbpool
- * @date 2018/7/24 9:34
+ *  2018/7/24 9:34
  */
 public class ConnectionPool {
     private LinkedList<Connection> pool = new LinkedList<>();

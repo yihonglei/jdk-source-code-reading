@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * CAS实现原子操作
  *
  * @author yihonglei
- * @date 2019/3/25 12:20
+ *  2019/3/25 12:20
  */
 public class Counter {
     private AtomicInteger atomicI = new AtomicInteger(0);

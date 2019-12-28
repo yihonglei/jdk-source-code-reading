@@ -2,7 +2,7 @@ package com.lanhuigu.thread.locks.reentrantlock.demo4;
 
 /**
  * @author yihonglei
- * @date 2019/2/12 17:16
+ *  2019/2/12 17:16
  */
 public class MyThread extends Thread {
     private Task task;

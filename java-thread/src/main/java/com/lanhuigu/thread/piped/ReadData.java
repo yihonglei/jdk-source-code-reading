@@ -7,7 +7,7 @@ import java.io.PipedInputStream;
  * 读出数据
  *
  * @author yihonglei
- * @date 2019/2/15 17:22
+ *  2019/2/15 17:22
  */
 public class ReadData {
     public void readMethod(PipedInputStream input) throws IOException {
