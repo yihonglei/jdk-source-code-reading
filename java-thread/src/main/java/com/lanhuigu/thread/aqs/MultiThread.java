@@ -7,6 +7,8 @@ import java.util.Arrays;
 
 /**
  * Java天生支持多线程，并不是一个人在战斗
+ *
+ * @author yihonglei
  */
 public class MultiThread {
     public static void main(String[] args) {
