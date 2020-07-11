@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>java-all</artifactId>
-        <groupId>com.lanhuigu</groupId>
+        <groupId>com.jpeony</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>rxjava</artifactId>
@@ -15,8 +15,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <rxjava2.version>2.2.11</rxjava2.version>
     </properties>
 
@@ -27,19 +25,4 @@
             <version>${rxjava2.version}</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
