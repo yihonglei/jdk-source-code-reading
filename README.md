@@ -169,13 +169,13 @@ java-thread内容转移到：https://github.com/yihonglei/thinking-in-concurrent
 
 [volatile实战和实现原理分析](https://blog.csdn.net/yhl_jxy/article/details/87072642)
 
-[ReentrantLock，Condition实战、原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
+[ReentrantLock，Condition源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
 
-[CountDownLatch实战、实现原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87181895)
+[CountDownLatch源码分析](https://blog.csdn.net/yhl_jxy/article/details/87181895)
 
-[CyclicBarrier实战、实现原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87256321)
+[CyclicBarrier源码分析](https://blog.csdn.net/yhl_jxy/article/details/87256321)
 
-[Semaphore实战、实现原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87279383)
+[Semaphore源码分析](https://blog.csdn.net/yhl_jxy/article/details/87279383)
 
 [wait、notify、notifyAll](https://blog.csdn.net/yhl_jxy/article/details/87347946)
 
@@ -184,6 +184,16 @@ java-thread内容转移到：https://github.com/yihonglei/thinking-in-concurrent
 [CAS和ABA](https://blog.csdn.net/yhl_jxy/article/details/87520148)
 
 [ThreadLocal实战、实现原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87866907)
+
+[ThreadPoolExecutor源码分析（jdk8）](https://blog.csdn.net/yhl_jxy/article/details/86677049)
+
+[AQS同步器源码分析](https://blog.csdn.net/yhl_jxy/article/details/102535590)
+
+[饱和策略源码分析](https://blog.csdn.net/yhl_jxy/article/details/103218700)
+
+[CopyOnWriteArrayList源码分析](https://blog.csdn.net/yhl_jxy/article/details/106138813)
+
+[阻塞队列（BlockingQueue）源码分析](https://blog.csdn.net/yhl_jxy/article/details/106544796)
 
 # java-jvm（深入理解jvm）
 
