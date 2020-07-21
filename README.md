@@ -155,46 +155,6 @@ Java基础知识大全。
 
 java-thread内容转移到：https://github.com/yihonglei/thinking-in-concurrent
 
-[线程实现方式](https://blog.csdn.net/yhl_jxy/article/details/86665107)
-
-[线程生命周期](https://blog.csdn.net/yhl_jxy/article/details/86668152)
-
-[线程终止](https://blog.csdn.net/yhl_jxy/article/details/86673805)
-
-[线程池实现原理、源码分析（jdk8）](https://blog.csdn.net/yhl_jxy/article/details/86677049)
-
-[synchronized实战和实现原理分析](https://blog.csdn.net/yhl_jxy/article/details/87008888)
-
-[synchronized对象锁和类锁](https://blog.csdn.net/yhl_jxy/article/details/87012803)
-
-[volatile实战和实现原理分析](https://blog.csdn.net/yhl_jxy/article/details/87072642)
-
-[ReentrantLock，Condition源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
-
-[CountDownLatch源码分析](https://blog.csdn.net/yhl_jxy/article/details/87181895)
-
-[CyclicBarrier源码分析](https://blog.csdn.net/yhl_jxy/article/details/87256321)
-
-[Semaphore源码分析](https://blog.csdn.net/yhl_jxy/article/details/87279383)
-
-[wait、notify、notifyAll](https://blog.csdn.net/yhl_jxy/article/details/87347946)
-
-[PipedOutputStream和PipedInputStream管道实现线程通信](https://blog.csdn.net/yhl_jxy/article/details/87372602)
-
-[CAS和ABA](https://blog.csdn.net/yhl_jxy/article/details/87520148)
-
-[ThreadLocal实战、实现原理和源码分析](https://blog.csdn.net/yhl_jxy/article/details/87866907)
-
-[ThreadPoolExecutor源码分析（jdk8）](https://blog.csdn.net/yhl_jxy/article/details/86677049)
-
-[AQS同步器源码分析](https://blog.csdn.net/yhl_jxy/article/details/102535590)
-
-[饱和策略源码分析](https://blog.csdn.net/yhl_jxy/article/details/103218700)
-
-[CopyOnWriteArrayList源码分析](https://blog.csdn.net/yhl_jxy/article/details/106138813)
-
-[阻塞队列（BlockingQueue）源码分析](https://blog.csdn.net/yhl_jxy/article/details/106544796)
-
 # java-jvm（深入理解jvm）
 
 [JVM内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
