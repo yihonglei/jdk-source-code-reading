@@ -2,8 +2,10 @@ package com.jpeony.jvm.gc;
 
 /**
  * 代码演示:
- * 1. 对象可以被GC时自我拯救
- * 2. 这种自救的机会只有一次，因为一个对象的finalize()方法最多只会被系统调用一次
+ * 1、对象可以被GC时自我拯救
+ * 2、这种自救的机会只有一次，因为一个对象的finalize()方法最多只会被系统调用一次
+ *
+ * @author yihongeli
  */
 public class FinalizeEscapeGC {
     public static FinalizeEscapeGC SAVE_HOOK = null;

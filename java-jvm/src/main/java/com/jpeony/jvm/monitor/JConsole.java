@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * 用JConsole进行性能监控
  * VM Args: -Xms100m -Xmx100m -XX:+UseSerialGC
+ *
+ * @author yihongeli
  */
 public class JConsole {
     /**

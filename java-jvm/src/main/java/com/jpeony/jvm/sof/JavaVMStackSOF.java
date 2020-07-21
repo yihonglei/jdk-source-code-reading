@@ -3,6 +3,8 @@ package com.jpeony.jvm.sof;
 /**
  * StackOverflowError栈溢出演示！
  * VM Args: -Xss256k
+ *
+ * @author yihongeli
  */
 public class JavaVMStackSOF {
     private int stackLength = 1;

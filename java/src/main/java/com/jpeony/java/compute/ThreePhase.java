@@ -2,6 +2,8 @@ package com.jpeony.java.compute;
 
 /**
  * 布尔表达式?值0:值1;
+ *
+ * @author yihongeli
  */
 public class ThreePhase {
     public static void main(String[] args) {

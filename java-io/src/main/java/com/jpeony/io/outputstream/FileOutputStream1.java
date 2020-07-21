@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * write(int b): 把单个字节写入到输出流中。
+ * write(int b)：把单个字节写入到输出流中。
  *
  * @author yihonglei
  */

@@ -30,6 +30,8 @@ package com.jpeony.jvm.gc;
  * 将会进入老年代，此次GC可以清理出allocation4原来的4MB空间，并将allocation4分配在Eden区。
  *
  * 最终，allocation1、allocation2、allocation3在老年代，allocation4在Eden区。
+ *
+ * @author yihongeli
  */
 public class TenuringThresholdTest02 {
     private static final int _1MB = 1024 * 1024;

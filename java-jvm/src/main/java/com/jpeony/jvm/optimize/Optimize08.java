@@ -18,6 +18,8 @@ import java.lang.reflect.Method;
  * 1）使用反射的性能较低
  * 2）使用反射相对来说不安全
  * 3）破坏了类的封装性，可以通过反射获取这个类的私有方法和属性
+ *
+ * @author yihongeli
  */
 public class Optimize08 {
 

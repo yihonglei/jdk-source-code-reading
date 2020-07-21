@@ -9,6 +9,8 @@ import java.io.*;
  * 3、创建字节数组
  * 4、使用循环，源文件读取一部分内容，目标文件写入一部分内容，直到写完所有内容
  * 5、关闭源文件输入流，目标文件输出流
+ *
+ * @author yihonglei
  */
 public class FileCopyTest {
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package com.jpeony.java.constructor;
 
+/**
+ * @author yihonglei
+ */
 public class ConstructorTest {
     /**
      * 默认构造器，一般创建类时，自带，不需要我们写出来
@@ -31,6 +34,6 @@ public class ConstructorTest {
         ConstructorTest c1 = new ConstructorTest();
         ConstructorTest c2 = new ConstructorTest(1);
         ConstructorTest c3 = new ConstructorTest("this is my constructor!");
-        System.out.println("简单测试一下创建出来的对象是不一样的，输出false---"+(c1 == c2));
+        System.out.println("简单测试一下创建出来的对象是不一样的，输出false---" + (c1 == c2));
     }
 }

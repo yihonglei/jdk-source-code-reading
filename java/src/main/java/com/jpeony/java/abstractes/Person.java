@@ -5,6 +5,8 @@ package com.jpeony.java.abstractes;
  * 可以包含抽象方法和非抽象方法，
  * 抽象方法没有方法体，只是定义功能，没有实现；
  * 非抽象方法为正常的方法。
+ *
+ * @author yihongeli
  */
 public abstract class Person {
 

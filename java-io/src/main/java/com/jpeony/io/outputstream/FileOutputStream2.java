@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * write(byte b[]): 将字节数组中全部数据写入到输出流中。
+ * write(byte b[])：将字节数组中全部数据写入到输出流中。
  *
  * @author yihonglei
  */

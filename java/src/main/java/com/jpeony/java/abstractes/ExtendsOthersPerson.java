@@ -2,8 +2,9 @@ package com.jpeony.java.abstractes;
 
 
 /**
- * 必须实现抽象父类OthersPerson，以及OthersPerson父类Person中
- * 的所有抽象方法，新帐旧账一起算。
+ * 必须实现抽象父类OthersPerson，以及OthersPerson父类Person中的所有抽象方法，新帐旧账一起算。
+ *
+ * @author yihongeli
  */
 public class ExtendsOthersPerson extends OthersPerson {
 

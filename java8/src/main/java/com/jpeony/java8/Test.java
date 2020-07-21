@@ -1,5 +1,8 @@
 package com.jpeony.java8;
 
+/**
+ * @author yihonglei
+ */
 public class Test {
     public static Double[] spitPoint(String orderPoint) {
         String[] orderStartPoints = orderPoint.split(",");

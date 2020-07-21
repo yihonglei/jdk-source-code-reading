@@ -17,6 +17,8 @@ package com.jpeony.jvm.gc;
  * 当allocation1，allocation2分配的时候，eden区占用75%，咱们分配4M，实际占用了6M，
  * 这个时候再分配allocation3是5M，eden区剩余内存不够5M，然后allocation3直接分配在老年代，
  * 因为分配的内存>=Eden大小的一半，就直接放入了老年代。
+ *
+ * @author yihongeli
  */
 public class AllocationTest02 {
     private static final int _1MB = 1024 * 1024;

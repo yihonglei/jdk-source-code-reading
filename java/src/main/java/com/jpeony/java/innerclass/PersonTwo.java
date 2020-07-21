@@ -1,5 +1,8 @@
 package com.jpeony.java.innerclass;
 
+/**
+ * @author yihonglei
+ */
 public class PersonTwo {
     /**
      * inner class one

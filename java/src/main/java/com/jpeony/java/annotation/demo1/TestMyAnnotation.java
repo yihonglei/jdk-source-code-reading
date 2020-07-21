@@ -4,6 +4,9 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/**
+ * @author yihonglei
+ */
 public class TestMyAnnotation {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         AnnotationTest annotationTest = new AnnotationTest();
@@ -12,7 +15,7 @@ public class TestMyAnnotation {
         // 获取需要处理的方法Method实例
         Method method = c.getMethod("execute", new Class[]{});
         // 判断该方法是否包含MyAnnotation注解
-        if(method.isAnnotationPresent(MyAnnotation.class)){
+        if (method.isAnnotationPresent(MyAnnotation.class)) {
             // 获取该方法的MyAnnotation注解实例
             MyAnnotation myAnnotation = method.getAnnotation(MyAnnotation.class);
             // 执行该方法
@@ -25,7 +28,7 @@ public class TestMyAnnotation {
         }
         // 获取方法上的所有注解
         Annotation[] annotations = method.getAnnotations();
-        for(Annotation annotation : annotations){
+        for (Annotation annotation : annotations) {
             System.out.println(annotation);
         }
     }

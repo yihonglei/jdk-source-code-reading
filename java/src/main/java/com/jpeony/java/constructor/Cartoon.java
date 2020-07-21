@@ -2,8 +2,10 @@ package com.jpeony.java.constructor;
 
 /**
  * 基类加载顺序
+ *
+ * @author yihongeli
  */
-public class Cartoon extends Drawing{
+public class Cartoon extends Drawing {
     public Cartoon() {
         System.out.println("Cartoon constructor");
     }

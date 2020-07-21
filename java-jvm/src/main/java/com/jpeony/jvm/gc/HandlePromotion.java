@@ -21,6 +21,8 @@ package com.jpeony.jvm.gc;
  * allocation6所占的内存全部回收，把整个eden区清空，变为8MB，然后将allocation7分配在新生代eden区。
  *
  * 最后，allocation2、allocation3在老年代，allocation7在新生代。
+ *
+ * @author yihongeli
  */
 public class HandlePromotion {
     private static final int _1MB = 1024 * 1024;

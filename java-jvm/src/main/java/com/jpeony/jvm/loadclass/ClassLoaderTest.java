@@ -7,6 +7,8 @@ import java.io.InputStream;
  * 类加载器与instanceof关键字演示：
  *
  * obj为自定义累加器加载对象，而ClassLoaderTest为另外一个类加载器加载的，所以，通过instanceof比较返回结果为false。
+ *
+ * @author yihongeli
  */
 public class ClassLoaderTest {
     public static void main(String[] args) throws Exception {

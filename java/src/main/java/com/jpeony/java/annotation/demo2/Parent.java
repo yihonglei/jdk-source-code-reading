@@ -10,6 +10,8 @@ import java.util.List;
 
 /**
  * 运行时注解获取基类
+ *
+ * @author yihongeli
  */
 public class Parent<T> {
     private Class<T> entity;
@@ -19,7 +21,7 @@ public class Parent<T> {
     }
 
     @SuppressWarnings("unchecked")
-    public List<SortableField> init(){
+    public List<SortableField> init() {
         List<SortableField> list = new ArrayList<SortableField>();
         /**
          * getClass().getGenericSuperclass()返回表示此 Class 所表示的实体（类、接口、基本类型或 void）
@@ -27,7 +29,7 @@ public class Parent<T> {
          * getActualTypeArguments()返回表示此类型实际类型参数的 Type 对象的数组，[0]就是这个数组中第一个了。
          * 简而言之就是获得超类的泛型参数的实际类型。
          */
-        entity = (Class<T>)((ParameterizedType)this.getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+        entity = (Class<T>) ((ParameterizedType) this.getClass().getGenericSuperclass()).getActualTypeArguments()[0];
 
         if (this.entity != null) {
             /**
@@ -38,7 +40,7 @@ public class Parent<T> {
             for (Field f : fields) {
                 // 获取字段中包含fieldMeta的注解
                 FieldMeta meta = f.getAnnotation(FieldMeta.class);
-                if (meta!=null) {
+                if (meta != null) {
                     SortableField sf = new SortableField(meta, f);
                     list.add(sf);
                 }
@@ -47,10 +49,10 @@ public class Parent<T> {
             // 返回对象所表示的类或接口的所有可访问公共方法
             Method[] methods = entity.getMethods();
 
-            for (Method m:methods) {
+            for (Method m : methods) {
                 FieldMeta meta = m.getAnnotation(FieldMeta.class);
-                if (meta!=null) {
-                    SortableField sf = new SortableField(meta,m.getName(),m.getReturnType());
+                if (meta != null) {
+                    SortableField sf = new SortableField(meta, m.getName(), m.getReturnType());
                     list.add(sf);
                 }
             }
@@ -58,8 +60,8 @@ public class Parent<T> {
 //          Collections.sort(list, new FieldSortCom());
             Collections.sort(list, new Comparator<SortableField>() {
                 @Override
-                public int compare(SortableField s1,SortableField s2) {
-                    return s1.getMeta().order()-s2.getMeta().order();
+                public int compare(SortableField s1, SortableField s2) {
+                    return s1.getMeta().order() - s2.getMeta().order();
                     // 也可以用compare来比较
 //                  return s1.getName().compareTo(s2.getName());
                 }

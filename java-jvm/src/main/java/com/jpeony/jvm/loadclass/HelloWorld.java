@@ -22,6 +22,8 @@ package com.jpeony.jvm.loadclass;
  *    1）为字符串开辟一个字符串常量池，类似于缓存区；
  *    2）创建字符串常量时，首先坚持字符串常量池是否存在该字符串；
  *    3）存在该字符串，返回引用实例，不存在，实例化该字符串并放入池中；
+ *
+ * @author yihongeli
  */
 public class HelloWorld {
     public static void main(String[] args) {

@@ -2,6 +2,8 @@ package com.jpeony.java.finals;
 
 /**
  * final内存模型
+ *
+ * @author yihongeli
  */
 public class FinalExample {
     /** 普通变量 */

@@ -27,6 +27,8 @@ package com.jpeony.jvm.gc;
  * 晋升到老年代，allocation2也还在老年代，上一次的allocation3因为被设置为null，直接被清除，eden区变为8MB内存，
  * 第二次的allocation3被分配到eden区。
  * 最终结果就是：allocation1, allocation2分配在老年区，allocation3分配在新生代的eden区。
+ *
+ * @author yihongeli
  */
 public class TenuringThresholdTest01 {
     private static final int _1MB = 1024 * 1024;

@@ -4,6 +4,8 @@ package com.jpeony.java.compute;
  * ==和equals()的区别:
  * (1)==相同对象的相同内容时为true,否则为false
  * (2)相同或不同对象的相同内容为true,否则为false
+ *
+ * @author yihongeli
  */
 public class EqualsTest {
     public static void main(String[] args) {

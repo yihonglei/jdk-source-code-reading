@@ -7,9 +7,11 @@ import java.io.ObjectOutputStream;
 
 /**
  * 序列化
+ *
+ * @author yihonglei
  */
 public class SerializeDemo {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Employee e = new Employee();
         e.name = "yi";
         e.address = "beijing";
@@ -21,7 +23,7 @@ public class SerializeDemo {
             out.close();
             fileOut.close();
             System.out.printf("序列化数据保存在: C:\\mycode\\employee.ser");
-        } catch(IOException i) {
+        } catch (IOException i) {
             i.printStackTrace();
         }
     }

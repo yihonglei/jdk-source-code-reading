@@ -6,8 +6,7 @@ import java.util.regex.Pattern;
 import static java.util.regex.Pattern.*;
 
 /**
- * Java正则表达式：
- * matches()、replaceAll()、replaceFirst()、split()；
+ * Java正则表达式： matches()、replaceAll()、replaceFirst()、split()；
  *
  * @author yihonglei
  */

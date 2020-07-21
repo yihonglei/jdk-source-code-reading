@@ -2,8 +2,10 @@ package com.jpeony.java.constructor;
 
 /**
  * 子类通过super调用相应参数列表的父类构造器。
+ *
+ * @author yihongeli
  */
-public class Chess extends BoardGame{
+public class Chess extends BoardGame {
     Chess() {
         super(11);
         System.out.println("Chess constructor");

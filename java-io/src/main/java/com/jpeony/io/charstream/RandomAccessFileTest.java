@@ -3,6 +3,9 @@ package com.jpeony.io.charstream;
 import java.io.File;
 import java.io.RandomAccessFile;
 
+/**
+ * @author yihonglei
+ */
 public class RandomAccessFileTest {
     public static void main(String[] args) {
         File file = new File("C:\\mycode\\hello.txt");
@@ -15,16 +18,16 @@ public class RandomAccessFileTest {
          */
         try (RandomAccessFile raf = new RandomAccessFile(file, "r")) {
             //获取RandomAccessFile对象文件指针的位置，初始位置是0
-            System.out.println("RandomAccessFile文件指针的初始位置:"+raf.getFilePointer());
+            System.out.println("RandomAccessFile文件指针的初始位置:" + raf.getFilePointer());
             //移动文件指针位置
             raf.seek(0);
-            byte[]  buff=new byte[1024];
+            byte[] buff = new byte[1024];
             //用于保存实际读取的字节数
-            int hasRead=0;
+            int hasRead = 0;
             //循环读取
-            while((hasRead=raf.read(buff))>0){
+            while ((hasRead = raf.read(buff)) > 0) {
                 //打印读取的内容,并将字节转为字符串输入
-                System.out.println(new String(buff,0,hasRead));
+                System.out.println(new String(buff, 0, hasRead));
 
             }
         } catch (Exception e) {

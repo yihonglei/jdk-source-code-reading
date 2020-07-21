@@ -19,6 +19,8 @@ package com.jpeony.jvm.gc;
  * 验证了对象优先在Eden区分配的事实。
  * 按理说，eden区分配只是4M，应该占50%才对，事实分配后占用的比实际分配的要多，主要是因为Java对象
  * 并不是一个人在战斗，其它部分也占用了内存。
+ *
+ * @author yihongeli
  */
 public class AllocationTest01 {
     private static final int _1MB = 1024 * 1024;

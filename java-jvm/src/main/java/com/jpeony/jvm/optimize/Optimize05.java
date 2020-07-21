@@ -7,6 +7,8 @@ package com.jpeony.jvm.optimize;
  * fillInStackTrace()方法检查堆栈，收集调用跟踪信息。
  * 只要有异常被抛出，Java虚拟机就必须调整调用堆栈，因为在处理过程中创建 了一个新的对象。
  * 异常只能用于错误处理，不应该用来控制程序流程。
+ *
+ * @author yihongeli
  */
 public class Optimize05 {
     public static void main(String[] args) {

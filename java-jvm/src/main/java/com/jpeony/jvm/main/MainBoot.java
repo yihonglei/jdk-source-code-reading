@@ -8,6 +8,8 @@ package com.jpeony.jvm.main;//package com.lanhuigu.jvm.main;
  * 4、使用上述获取的ClassLoader实例加载我们定义的MainBoot类；
  * 5、加载完成时候JVM会执行Main类的main方法入口，执行Main类的main方法；
  * 6、结束，java程序运行结束，JVM销毁。
+ *
+ * @author yihongeli
  */
 public class MainBoot {
     public static void main(String[] args) {

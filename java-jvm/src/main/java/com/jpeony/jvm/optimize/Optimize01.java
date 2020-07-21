@@ -5,6 +5,8 @@ package com.jpeony.jvm.optimize;
  * 特别是String对象的使用，出现字符串连接时应该使用StringBuilder/StringBuffer代替。
  * 由于Java虚拟机不仅要花时间生成对象，以后可能还需要花时间对这些对象进行垃圾回收和处理，
  * 因此，生成过多的对象将会给程序的性能带来很大的影响。
+ *
+ * @author yihongeli
  */
 public class Optimize01 {
     public static void main(String[] args) {

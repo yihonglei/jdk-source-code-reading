@@ -1,6 +1,10 @@
 package com.jpeony.java.object;
 
-// Service interface
+/**
+ * Service interface
+ *
+ * @author yihonglei
+ */
 public interface Service {
 
 }

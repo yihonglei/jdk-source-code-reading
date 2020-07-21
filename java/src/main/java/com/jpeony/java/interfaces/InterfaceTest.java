@@ -1,5 +1,8 @@
 package com.jpeony.java.interfaces;
 
+/**
+ * @author yihonglei
+ */
 public class InterfaceTest {
     public static void main(String[] args) {
         Teacher teacher = new Teacher();

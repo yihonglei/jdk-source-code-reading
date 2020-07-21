@@ -11,7 +11,6 @@
     <modules>
         <module>java</module>
         <module>java-jvm</module>
-        <module>java-thread</module>
         <module>java-io</module>
         <module>java-nio</module>
         <module>java-reflection</module>

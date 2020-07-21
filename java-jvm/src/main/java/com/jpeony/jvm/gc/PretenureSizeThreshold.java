@@ -23,6 +23,8 @@ package com.jpeony.jvm.gc;
  * 程序说明:
  * 从结果可以看出eden区没怎么使用，from、to两个Survivor去未使用，老年代用了40%。
  * 因为分配对象为4M，大于设置的3M阀值，直接在老年代进行分配。
+ *
+ * @author yihongeli
  */
 public class PretenureSizeThreshold {
     private static final int _1MB = 1024 * 1024;

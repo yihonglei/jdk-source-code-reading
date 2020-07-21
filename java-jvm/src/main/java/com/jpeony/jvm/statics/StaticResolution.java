@@ -2,6 +2,8 @@ package com.jpeony.jvm.statics;
 
 /**
  * 方法静态变量解析
+ *
+ * @author yihongeli
  */
 public class StaticResolution {
     public static void sayHello() {
