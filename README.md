@@ -137,19 +137,19 @@ Java基础知识大全。
 
 # java-jdbc（深入理解jdbc）
 
-[【JDBC】建立连接实例](https://blog.csdn.net/yhl_jxy/article/details/73409946)
+[建立连接实例](https://blog.csdn.net/yhl_jxy/article/details/73409946)
 
-[【JDBC】重要类分析](https://blog.csdn.net/yhl_jxy/article/details/50600972)
+[重要类分析](https://blog.csdn.net/yhl_jxy/article/details/50600972)
 
-[【JDBC】PreparedStatment](https://blog.csdn.net/yhl_jxy/article/details/73865183)
+[PreparedStatment](https://blog.csdn.net/yhl_jxy/article/details/73865183)
 
-[【JDBC】CallableStatement](https://blog.csdn.net/yhl_jxy/article/details/73920258)
+[CallableStatement](https://blog.csdn.net/yhl_jxy/article/details/73920258)
 
-[【JDBC】ResultSet](https://blog.csdn.net/yhl_jxy/article/details/73928501)
+[ResultSet](https://blog.csdn.net/yhl_jxy/article/details/73928501)
 
-[【JDBC】设置只读和自动提交](https://blog.csdn.net/yhl_jxy/article/details/73638050)
+[设置只读和自动提交](https://blog.csdn.net/yhl_jxy/article/details/73638050)
 
-[【JDBC】Statement](https://blog.csdn.net/yhl_jxy/article/details/73695389)
+[Statement](https://blog.csdn.net/yhl_jxy/article/details/73695389)
 
 # java-thread（深入理解多线程/高并发
 
