@@ -151,9 +151,9 @@ Java基础知识大全。
 
 [Statement](https://blog.csdn.net/yhl_jxy/article/details/73695389)
 
-# java-thread（深入理解多线程/高并发
+# java-thread（深入理解多线程/高并发）
 
-java-thread内容转移到：https://github.com/yihonglei/thinking-in-concurrent
+[并发编程艺术](https://github.com/yihonglei/thinking-in-concurrent)
 
 # java-jvm（深入理解jvm）
 
