@@ -1,7 +1,6 @@
 package com.jpeony.jvm.gc;
 
 /**
- * == out ==
  * VM参数:
  * -verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:+HandlePromotionFailure
  *
