@@ -3,7 +3,7 @@ package com.jpeony.java.compute;
 /**
  * 递增(++)和递减(--)
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class AutoTest {
     public static void main(String[] args) {

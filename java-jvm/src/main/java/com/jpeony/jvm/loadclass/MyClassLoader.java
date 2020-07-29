@@ -5,7 +5,7 @@ import java.io.InputStream;
 /**
  * 自定义类加载器
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class MyClassLoader extends ClassLoader {
     @Override

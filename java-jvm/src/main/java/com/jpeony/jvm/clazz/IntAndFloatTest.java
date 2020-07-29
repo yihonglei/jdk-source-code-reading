@@ -3,7 +3,7 @@ package com.jpeony.jvm.clazz;
 /**
  * 字节码文件
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class IntAndFloatTest {
     private final int a = 10;

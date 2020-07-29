@@ -10,7 +10,7 @@ import java.util.List;
  * 可以通过增加-XX:HeapDumpPath=./来指定dump文件存储路径。
  * 描述: -XX:+HeapDumpOnOutOfMemoryError 生成hprof文件，该文件在项目目录下
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class HeapOOM {
 

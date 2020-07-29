@@ -12,7 +12,7 @@ package com.jpeony.jvm.gc;
  *
  * -XX:SurvivorRatio=8 配置Eden区与一个Survivor区的比例，这里是默认的8:1，不用显示配置也可以；
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class AllocationTest02 {
     private static final int _1MB = 1024 * 1024;

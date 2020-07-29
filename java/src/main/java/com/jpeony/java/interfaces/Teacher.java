@@ -3,7 +3,7 @@ package com.jpeony.java.interfaces;
 /**
  * 接口的具体实现
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class Teacher implements Person {
 

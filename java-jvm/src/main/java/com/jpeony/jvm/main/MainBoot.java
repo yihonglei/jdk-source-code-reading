@@ -9,7 +9,7 @@ package com.jpeony.jvm.main;//package com.lanhuigu.jvm.main;
  * 5、加载完成时候JVM会执行Main类的main方法入口，执行Main类的main方法；
  * 6、结束，java程序运行结束，JVM销毁。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class MainBoot {
     public static void main(String[] args) {

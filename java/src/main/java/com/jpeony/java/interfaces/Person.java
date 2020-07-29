@@ -5,7 +5,7 @@ package com.jpeony.java.interfaces;
  * 方法可以有返回值，也可以没有返回值，但是都没有具体实现；
  * 不允许出现call这种自实现方法，否则编译不通过，除非用java8的default关键字，定义默认实现；
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public interface Person {
 

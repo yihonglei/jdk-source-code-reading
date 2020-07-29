@@ -3,7 +3,7 @@ package com.jpeony.java.finals;
 /**
  * final内存模型
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class FinalExample {
     /** 普通变量 */

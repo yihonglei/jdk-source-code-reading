@@ -10,7 +10,7 @@ import java.util.LinkedList;
  * 参数说明：
  * XX:+UseGCOverheadLimit：限制GC的运行时间。如果GC耗时过长，就抛OOM。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class RuntimePoolOOM {
     public static void main(String[] args) {

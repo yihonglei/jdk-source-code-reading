@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 /**
  * 注解获取工具类
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class SortableField {
     private FieldMeta meta;

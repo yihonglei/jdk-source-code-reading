@@ -3,7 +3,7 @@ package com.jpeony.java.constructor;
 /**
  * 基类加载顺序
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class Cartoon extends Drawing {
     public Cartoon() {

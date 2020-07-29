@@ -3,7 +3,7 @@ package com.jpeony.jvm.optimize;
 /**
  * 【尽量采用懒加载的策略，即在需要的时候才创建】
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class Optimize04 {
 

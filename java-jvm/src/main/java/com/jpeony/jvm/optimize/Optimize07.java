@@ -5,7 +5,7 @@ import com.jpeony.jvm.engine.ExecuteEngine;
 /**
  * 【不要创建一些不使用的对象，不要导入一些不使用的类】
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class Optimize07 {
 

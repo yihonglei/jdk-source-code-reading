@@ -3,7 +3,7 @@ package com.jpeony.java.compute;
 /**
  * +连接不同的字符串
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class MyPlusSign {
     public static void main(String[] args) {

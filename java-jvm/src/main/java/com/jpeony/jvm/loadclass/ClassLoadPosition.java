@@ -4,7 +4,7 @@ package com.jpeony.jvm.loadclass;
  * 肢解整个类演示！
  * 1）只有同时被final和static修饰的字段才有ConstantValue属性，且限于基本类型和String。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class ClassLoadPosition {
     /*

@@ -10,7 +10,7 @@ import java.io.InputStream;
  * Java编程过程中，进行数据库连接、I/O流操作时务必小心，在使用完毕后，及时关闭以释放资源。
  * 因为对这些大对象的操作会造成系统大的开销，稍有不慎，将会导致严重的后果。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class Optimize03 {
     public static void main(String[] args) {

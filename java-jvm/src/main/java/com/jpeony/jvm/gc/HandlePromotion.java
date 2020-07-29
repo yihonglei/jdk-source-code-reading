@@ -21,7 +21,7 @@ package com.jpeony.jvm.gc;
  *
  * 最后，allocation2、allocation3在老年代，allocation7在新生代。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class HandlePromotion {
     private static final int _1MB = 1024 * 1024;

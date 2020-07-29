@@ -31,7 +31,7 @@ package com.jpeony.jvm.gc;
  *
  * 最终，allocation1、allocation2、allocation3在老年代，allocation4在Eden区。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class TenuringThresholdTest02 {
     private static final int _1MB = 1024 * 1024;

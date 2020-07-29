@@ -28,7 +28,7 @@ package com.jpeony.jvm.gc;
  * 第二次的allocation3被分配到eden区。
  * 最终结果就是：allocation1, allocation2分配在老年区，allocation3分配在新生代的eden区。
  *
- * @author yihongeli
+ * @author yihonglei
  */
 public class TenuringThresholdTest01 {
     private static final int _1MB = 1024 * 1024;
