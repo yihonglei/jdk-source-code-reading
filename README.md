@@ -123,9 +123,7 @@ Java基础知识大全(jdk8)。
 
 # java-collection（深入理解集合框架）
 
-[list,set,map关系和使用](https://blog.csdn.net/yhl_jxy/article/details/48262223)
-
-[list添加实体对象重复解决办法](https://blog.csdn.net/yhl_jxy/article/details/49071813)
+[list,set,map关系](https://blog.csdn.net/yhl_jxy/article/details/48262223)
 
 [Iterator和ListIterator](https://blog.csdn.net/yhl_jxy/article/details/53394567)
 
