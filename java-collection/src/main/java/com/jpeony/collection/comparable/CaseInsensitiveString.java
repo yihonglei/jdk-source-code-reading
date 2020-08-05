@@ -1,4 +1,4 @@
-package com.jpeony.collections.comparable;
+package com.jpeony.collection.comparable;
 
 /**
  * In the following description, the notation sgn(expression) designates the math- ematical signum function,

@@ -1,15 +1,15 @@
-package com.jpeony.collections.map;
+package com.jpeony.collection.map;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * ConcurrentHashMap 线程安全，put时使用分段锁。
+ * HashMap 非线程安全。
  *
  * @author yihonglei
  */
-public class ConcurrentHashMapTest {
-    public static final Map<String, String> map = new ConcurrentHashMap<>();
+public class HashMapTest {
+    public static final Map<String, String> map = new HashMap<>();
 
     public static void main(String[] args) throws InterruptedException {
         // 线程A

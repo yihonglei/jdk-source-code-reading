@@ -1,4 +1,4 @@
-package com.jpeony.collections.list;
+package com.jpeony.collection.list;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

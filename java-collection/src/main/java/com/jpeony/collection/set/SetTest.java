@@ -1,4 +1,4 @@
-package com.jpeony.collections.set;
+package com.jpeony.collection.set;
 
 import java.util.HashSet;
 import java.util.Iterator;

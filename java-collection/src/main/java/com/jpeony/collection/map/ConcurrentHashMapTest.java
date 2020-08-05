@@ -1,15 +1,15 @@
-package com.jpeony.collections.map;
+package com.jpeony.collection.map;
 
-import java.util.Hashtable;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Hashtable 线程安全，put时底层使用synchronized。
+ * ConcurrentHashMap 线程安全，put时使用分段锁。
  *
  * @author yihonglei
  */
-public class HashTableTest {
-    public static final Map<String, String> map = new Hashtable<>();
+public class ConcurrentHashMapTest {
+    public static final Map<String, String> map = new ConcurrentHashMap<>();
 
     public static void main(String[] args) throws InterruptedException {
         // 线程A

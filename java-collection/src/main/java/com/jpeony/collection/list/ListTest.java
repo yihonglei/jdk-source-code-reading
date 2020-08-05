@@ -1,4 +1,4 @@
-package com.jpeony.collections.list;
+package com.jpeony.collection.list;
 
 /**
  * 1.List为继承于Collection的一个子接口（可查看源码）
