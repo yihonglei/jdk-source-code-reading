@@ -1,17 +1,29 @@
 package com.jpeony.collection.list;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Vector;
+
 /**
- * 1.List为继承于Collection的一个子接口（可查看源码）
- * 2.List元素有放入顺序，可重复
- * 3.有三个实现类:
- * 3.1 ArrayList,LinkedList,Vector
- * 3.2 ArrayList非线程安全，效率高;
- * Vector线程安全，效率低;
+ * ArrayList、LinkedList、Vector、Set
  *
  * @author yihonglei
  */
 public class ListTest {
     public static void main(String[] args) {
-        //1.ArrayList 特征:非线程安全，元素有顺序，高效，可重复
+        // ArrayList：非线程安全，元素有顺序，高效，可重复
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("ooo");
+
+        // Vector：线程安全，效率低
+        Vector<String> vector = new Vector<>();
+
+        // LinkedList：
+        LinkedList<String> linkedList = new LinkedList<>();
+
+        linkedList.addLast("");
+        linkedList.addFirst("");
+        linkedList.get(0);
+        linkedList.remove("one");
     }
 }
