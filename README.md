@@ -10,6 +10,26 @@ jdk8 源码阅读, 持续更新中......
 
 [概述](https://jpeony.blog.csdn.net/article/details/79327212)
 
+[Channel](https://jpeony.blog.csdn.net/article/details/79329521)
+
+[Buffer](https://jpeony.blog.csdn.net/article/details/79331010)
+
+[通道之间数据传输](https://jpeony.blog.csdn.net/article/details/79331309)
+
+[Selector](https://jpeony.blog.csdn.net/article/details/79332092)
+
+[FileChannel](https://jpeony.blog.csdn.net/article/details/79335384)
+
+[SocketChannel](https://jpeony.blog.csdn.net/article/details/79335552)
+
+[ServerSocketChannel](https://jpeony.blog.csdn.net/article/details/79335692)
+
+[DatagramChannel](https://jpeony.blog.csdn.net/article/details/79336635)
+
+[Pipe](https://jpeony.blog.csdn.net/article/details/79336762)
+
+[scatter/gather](https://mp.csdn.net/console/editor/html/79419822)
+
 # java-reflection
 
 # java-collection
