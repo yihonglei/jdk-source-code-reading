@@ -8,27 +8,27 @@ jdk8 源码阅读, 持续更新中......
 
 # java-nio
 
-[概述](https://jpeony.blog.csdn.net/article/details/79327212)
+[【NIO】概述](https://jpeony.blog.csdn.net/article/details/79327212)
 
-[Channel](https://jpeony.blog.csdn.net/article/details/79329521)
+[【NIO】Channel](https://jpeony.blog.csdn.net/article/details/79329521)
 
-[Buffer](https://jpeony.blog.csdn.net/article/details/79331010)
+[【NIO】Buffer](https://jpeony.blog.csdn.net/article/details/79331010)
 
-[通道之间数据传输](https://jpeony.blog.csdn.net/article/details/79331309)
+[【NIO】通道之间数据传输](https://jpeony.blog.csdn.net/article/details/79331309)
 
-[Selector](https://jpeony.blog.csdn.net/article/details/79332092)
+[【NIO】Selector](https://jpeony.blog.csdn.net/article/details/79332092)
 
-[FileChannel](https://jpeony.blog.csdn.net/article/details/79335384)
+[【NIO】FileChannel](https://jpeony.blog.csdn.net/article/details/79335384)
 
-[SocketChannel](https://jpeony.blog.csdn.net/article/details/79335552)
+[【NIO】SocketChannel](https://jpeony.blog.csdn.net/article/details/79335552)
 
-[ServerSocketChannel](https://jpeony.blog.csdn.net/article/details/79335692)
+[【NIO】ServerSocketChannel](https://jpeony.blog.csdn.net/article/details/79335692)
 
-[DatagramChannel](https://jpeony.blog.csdn.net/article/details/79336635)
+[【NIO】DatagramChannel](https://jpeony.blog.csdn.net/article/details/79336635)
 
-[Pipe](https://jpeony.blog.csdn.net/article/details/79336762)
+[【NIO】Pipe](https://jpeony.blog.csdn.net/article/details/79336762)
 
-[scatter/gather](https://mp.csdn.net/console/editor/html/79419822)
+[【NIO】scatter/gather](https://mp.csdn.net/console/editor/html/79419822)
 
 # java-reflection
 
@@ -36,7 +36,7 @@ jdk8 源码阅读, 持续更新中......
 
 # java-annotation
 
-[java注解实现原理](https://blog.csdn.net/yhl_jxy/article/details/80826238)
+[【Annotation】注解实现原理](https://blog.csdn.net/yhl_jxy/article/details/80826238)
 
 # java-net
 
@@ -48,21 +48,21 @@ jdk8 源码阅读, 持续更新中......
 
 # java-jvm
 
-[JVM内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
+[【JVM】内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
 
-[JVM类加载机制](https://blog.csdn.net/yhl_jxy/article/details/81295635)
+[【JVM】类加载机制](https://blog.csdn.net/yhl_jxy/article/details/81295635)
 
-[JVM内存溢出分析](https://blog.csdn.net/yhl_jxy/article/details/80946511)
+[【JVM】内存溢出分析](https://blog.csdn.net/yhl_jxy/article/details/80946511)
 
-[HotSpot对象创建、内存、访问](https://blog.csdn.net/yhl_jxy/article/details/80893288)
+[【JVM】HotSpot对象创建、内存、访问](https://blog.csdn.net/yhl_jxy/article/details/80893288)
 
-[如何判定对象可以回收](https://blog.csdn.net/yhl_jxy/article/details/80950336)
+[【JVM】如何判定对象可以回收](https://blog.csdn.net/yhl_jxy/article/details/80950336)
 
-[垃圾收集算法](https://blog.csdn.net/yhl_jxy/article/details/80953776)
+[【JVM】垃圾收集算法](https://blog.csdn.net/yhl_jxy/article/details/80953776)
 
-[垃圾收集器](https://blog.csdn.net/yhl_jxy/article/details/80956479)
+[【JVM】垃圾收集器](https://blog.csdn.net/yhl_jxy/article/details/80956479)
 
-[内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
+[【JVM】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
 
 # java8
 
