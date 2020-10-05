@@ -13,7 +13,7 @@
         <module>java-jvm</module>
         <module>java-io</module>
         <module>java-nio</module>
-        <module>java-reflection</module>
+        <module>java-reflect</module>
         <module>java-collection</module>
         <module>java-net</module>
         <module>java-jdbc</module>

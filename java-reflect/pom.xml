@@ -6,9 +6,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>java-reflection</artifactId>
+    <artifactId>java-reflect</artifactId>
     <packaging>jar</packaging>
-    <name>java-reflection</name>
+    <name>java-reflect</name>
 
     <properties>
     </properties>

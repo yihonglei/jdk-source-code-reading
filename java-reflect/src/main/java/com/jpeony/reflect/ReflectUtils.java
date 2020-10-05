@@ -1,4 +1,4 @@
-package com.jpeony.reflection;
+package com.jpeony.reflect;
 
 import java.lang.reflect.Field;
 
