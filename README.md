@@ -30,7 +30,7 @@ JDK8源码阅读，持续中......
 
 [【NIO】scatter/gather](https://mp.csdn.net/console/editor/html/79419822)
 
-# java-reflection
+# java-reflect
 
 # java-collection
 
