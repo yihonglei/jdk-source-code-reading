@@ -4,6 +4,8 @@ JDK8源码阅读，持续中......
            
 # 基础
 
+[【基础】ArrayList源码分析](https://jpeony.blog.csdn.net/article/details/108910769)
+
 # java-io
 
 # java-nio
@@ -30,7 +32,7 @@ JDK8源码阅读，持续中......
 
 [【NIO】scatter/gather](https://mp.csdn.net/console/editor/html/79419822)
 
-# java-reflection
+# java-reflect
 
 # java-collection
 
