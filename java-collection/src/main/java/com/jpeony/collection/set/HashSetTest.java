@@ -9,7 +9,7 @@ import java.util.Set;
  *
  * @author yihonglei
  */
-public class SetTest {
+public class HashSetTest {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
         set.add("a");

@@ -1,6 +1,7 @@
 package com.jpeony.collection.list;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -8,14 +9,29 @@ import java.util.List;
  */
 public class ArrayListTest {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
-        list.add("one");
-        list.add("two");
-        list.add("three");
+        list.add(1);
+        list.add(3);
+        list.add(2);
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println("element[" + i + "] = " + list.get(i));
+        }
+
+        System.out.println("=== sort ===");
+        list.sort(new ListComparator());
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println("element[" + i + "] = " + list.get(i));
+        }
+
+    }
+
+    private static class ListComparator implements Comparator {
+        @Override
+        public int compare(Object o1, Object o2) {
+            return Integer.parseInt(o1.toString()) - Integer.parseInt(o2.toString());
         }
     }
 }

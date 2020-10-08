@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ArrayList 非线程安全。
+ * ArrayList 非线程安全
  *
  * @author yihonglei
  */

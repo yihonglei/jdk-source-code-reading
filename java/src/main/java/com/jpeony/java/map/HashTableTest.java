@@ -1,15 +1,15 @@
-package com.jpeony.collection.map;
+package com.jpeony.java.map;
 
-import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 /**
- * HashMap 非线程安全。
+ * Hashtable 线程安全，put时底层使用synchronized。
  *
  * @author yihonglei
  */
-public class HashMapTest {
-    public static final Map<String, String> map = new HashMap<>();
+public class HashTableTest {
+    public static final Map<String, String> map = new Hashtable<>();
 
     public static void main(String[] args) throws InterruptedException {
         // 线程A
