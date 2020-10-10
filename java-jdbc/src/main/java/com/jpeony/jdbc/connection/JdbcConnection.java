@@ -5,7 +5,7 @@ import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 
 /**
- * 使用DriverManager类中的getConnection()方法创建与数据源连接。
+ * 使用DriverManager类中的getConnection()方法创建与数据源连接
  *
  * @author yihonglei
  */

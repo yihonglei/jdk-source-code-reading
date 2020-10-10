@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * CopyOnWriteArrayList 线程安全，使用副本，实现读写分离。
+ * CopyOnWriteArrayList 线程安全，使用副本，实现读写分离
  *
  * @author yihonglei
  */

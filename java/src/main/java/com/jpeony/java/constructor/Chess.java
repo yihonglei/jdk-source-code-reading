@@ -1,7 +1,7 @@
 package com.jpeony.java.constructor;
 
 /**
- * 子类通过super调用相应参数列表的父类构造器。
+ * 子类通过super调用相应参数列表的父类构造器
  *
  * @author yihonglei
  */

@@ -10,9 +10,10 @@ public class ConstructorTest {
     public ConstructorTest() {
         System.out.println("默认构造器");
     }
-    /**
+    /*
      * ===有参构造器，可以根据不同参数，创建不同的构造器，有实际需要时在创建===
      */
+
     /**
      * 有参构造器one
      */
