@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * LinkedList 链表实现
+ *
  * @author yihonglei
  */
 public class LinkedListTest {
