@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * ConcurrentHashMap 线程安全，put时使用分段锁。
+ * ConcurrentHashMap 线程安全，put时使用分段锁
  *
  * @author yihonglei
  */

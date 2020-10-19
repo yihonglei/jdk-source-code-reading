@@ -1,7 +1,7 @@
 package com.jpeony.java.abstractes;
 
 /**
- * 抽象类特性
+ * 抽象类特性：
  * <p>
  * 1）不能用final修饰；
  * <p>

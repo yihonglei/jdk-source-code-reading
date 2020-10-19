@@ -11,7 +11,7 @@ public class ConstructorTest {
         System.out.println("默认构造器");
     }
     /*
-     * ===有参构造器，可以根据不同参数，创建不同的构造器，有实际需要时在创建===
+     * 有参构造器，可以根据不同参数，创建不同的构造器，有实际需要时在创建
      */
 
     /**
@@ -29,7 +29,7 @@ public class ConstructorTest {
     }
 
     /**
-     * Test,运行main方法，根据不同的构造器，创建3个不同的对象
+     * Test，运行main方法，根据不同的构造器，创建3个不同的对象
      */
     public static void main(String[] args) {
         ConstructorTest c1 = new ConstructorTest();

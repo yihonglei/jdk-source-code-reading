@@ -12,11 +12,13 @@ public class AbstractTest {
 
         System.out.println(teacher.eat());
         System.out.println(teacher.sleep());
-        System.out.println(teacher.sport());// 继承父类非抽象方法
+        // 继承父类非抽象方法
+        System.out.println(teacher.sport());
 
         System.out.println("==============");
         System.out.println(student.eat());
         System.out.println(student.sleep());
-        System.out.println(student.sport());// 继承父类非抽象方法
+        // 继承父类非抽象方法
+        System.out.println(student.sport());
     }
 }

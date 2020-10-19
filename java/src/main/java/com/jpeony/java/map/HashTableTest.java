@@ -4,7 +4,7 @@ import java.util.Hashtable;
 import java.util.Map;
 
 /**
- * Hashtable 线程安全，put时底层使用synchronized。
+ * Hashtable 线程安全，put时底层使用synchronized
  *
  * @author yihonglei
  */
