@@ -21,6 +21,7 @@
         <module>java8</module>
         <module>rxjava</module>
         <module>java-annotation</module>
+        <module>java-interview</module>
     </modules>
 
     <properties>

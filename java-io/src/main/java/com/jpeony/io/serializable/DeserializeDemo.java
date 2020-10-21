@@ -28,9 +28,6 @@ public class DeserializeDemo {
             return;
         }
         System.out.println("===反序列化===");
-        System.out.println("name: " + e.name);
-        System.out.println("address: " + e.address);
-        System.out.println("age: " + e.age);
-        System.out.println("number: " + e.number);
+        System.out.println(e);
     }
 }

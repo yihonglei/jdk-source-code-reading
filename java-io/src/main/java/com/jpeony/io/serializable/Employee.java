@@ -12,17 +12,70 @@ public class Employee implements Serializable {
     /**
      * 姓名
      */
-    public String name;
+    private String name;
     /**
      * 地址
      */
-    public String address;
+    private String address;
     /**
      * 年龄
      */
-    public transient int age;
+    private transient int age;
     /**
      * 编号
      */
-    public int number;
+    private int number;
+
+    public Employee() {
+
+    }
+
+    public Employee(String name, String address, int age, int number) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+        this.number = number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                ", number=" + number +
+                '}';
+    }
 }
