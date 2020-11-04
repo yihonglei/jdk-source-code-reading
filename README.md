@@ -8,6 +8,8 @@ JDK8 源码阅读，持续中......
 
 [【基础】Vector源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
 
+[【基础】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
+
 # java-io
 
 # java-nio
