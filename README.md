@@ -12,6 +12,8 @@ JDK8 源码阅读，持续中......
 
 [【基础】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
 
+[【基础】LinkedBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/106544796)
+
 # java-io
 
 # java-nio
@@ -95,8 +97,6 @@ JDK8 源码阅读，持续中......
 [【并发编程】Semaphore实现原理](https://blog.csdn.net/yhl_jxy/article/details/87279383)
 
 [【并发编程】CopyOnWriteArrayList实现原理](https://jpeony.blog.csdn.net/article/details/106138813)
-
-[【并发编程】阻塞队列实现原理](https://jpeony.blog.csdn.net/article/details/106544796)
 
 [【并发编程】FutureTask实现原理](https://jpeony.blog.csdn.net/article/details/82664829)
 
