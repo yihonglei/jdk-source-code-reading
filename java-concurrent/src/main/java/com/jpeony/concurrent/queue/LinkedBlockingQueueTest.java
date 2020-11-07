@@ -13,26 +13,20 @@ public class LinkedBlockingQueueTest {
 
     public static void main(String[] args) throws InterruptedException {
         // 创建队列
-        LinkedBlockingQueue blockingQueue = new LinkedBlockingQueue(10);
-        // 存入元素
-        // offer 非阻塞
-         blockingQueue.offer("object01");
-        // put 阻塞
-        // blockingQueue.put("object01");
-        // 循环取元素
-        while (true) {
-            logger.info("开始取值...");
-            // take 阻塞
-            // 当队列没有元素的时候，队里阻塞当前线程，直到队列不为空
-            logger.info("blockingQueue.take()={}", blockingQueue.take());
+        LinkedBlockingQueue blockingQueue = new LinkedBlockingQueue();
 
-            // poll 非阻塞
-//            Object obj = blockingQueue.poll();
-//            if (obj == null) {
-//                break;
-//            }
-//            System.out.println(obj);
-            logger.info("取值完成！");
-        }
+        // 存入元素
+        // offer() 非阻塞，队里满了就放不进去，也不会等着空的时候再放；
+        blockingQueue.offer("object01");
+
+        // put() 阻塞，当队列满了，一直等着啥时候空了，啥时候放，很执着；
+        blockingQueue.put("object02");
+
+
+        // take() 阻塞，当队列没有元素的时候，队里阻塞当前线程，直到队列不为空
+        logger.info("blockingQueue.take()={}", blockingQueue.take());
+
+        // poll 非阻塞，队列为空时，直接退出；
+        logger.info("blockingQueue.poll()={}", blockingQueue.poll());
     }
 }
