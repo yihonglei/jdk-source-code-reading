@@ -19,12 +19,7 @@ public class NewSingleThreadExecutorTest {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
             int finalSeqNum = i + 1;
-            Runnable runnable = new Runnable() {
-                @Override
-                public void run() {
-                    logger.info("ThreadName={}, seqNum={}", Thread.currentThread().getName(), finalSeqNum);
-                }
-            };
+            Runnable runnable = () -> logger.info("ThreadName={}, seqNum={}", Thread.currentThread().getName(), finalSeqNum);
             executorService.execute(runnable);
         }
     }

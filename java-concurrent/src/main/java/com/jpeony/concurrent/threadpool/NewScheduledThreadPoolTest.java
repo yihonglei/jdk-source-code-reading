@@ -7,7 +7,7 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 定时或周期执行任务。
+ * 定时或周期执行任务
  *
  * @author yihonglei
  */
@@ -17,12 +17,7 @@ public class NewScheduledThreadPoolTest {
     public static void main(String[] args) {
         // 线程池
         ScheduledThreadPoolExecutor ste = new ScheduledThreadPoolExecutor(1);
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                logger.info("ThreadName={},Time={}", Thread.currentThread().getName());
-            }
-        };
+        Runnable runnable = () -> logger.info("ThreadName={},Time={}", Thread.currentThread().getName());
         ste.scheduleAtFixedRate(runnable, 5, 5, TimeUnit.SECONDS);
     }
 }
