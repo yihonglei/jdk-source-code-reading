@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 运动员跑步全部就绪-->鸣枪-->开跑！
+ * 运动员跑步全部就绪-->鸣枪-->开跑
  *
  * @author yihonglei
  */
