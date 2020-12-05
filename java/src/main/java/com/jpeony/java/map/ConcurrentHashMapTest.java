@@ -12,7 +12,7 @@ public class ConcurrentHashMapTest {
         ConcurrentHashMap<String, String> conMap = new ConcurrentHashMap<>();
 
         conMap.put("key1", "hello world!");
-
+        conMap.put("key1", "hello world!");
         System.out.println(conMap.get("key1"));
     }
 }
