@@ -6,7 +6,7 @@
 
 [【基础】ArrayList源码分析](https://jpeony.blog.csdn.net/article/details/108910769)
 
-[【基础】Vector源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
+[【基础】Vector 源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
 
 [【基础】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
 
