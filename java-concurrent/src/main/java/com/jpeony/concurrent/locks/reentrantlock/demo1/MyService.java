@@ -18,6 +18,11 @@ public class MyService {
         try {
             lock.lock();
             logger.info("{}, begin", Thread.currentThread().getName());
+            try {
+                Thread.sleep(200000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         } finally {
             logger.info("{}, end", Thread.currentThread().getName());
             lock.unlock();
