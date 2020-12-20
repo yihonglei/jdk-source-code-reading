@@ -10,7 +10,7 @@
 
 [【基础】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
 
-[【并发编程】CopyOnWriteArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/106138813)
+[【基础】CopyOnWriteArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/106138813)
 
 [【基础】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
 
