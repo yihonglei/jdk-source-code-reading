@@ -80,7 +80,7 @@
 
 [【并发编程】CAS和ABA](https://blog.csdn.net/yhl_jxy/article/details/87520148)
 
-[【并发编程】AQS实现原理](https://blog.csdn.net/yhl_jxy/article/details/102535590)
+[【并发编程】AQS 源码分析](https://blog.csdn.net/yhl_jxy/article/details/102535590)
 
 [【并发编程】Java锁实现原理](https://blog.csdn.net/yhl_jxy/article/details/101687960)
 
