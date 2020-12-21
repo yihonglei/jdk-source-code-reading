@@ -14,6 +14,8 @@
 
 [【基础】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
 
+[【基础】ArrayBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111479502)
+
 [【基础】LinkedBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/106544796)
 
 [【基础】HashTable 源码分析](https://jpeony.blog.csdn.net/article/details/109698072)
