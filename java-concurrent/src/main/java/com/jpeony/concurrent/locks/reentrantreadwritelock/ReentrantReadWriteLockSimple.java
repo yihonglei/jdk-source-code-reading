@@ -21,6 +21,7 @@ public class ReentrantReadWriteLockSimple {
         @Override
         public void run() {
             try {
+                System.out.println("写-lock");
                 lock.writeLock().lock();
                 System.out.println("写-start");
                 Thread.sleep(10000);
@@ -37,6 +38,7 @@ public class ReentrantReadWriteLockSimple {
         @Override
         public void run() {
             try {
+                System.out.println("读-lock");
                 lock.readLock().lock();
                 System.out.println("读-start");
                 Thread.sleep(2000);
