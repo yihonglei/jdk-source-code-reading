@@ -28,6 +28,34 @@
 
 # java-io
 
+[【IO】概述](https://jpeony.blog.csdn.net/article/details/79269481)
+
+[【IO】读写文件(FileInputStream、FileOutputStream、FileReader、FileWriter、RandomAccessFile)](https://jpeony.blog.csdn.net/article/details/79272792)
+
+[【IO】管道(PipedInputStream、PipedOutputStream、PipedReader、PipedWriter)](https://jpeony.blog.csdn.net/article/details/79283851)
+
+[【IO】字节和字符数组(ByteArrayInputStream、ByteArrayOutputStream、CharArrayReader、CharArrayWriter)](https://jpeony.blog.csdn.net/article/details/79287693)
+
+[【IO】InputStream](https://jpeony.blog.csdn.net/article/details/79283851)
+
+[【IO】OutputStream](https://jpeony.blog.csdn.net/article/details/79306969)
+
+[【IO】FileInputStream](https://jpeony.blog.csdn.net/article/details/79309114)
+
+[【IO】FileOutputStream](https://jpeony.blog.csdn.net/article/details/79309114)
+
+[【IO】RandomAccessFile](https://jpeony.blog.csdn.net/article/details/79311286)
+
+[【IO】File](https://jpeony.blog.csdn.net/article/details/79313737)
+
+[【IO】BufferedInputStream](https://jpeony.blog.csdn.net/article/details/79318713)
+
+[【IO】BufferedOutputStream](https://jpeony.blog.csdn.net/article/details/79319121)
+
+[【IO】BufferedReader](https://jpeony.blog.csdn.net/article/details/79319447)
+
+[【IO】BufferedWriter](https://jpeony.blog.csdn.net/article/details/79319467)
+
 # java-nio
 
 [【NIO】概述](https://jpeony.blog.csdn.net/article/details/79327212)
