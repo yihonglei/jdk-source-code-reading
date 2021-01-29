@@ -12,7 +12,7 @@ import java.io.*;
  *
  * @author yihonglei
  */
-public class FileCopyTest {
+public class FileCopySimple {
     public static void main(String[] args) {
         // 构建源文件
         File file = new File("C:\\mycode\\hello.txt");

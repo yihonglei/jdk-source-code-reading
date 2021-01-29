@@ -14,12 +14,12 @@ import java.io.Reader;
  *
  * @author yihonglei
  */
-public class FileReaderTest {
+public class FileReaderSimple {
     public static void main(String[] args) {
         // 构建指定文件
         File file = new File("C:\\mycode\\hello.txt");
         // 根据文件创建文件的输入流
-        try (Reader reader = new FileReader(file)) {
+        try (Reader reader = new java.io.FileReader(file)) {
             // 创建字符数组
             char[] data = new char[1024];
             // 读取内容，放到字符数组里面

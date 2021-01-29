@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
  *
  * @author yihonglei
  */
-public class SerializeDemo {
+public class SerializeSimple {
     public static void main(String[] args) {
         Employee e = new Employee("yi", "beijing", 27, 101);
         try (FileOutputStream fileOut = new FileOutputStream("C:\\mycode\\employee.ser");

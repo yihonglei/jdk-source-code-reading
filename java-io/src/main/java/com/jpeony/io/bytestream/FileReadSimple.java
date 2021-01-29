@@ -14,7 +14,7 @@ import java.io.IOException;
  *
  * @author yihonglei
  */
-public class FileReadTest {
+public class FileReadSimple {
     public static void main(String[] args) {
         // 指定文件
         File file = new File("C:\\mycode\\hello.txt");

@@ -9,7 +9,7 @@ import java.io.ObjectInputStream;
  *
  * @author yihonglei
  */
-public class DeserializeDemo {
+public class DeserializeSimple {
     public static void main(String[] args) {
         Employee e = null;
         try (
