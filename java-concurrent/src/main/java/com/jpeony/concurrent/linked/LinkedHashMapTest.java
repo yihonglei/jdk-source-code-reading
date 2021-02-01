@@ -1,4 +1,4 @@
-package com.jpeony.java.map;
+package com.jpeony.concurrent.linked;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class LinkedHashMapTest {
     public static void main(String[] args) {
-        HashMap<String, String> linkedHashMap = new LinkedHashMap<>();
+        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();
 
         linkedHashMap.put("one", "壹");
         linkedHashMap.put("two", "贰");
