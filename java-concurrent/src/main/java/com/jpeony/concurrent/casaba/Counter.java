@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.cas;
+package com.jpeony.concurrent.casaba;
 
 import java.util.ArrayList;
 import java.util.List;

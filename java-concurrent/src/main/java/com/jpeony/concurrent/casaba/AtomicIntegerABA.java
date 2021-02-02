@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.aba;
+package com.jpeony.concurrent.casaba;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * ABA问题演示
+ * ABA 问题演示
  *
  * @author yihonglei
  */
