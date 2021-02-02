@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  *
  * @author yihonglei
  */
-public class AtomicStampesABA {
+public class AtomicStampedABA {
     private static AtomicStampedReference atomicStampedRef = new AtomicStampedReference(18, 0);
 
     public static void main(String[] args) throws InterruptedException {
