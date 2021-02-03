@@ -96,6 +96,8 @@
 
 [【并发编程】进程与线程](https://jpeony.blog.csdn.net/article/details/107590038)
 
+[【并发编程】Daemon 线程](https://jpeony.blog.csdn.net/article/details/113590258)
+
 [【并发编程】Java 线程实现方式](https://blog.csdn.net/yhl_jxy/article/details/86665107)
 
 [【并发编程】Java 线程生命周期状态](https://blog.csdn.net/yhl_jxy/article/details/86668152)
