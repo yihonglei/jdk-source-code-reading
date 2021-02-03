@@ -98,7 +98,7 @@
 
 [【并发编程】Java 线程实现方式](https://blog.csdn.net/yhl_jxy/article/details/86665107)
 
-[【并发编程】Java 线程生命周期](https://blog.csdn.net/yhl_jxy/article/details/86668152)
+[【并发编程】Java 线程生命周期状态](https://blog.csdn.net/yhl_jxy/article/details/86668152)
 
 [【并发编程】Java 线程终止方式](https://blog.csdn.net/yhl_jxy/article/details/86673805)
 
