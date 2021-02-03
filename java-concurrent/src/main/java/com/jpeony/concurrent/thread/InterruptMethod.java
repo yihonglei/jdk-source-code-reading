@@ -4,8 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 使用interrupt方法来中断线程，并不能马上就让线程中断，使用interrupt方法只是在当前线程中打了一个停止的标记，
- * 并不是真正的停止线程。
+ * 使用interrupt方法来中断线程，并不能马上就让线程中断，使用interrupt方法只是在当前线程中打了一个停止的标记，并不是真正的停止线程。
  *
  * @author yihonglei
  */
@@ -14,10 +13,12 @@ public class InterruptMethod extends Thread {
 
     @Override
     public void run() {
-        // 循环50万次
-        for (int i = 0; i < 500000; i++) {
+        long start = System.currentTimeMillis();
+        // 循环10万次
+        for (int i = 0; i < 100000; i++) {
             logger.info("i = {}", i + 1);
         }
+        System.out.println("执行耗时:" + (System.currentTimeMillis() - start) / 1000);
     }
 
     public static void main(String[] args) {
@@ -33,5 +34,4 @@ public class InterruptMethod extends Thread {
             ex.printStackTrace();
         }
     }
-
 }
