@@ -112,7 +112,7 @@
 
 [【并发编程】PipedOutputStream和PipedInputStream 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87372602)
 
-[【并发编程】ThreadLocal、ThreadLocalMap 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87866907)
+[【并发编程】ThreadLocal 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87866907)
 
 [【并发编程】CAS和ABA](https://blog.csdn.net/yhl_jxy/article/details/87520148)
 
@@ -130,7 +130,7 @@
 
 [【并发编程】volatile 实现原理](https://blog.csdn.net/yhl_jxy/article/details/87072642)
 
-[【并发编程】ReentrantLock、Condition 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
+[【并发编程】ReentrantLock 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
 
 [【并发编程】ReentrantReadWriteLock 源码分析](https://jpeony.blog.csdn.net/article/details/113250932)
 
