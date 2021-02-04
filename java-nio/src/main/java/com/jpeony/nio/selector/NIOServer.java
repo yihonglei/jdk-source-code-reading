@@ -9,12 +9,14 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * server端实例代码
+ * Server 端实例代码
  *
  * @author yihonglei
  */
 public class NIOServer {
-    // 通道管理器(Selector)
+    /**
+     * 通道管理器(Selector)
+     */
     private static Selector selector;
 
     public static void main(String[] args) throws IOException {
@@ -30,7 +32,7 @@ public class NIOServer {
         ServerSocket serverSocket = serverSocketChannel.socket();
         serverSocket.bind(new InetSocketAddress(8989));
 
-        /**
+        /*
          * 将通道(Channel)注册到通道管理器(Selector)，并为该通道注册selectionKey.OP_ACCEPT事件
          * 注册该事件后，当事件到达的时候，selector.select()会返回，
          * 如果事件没有到达selector.select()会一直阻塞。

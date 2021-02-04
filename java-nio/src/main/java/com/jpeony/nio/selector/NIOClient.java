@@ -10,12 +10,14 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * client实例代码
+ * Client 实例代码
  *
  * @author yihonglei
  */
 public class NIOClient {
-    // 通道管理器(Selector)
+    /**
+     * 通道管理器(Selector)
+     */
     private static Selector selector;
 
     public static void main(String[] args) throws IOException {
@@ -30,7 +32,7 @@ public class NIOClient {
         // 客户端连接服务器，其实方法执行并没有实现连接，需要在handleConnect方法中调channel.finishConnect()才能完成连接
         channel.connect(new InetSocketAddress("localhost", 8989));
 
-        /**
+        /*
          * 将通道(Channel)注册到通道管理器(Selector)，并为该通道注册selectionKey.OP_CONNECT
          * 注册该事件后，当事件到达的时候，selector.select()会返回，
          * 如果事件没有到达selector.select()会一直阻塞。
