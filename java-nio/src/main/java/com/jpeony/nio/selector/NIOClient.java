@@ -66,7 +66,6 @@ public class NIOClient {
                 } else if (key.isReadable()) {// 检查套接字是否已经准备好读数据
                     handleRead(key);
                 }
-
             }
         }
     }

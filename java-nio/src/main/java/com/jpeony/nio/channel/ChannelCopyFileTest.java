@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * 基于NIO完成文件复制
+ * 基于 NIO 完成文件复制
  *
  * @author yihonglei
  */

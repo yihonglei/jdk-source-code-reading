@@ -41,7 +41,7 @@ public class NIOServer {
 
         // 循环处理
         while (true) {
-            // 当注册事件到达时，方法返回，否则该方法会一直阻塞
+            // 当注册事件到达时，方法返回，否则该方法会一直阻塞（查询准备就绪数据进来的通道）
             selector.select();
 
             // 获取监听事件
@@ -62,10 +62,7 @@ public class NIOServer {
                 } else if (key.isReadable()) {// 检查套接字是否已经准备好读数据
                     handleRead(key);
                 }
-
             }
-
-
         }
     }
 
