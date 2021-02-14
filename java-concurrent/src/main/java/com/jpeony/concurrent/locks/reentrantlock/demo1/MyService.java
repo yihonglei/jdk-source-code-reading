@@ -12,6 +12,12 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class MyService {
     private final static Logger logger = LoggerFactory.getLogger(MyService.class);
+    /**
+     * private ReentrantLock lock = new ReentrantLock(true); // 公平锁
+     */
+    /**
+     * 默认非公平锁
+     */
     private ReentrantLock lock = new ReentrantLock();
 
     public void serviceMethod() {

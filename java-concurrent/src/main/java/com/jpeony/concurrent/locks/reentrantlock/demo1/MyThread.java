@@ -1,8 +1,6 @@
 package com.jpeony.concurrent.locks.reentrantlock.demo1;
 
 /**
- * 调用service的线程
- *
  * @author yihonglei
  */
 public class MyThread extends Thread {
