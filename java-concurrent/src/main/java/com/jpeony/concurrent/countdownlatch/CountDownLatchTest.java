@@ -11,13 +11,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 多线程+CountDownLatch演示
+ * CountDownLatch 演示
  *
  * @author yihonglei
  */
 public class CountDownLatchTest {
     private final static Logger logger = LoggerFactory.getLogger(CountDownLatchTest.class);
-    // 线程池
     private static ExecutorService executorService = Executors.newFixedThreadPool(10);
 
     public static void main(String[] args) {
