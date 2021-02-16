@@ -24,7 +24,6 @@ public class LinkedBlockingQueueTest {
         // put() 阻塞，当队列满了，一直等着啥时候空了，啥时候放，很执着；
         blockingQueue.put("object02");
 
-
         // take() 阻塞，当队列没有元素的时候，阻塞当前线程，直到队列不为空；
         logger.info("blockingQueue.take()={}", blockingQueue.take());
 
