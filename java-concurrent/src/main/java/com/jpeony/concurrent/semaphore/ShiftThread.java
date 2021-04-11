@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 大便！！！（画面感很强！）
+ * 大便！
  *
  * @author yihonglei
  */
@@ -24,7 +24,7 @@ public class ShiftThread extends Thread {
         try {
             // 获得坑
             Toilet.Pit pitAcquire = toilet.getPit();
-            logger.info("序号：{}, 描述：{}", num, pitAcquire.getDesc());
+            logger.info("序号:{}, 描述:{}", num, pitAcquire.getDesc());
             // 解决大号
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -32,7 +32,7 @@ public class ShiftThread extends Thread {
         } finally {
             // 释放坑
             Toilet.Pit release = toilet.releasePit();
-            logger.info("序号：{}, 描述：{}", num, release.getDesc());
+            logger.info("序号:{}, 描述:{}", num, release.getDesc());
         }
     }
 }

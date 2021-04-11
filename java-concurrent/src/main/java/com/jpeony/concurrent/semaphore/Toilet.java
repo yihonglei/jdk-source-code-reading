@@ -3,7 +3,7 @@ package com.jpeony.concurrent.semaphore;
 import java.util.concurrent.Semaphore;
 
 /**
- * 卫生间有5个坑
+ * 卫生间有 5 个坑
  *
  * @author yihonglei
  */
@@ -35,7 +35,7 @@ public class Toilet {
         semaphore.acquire();
 
         Pit pit = new Pit();
-        pit.setDesc("<<<获得坑了>>>");
+        pit.setDesc("获得坑了");
         return pit;
     }
 
@@ -46,7 +46,7 @@ public class Toilet {
         semaphore.release();
 
         Pit pit = new Pit();
-        pit.setDesc("@@@释放了坑@@@");
+        pit.setDesc("释放了坑");
         return pit;
     }
 }
