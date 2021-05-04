@@ -15,9 +15,9 @@ public class LinkedListTest {
         list.add("one");
         list.add("two");
         list.add("three");
-        // offer的底层是add
+        // offer 的底层是 add
         list.offer("four");
-        // pop出队
+        // pop 出队
         // list.pop();
 
         for (int i = 0; i < list.size(); i++) {
