@@ -26,7 +26,7 @@ public class ArrayListTest {
         // ComparableTimSort.sort 逻辑
         list.sort(null);
         // TimSort.sort 逻辑
-//        list.sort(new ListComparator());
+        list.sort(new ListComparator());
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println("element[" + i + "] = " + list.get(i));
