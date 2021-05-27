@@ -64,27 +64,27 @@
 
 # java-collection
 
-[【基础】ArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/108910769)
+[【集合】ArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/108910769)
 
-[【基础】Vector 源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
+[【集合】Vector 源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
 
-[【基础】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
+[【集合】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
 
-[【基础】CopyOnWriteArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/106138813)
+[【集合】CopyOnWriteArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/106138813)
 
-[【基础】ArrayBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111479502)
+[【集合】ArrayBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111479502)
 
-[【基础】LinkedBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/106544796)
+[【集合】LinkedBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/106544796)
 
-[【基础】PriorityBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111523096)
+[【集合】PriorityBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111523096)
 
-[【基础】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
+[【集合】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
 
-[【基础】HashTable 源码分析](https://jpeony.blog.csdn.net/article/details/109698072)
+[【集合】HashTable 源码分析](https://jpeony.blog.csdn.net/article/details/109698072)
 
-[【基础】HashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110446413)
+[【集合】HashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110446413)
 
-[【基础】ConcurrentHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110677912)
+[【集合】ConcurrentHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110677912)
 
 # java-annotation
 
