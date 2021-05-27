@@ -1,4 +1,4 @@
-package com.jpeony.java.annotation.demo2;
+package com.jpeony.annotation.demo2;
 
 /**
  * 运行时注解获取子类

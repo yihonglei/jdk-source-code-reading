@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.hash;
+package com.jpeony.collection.hash;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

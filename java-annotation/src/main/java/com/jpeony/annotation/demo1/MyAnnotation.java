@@ -1,4 +1,4 @@
-package com.jpeony.annotation;
+package com.jpeony.annotation.demo1;
 
 import java.lang.annotation.*;
 

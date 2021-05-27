@@ -1,4 +1,4 @@
-package com.jpeony.java.map;
+package com.jpeony.collection.hash;
 
 import java.util.concurrent.ConcurrentHashMap;
 

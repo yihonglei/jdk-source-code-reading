@@ -1,4 +1,4 @@
-package com.jpeony.java.annotation.demo2;
+package com.jpeony.annotation.demo2;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

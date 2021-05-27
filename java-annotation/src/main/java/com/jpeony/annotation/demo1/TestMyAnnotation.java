@@ -1,4 +1,4 @@
-package com.jpeony.annotation;
+package com.jpeony.annotation.demo1;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 /**
  * @author yihonglei
  */
-public class ReflectionReaderTest {
+public class TestMyAnnotation {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         AnnotationTest annotationTest = new AnnotationTest();
         // 获取AnnotationTest的Class实例
