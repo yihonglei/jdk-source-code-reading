@@ -12,8 +12,8 @@ public class HashMapTest {
         HashMap<String, String> hashMap = new HashMap<>();
 
         // 【demo1】简单测试 put() 和 get()
-//        hashMap.put("key1", "hello world!");
-//        System.out.println(hashMap.get("key1"));
+        hashMap.put("key1", "hello world!");
+        System.out.println(hashMap.get("key1"));
 
         // 【demo2】测试 key 相同时，新值覆盖掉旧值
 //        hashMap.put("key1", "hello world 1");
