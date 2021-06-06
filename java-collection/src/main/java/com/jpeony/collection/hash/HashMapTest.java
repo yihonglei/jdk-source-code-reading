@@ -1,6 +1,7 @@
 package com.jpeony.collection.hash;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 
 /**
  * 高性能，线程不安全
