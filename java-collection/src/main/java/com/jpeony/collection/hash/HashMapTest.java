@@ -1,7 +1,7 @@
 package com.jpeony.collection.hash;
 
+import java.util.Collection;
 import java.util.HashMap;
-import java.util.TreeMap;
 
 /**
  * 高性能，线程不安全
@@ -15,6 +15,11 @@ public class HashMapTest {
         // 【demo1】简单测试 put() 和 get()
         hashMap.put("key1", "hello world!");
         System.out.println(hashMap.get("key1"));
+
+        Collection<String> values = hashMap.values();
+        for (String str : values) {
+            System.out.println(str);
+        }
 
         // 【demo2】测试 key 相同时，新值覆盖掉旧值
 //        hashMap.put("key1", "hello world 1");
