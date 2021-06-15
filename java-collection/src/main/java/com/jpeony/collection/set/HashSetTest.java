@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * 存放不重复对象。
+ *
  * @author yihonglei
  */
 public class HashSetTest {
