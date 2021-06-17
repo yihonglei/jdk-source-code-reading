@@ -6,6 +6,8 @@
 
 [【基础】Java运算符大全](https://jpeony.blog.csdn.net/article/details/51636764)
 
+[【基础】String、StringBuffer、StringBuilder 源码分析](https://jpeony.blog.csdn.net/article/details/53514127)
+
 # java-io
 
 [【IO】概述](https://jpeony.blog.csdn.net/article/details/79269481)
