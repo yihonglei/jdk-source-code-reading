@@ -7,11 +7,9 @@ package.json
 *.log.*
 *.log
 .factorypath
-/boot
 .project
 .classpath
 .settings/*
-/.springBeans
 /.apt_generated/
 /.externalToolBuilders
 /target/
