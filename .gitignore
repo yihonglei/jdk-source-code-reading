@@ -10,7 +10,5 @@ package.json
 .project
 .classpath
 .settings/*
-/.apt_generated/
-/.externalToolBuilders
 /target/
 *.iml
