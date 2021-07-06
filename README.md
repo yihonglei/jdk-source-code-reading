@@ -92,6 +92,8 @@
 
 [【集合】SynchronizedMap 源码分析](https://jpeony.blog.csdn.net/article/details/117566333)
 
+[【集合】LinkedHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/118516205)
+
 [【集合】ConcurrentHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110677912)
 
 # java-annotation
