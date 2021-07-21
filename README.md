@@ -118,8 +118,6 @@
 
 [【并发编程】Java 线程顺序执行方式](https://jpeony.blog.csdn.net/article/details/107618820)
 
-[【并发编程】Java 内存模型](https://blog.csdn.net/yhl_jxy/article/details/103216421)
-
 [【并发编程】wait、notify、notifyAll 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87347946)
 
 [【并发编程】PipedOutputStream和PipedInputStream 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87372602)
@@ -156,21 +154,23 @@
 
 # java-jvm
 
-[【JVM】内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
+[【JVM原理】内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
 
-[【JVM】类加载机制](https://blog.csdn.net/yhl_jxy/article/details/81295635)
+[【JVM原理】类加载机制](https://blog.csdn.net/yhl_jxy/article/details/81295635)
 
-[【JVM】内存溢出分析](https://blog.csdn.net/yhl_jxy/article/details/80946511)
+[【JVM原理】内存溢出分析](https://blog.csdn.net/yhl_jxy/article/details/80946511)
 
-[【JVM】HotSpot对象创建、内存、访问](https://blog.csdn.net/yhl_jxy/article/details/80893288)
+[【JVM原理】HotSpot对象创建、内存、访问](https://blog.csdn.net/yhl_jxy/article/details/80893288)
 
-[【JVM】如何判定对象可以回收](https://blog.csdn.net/yhl_jxy/article/details/80950336)
+[【JVM原理】如何判定对象可以回收](https://blog.csdn.net/yhl_jxy/article/details/80950336)
 
-[【JVM】垃圾收集算法](https://blog.csdn.net/yhl_jxy/article/details/80953776)
+[【JVM原理】垃圾收集算法](https://blog.csdn.net/yhl_jxy/article/details/80953776)
 
-[【JVM】垃圾收集器](https://blog.csdn.net/yhl_jxy/article/details/80956479)
+[【JVM原理】垃圾收集器](https://blog.csdn.net/yhl_jxy/article/details/80956479)
 
-[【JVM】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
+[【JVM原理】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
+
+[【JVM原理】Java 内存模型](https://blog.csdn.net/yhl_jxy/article/details/103216421)
 
 # java8
 
