@@ -24,7 +24,7 @@ public class ExecuteEngine {
     public static void main(String[] args) {
         ExecuteEngine test = new ExecuteEngine();
         test.compute();
-        // compute()执行完返回方法出口的位置，在compute()方法栈帧的方法出口信息中存储了返回地址。
+        // compute() 执行完返回方法出口的位置，在 compute() 方法栈帧的方法出口信息中存储了返回地址。
         // System.out.println("test");
     }
 }
