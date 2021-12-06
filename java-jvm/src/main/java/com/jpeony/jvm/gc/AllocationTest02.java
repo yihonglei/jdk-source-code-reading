@@ -2,8 +2,10 @@ package com.jpeony.jvm.gc;
 
 /**
  * 【分配的内存 >=Eden 大小的一半，就直接放入了老年代】
+ *
  * JVM 参数配置：
  * -verbose:gc -XX:+PrintGCDetails -Xmx20M -Xms20M -Xmn10M -XX:SurvivorRatio=8
+ *
  * JVM 参数说明：
  * -verbose:gc 输出显示虚拟机运行信息；
  * -XX:+PrintGCDetails 打印内存回收日志；

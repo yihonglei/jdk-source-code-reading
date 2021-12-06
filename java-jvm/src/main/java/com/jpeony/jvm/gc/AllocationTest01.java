@@ -2,8 +2,10 @@ package com.jpeony.jvm.gc;
 
 /**
  * 【优先分配在 eden 区】
+ *
  * JVM 参数配置：
  * -verbose:gc -XX:+PrintGCDetails -Xmx20M -Xms20M -Xmn10M -XX:SurvivorRatio=8
+ *
  * JVM 参数说明：
  * -verbose:gc 输出显示虚拟机运行信息；
  * -XX:+PrintGCDetails 打印内存回收日志；
