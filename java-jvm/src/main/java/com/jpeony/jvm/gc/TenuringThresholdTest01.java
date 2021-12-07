@@ -15,7 +15,7 @@ package com.jpeony.jvm.gc;
  * 从执行结果可以看出 eden 使用 51%，from、to 两个 Survivor 区未使用，老年代使用 50%。
  * 按照程序内存分配，从上到下分析，allocation1 分配 _1MB/4 进入 eden 区，allocation2 分配 4MB 进入 eden 区，
  * 当第一次分配 allocation3 时，发现 eden 区内存不够，直接触发 Minor GC，allocation1 和 allocation2 按理说都进入
- * Survivor区，但是 Survivor 区只有 1MB，只能容得下 allocation1，allocation1 进入 Survivor 区并且年龄为 1，
+ * Survivor 区，但是 Survivor 区只有 1MB，只能容得下 allocation1，allocation1 进入 Survivor 区并且年龄为 1，
  * 将在下一次 GC 时晋升到老年代，而 allocation2 通过担保机制直接进入老年代，allocation3 分配 4MB 则在 eden 区。
  * 当第二次分配 allocation3 时，分配 4M，这样 eden 区不够，因为上一次分配 allocation3 是 4MB，要比实际大，
  * 现在又来 4M，eden 区只有 8MB，当然 eden 区内存就不够了，这个时候又触发了一次 Minor GC，allocation1 年龄加 1，
