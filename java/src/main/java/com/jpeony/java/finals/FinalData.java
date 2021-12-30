@@ -10,7 +10,7 @@ import java.util.Random;
  * @author yihonglei
  */
 public class FinalData {
-    private static Random rand = new Random(47);
+    private static Random RAND = new Random(47);
     private String id;
 
     public FinalData(String id) {
@@ -31,8 +31,8 @@ public class FinalData {
     /**
      * 不能编译为常量
      */
-    private final int i4 = rand.nextInt(20);
-    static final int INT_5 = rand.nextInt(20);
+    private final int i4 = RAND.nextInt(20);
+    static final int INT_5 = RAND.nextInt(20);
     private Value v1 = new Value(11);
     private final Value v2 = new Value(22);
     private static final Value VAL_3 = new Value(33);
