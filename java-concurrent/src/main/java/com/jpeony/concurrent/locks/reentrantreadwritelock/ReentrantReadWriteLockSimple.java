@@ -6,6 +6,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * 写锁（互斥锁）：当有读或写锁，不能加写锁，进入阻塞队列等待；
  * 读锁（共享锁）：当有写锁，不能加读锁，进入阻塞队列等待；
+ *
  * @author yihonglei
  */
 public class ReentrantReadWriteLockSimple {
