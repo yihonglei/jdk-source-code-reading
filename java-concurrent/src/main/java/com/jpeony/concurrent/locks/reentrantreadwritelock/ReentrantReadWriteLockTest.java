@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  *
  * @author yihonglei
  */
-public class ReentrantReadWriteLockSimple {
+public class ReentrantReadWriteLockTest {
     private final static ReadWriteLock lock = new ReentrantReadWriteLock();
 
     public static void main(String[] args) {
