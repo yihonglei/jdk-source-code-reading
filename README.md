@@ -36,8 +36,8 @@ JDK8 源码。
 | 知识树 | 核心理论 | 博客文章 | 
 |:------|:------|:------|
 |概述|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79327212) |
-|Channel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79329521) |
 |Buffer|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79331010) |
+|Channel|1. FileChannel<br>2. DatagramChannel<br>3. SocketChannel<br>4. ServerSocketChannel|[CSDN](https://jpeony.blog.csdn.net/article/details/79329521) |
 |通道之间数据传输|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79331309) |
 |Selector(选择器)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79332092) |
 |FileChannel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79335384) |
