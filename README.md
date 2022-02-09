@@ -36,7 +36,7 @@ JDK8 源码。
 | 知识树 | 核心理论 | 博客文章 | 
 |:------|:------|:------|
 |概述|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79327212) |
-|Buffer|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79331010) |
+|Buffer|1. 缓冲区读写<br>2. capacity,position,limit 重要属性<br>3. flip 读写模式切换|[CSDN](https://jpeony.blog.csdn.net/article/details/79331010) |
 |Channel|1. FileChannel<br>2. DatagramChannel<br>3. SocketChannel<br>4. ServerSocketChannel|[CSDN](https://jpeony.blog.csdn.net/article/details/79329521) |
 |通道之间数据传输|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79331309) |
 |Selector(选择器)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79332092) |
