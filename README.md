@@ -21,14 +21,14 @@ JDK8 源码。
 |字节和字符数组|1. ByteArrayInputStream<br>2. ByteArrayOutputStream<br>3. CharArrayReader<br>4. CharArrayWriter |[CSDN](https://jpeony.blog.csdn.net/article/details/79287693) |
 |InputStream|1. 字节输入流<br>2. read |[CSDN](https://jpeony.blog.csdn.net/article/details/79293064) |
 |OutputStream|1. 字节输出流<br>2. write<br>3. flush 刷盘|[CSDN](https://jpeony.blog.csdn.net/article/details/79306969) |
-|FileInputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
-|FileOutputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
-|RandomAccessFile|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79311286) |
-|File|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79313737) |
-|BufferedInputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79318713) |
-|BufferedOutputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79319121) |
-|BufferedReader|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79319447) |
-|BufferedWriter|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79319467) |
+|FileInputStream|1. 字节流方式读取文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
+|FileOutputStream|1. 字节流方式写入文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79309856) |
+|RandomAccessFile|1. 文件随机读写|[CSDN](https://jpeony.blog.csdn.net/article/details/79311286) |
+|File|1. 文件基类|[CSDN](https://jpeony.blog.csdn.net/article/details/79313737) |
+|BufferedInputStream|1. 缓冲区字节数组读取文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79318713) |
+|BufferedOutputStream|1. 缓冲区字节数组写入文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79319121) |
+|BufferedReader|1. 字符输入流|[CSDN](https://jpeony.blog.csdn.net/article/details/79319447) |
+|BufferedWriter|1. 字符输出流|[CSDN](https://jpeony.blog.csdn.net/article/details/79319467) |
 |----------------------------------------------|----------------------------------------------|----------|
 
 # java-nio
