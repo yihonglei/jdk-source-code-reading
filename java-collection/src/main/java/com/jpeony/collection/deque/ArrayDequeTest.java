@@ -11,6 +11,7 @@ public class ArrayDequeTest {
         Deque<String> stack = new ArrayDeque<>();
         // 入栈
         stack.push("a");
+        stack.push("b");
         // 获取栈顶元素
         String peek = stack.peek();
         System.out.println("peek = " + peek);
