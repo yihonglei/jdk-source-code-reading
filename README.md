@@ -38,14 +38,14 @@ JDK8 源码。
 |概述|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79327212) |
 |Buffer|1. 缓冲区读写<br>2. capacity,position,limit 重要属性<br>3. flip 读写模式切换|[CSDN](https://jpeony.blog.csdn.net/article/details/79331010) |
 |Channel|1. FileChannel<br>2. DatagramChannel<br>3. SocketChannel<br>4. ServerSocketChannel|[CSDN](https://jpeony.blog.csdn.net/article/details/79329521) |
-|通道之间数据传输|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79331309) |
-|Selector(选择器)|1. Selector 选择器<br>2. SelectionKey<br>3. 创建和使用实例|[CSDN](https://jpeony.blog.csdn.net/article/details/79332092) |
-|FileChannel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79335384) |
-|SocketChannel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79335552) |
-|ServerSocketChannel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79335692) |
-|DatagramChannel|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79336635) |
-|Pipe|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79336762) |
-|scatter/gather|1. TODO<br>2. TODO|[CSDN](https://mp.csdn.net/console/editor/html/79419822) |
+|通道之间数据传输|1. transferFrom<br>2. transferTo|[CSDN](https://jpeony.blog.csdn.net/article/details/79331309) |
+|Selector(选择器)|1. Selector 选择器<br>2. SelectionKey |[CSDN](https://jpeony.blog.csdn.net/article/details/79332092) |
+|FileChannel|1. FileChannel 读写操作 |[CSDN](https://jpeony.blog.csdn.net/article/details/79335384) |
+|SocketChannel|1. TCP 网络套接字<br>2. SocketChannel 读写操作<br>|[CSDN](https://jpeony.blog.csdn.net/article/details/79335552) |
+|ServerSocketChannel|1. TCP 网络套接字<br>2. ServerSocketChannel 读写操作<br> |[CSDN](https://jpeony.blog.csdn.net/article/details/79335692) |
+|DatagramChannel|1. UDP是无连接的网络协议<br>2. DatagramChannel 读写发送操作|[CSDN](https://jpeony.blog.csdn.net/article/details/79336635) |
+|Pipe|1. source 通道和 sink 通道<br>2. 管道读取数据读写操作|[CSDN](https://jpeony.blog.csdn.net/article/details/79336762) |
+|scatter/gather|1. 分散(scatter)<br>2. 聚集(gather)<br>3. 从 Channel 读取或从 Buffer 写入|[CSDN](https://jpeony.blog.csdn.net/article/details/79419822) |
 |----------------------------------------------|----------------------------------------------|----------|
 
 # java-reflect
