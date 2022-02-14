@@ -79,6 +79,7 @@ JDK8 源码。
 |LinkedBlockingQueue|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/106544796) |
 |PriorityBlockingQueue|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/111523096) |
 |Stack|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109497794) |
+|ArrayDeque|1. 数组结构<br>2. 栈结构|[CSDN](https://jpeony.blog.csdn.net/article/details/122915721) |
 |HashTable|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109698072) |
 |HashMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/110446413) |
 |SynchronizedMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/117566333) |
