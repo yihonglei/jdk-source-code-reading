@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 /**
  * @author yihonglei
  */
-public class TestMyAnnotation {
+public class MyAnnotationTest {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         AnnotationTest annotationTest = new AnnotationTest();
         // 获取AnnotationTest的Class实例
