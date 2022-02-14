@@ -16,11 +16,11 @@ JDK8 源码。
 | 知识树 | 核心理论 | 博客文章 | 
 |:------|:------|:------|
 |概述|1. 输入输出原理<br>2. 流的概述<br>3. Java IO 特性和用途<br>4. Java IO API 类图 |[CSDN](https://jpeony.blog.csdn.net/article/details/79269481) |
-|读写文件|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79272792) |
-|管道|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79283851) |
-|字节和字符数组|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79287693) |
-|InputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79283851) |
-|OutputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79306969) |
+|读写文件|1. FileInputStream<br>2. FileOutputStream<br>3. FileReader<br>4. FileWriter<br>5.RandomAccessFile |[CSDN](https://jpeony.blog.csdn.net/article/details/79272792) |
+|管道|1. PipedInputStream<br>2. PipedOutputStream<br>3. PipedReader<br>4. PipedWriter |[CSDN](https://jpeony.blog.csdn.net/article/details/79283851) |
+|字节和字符数组|1. ByteArrayInputStream<br>2. ByteArrayOutputStream<br>3. CharArrayReader<br>4. CharArrayWriter |[CSDN](https://jpeony.blog.csdn.net/article/details/79287693) |
+|InputStream|1. 字节输入流<br>2. read |[CSDN](https://jpeony.blog.csdn.net/article/details/79293064) |
+|OutputStream|1. 字节输出流<br>2. write<br>3. flush 刷盘|[CSDN](https://jpeony.blog.csdn.net/article/details/79306969) |
 |FileInputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
 |FileOutputStream|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
 |RandomAccessFile|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79311286) |
