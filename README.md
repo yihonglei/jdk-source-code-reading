@@ -70,21 +70,22 @@ JDK8 源码。
 
 | 知识树 | 核心理论 | 博客文章 | 
 |:------|:------|:------|
-|ArrayList|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/108910769) |
-|LinkedList|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109435496) |
-|Vector|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109426679) |
-|CopyOnWriteArrayList|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/106138813) |
+|ArrayList|1. 数组<br>2. 非线程安全<br>3. 插入和删除性能|[CSDN](https://jpeony.blog.csdn.net/article/details/108910769) |
+|LinkedList|1. 链表<br>2. 双向链表<br>3. 插入和删除性能|[CSDN](https://jpeony.blog.csdn.net/article/details/109435496) |
+|Vector|1. Set<br>2. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109426679) |
+|CopyOnWriteArrayList|1. 数组<br>2. 线程副本<br>3. 读写分离|[CSDN](https://jpeony.blog.csdn.net/article/details/106138813) |
 |HashSet|1. 底层基于 HashMap 存储<br>2. 存储不重复对象<br>3. 支持按照对象查找和删除 |[CSDN](https://jpeony.blog.csdn.net/article/details/117688345) |
-|ArrayBlockingQueue|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/111479502) |
-|LinkedBlockingQueue|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/106544796) |
-|PriorityBlockingQueue|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/111523096) |
-|Stack|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109497794) |
-|ArrayDeque|1. 数组结构<br>2. 栈结构|[CSDN](https://jpeony.blog.csdn.net/article/details/122915721) |
-|HashTable|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/109698072) |
-|HashMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/110446413) |
-|SynchronizedMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/117566333) |
-|LinkedHashMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/118516205) |
-|ConcurrentHashMap|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/110677912) |
+|ArrayBlockingQueue|1. 数组<br>2. 阻塞队列<br>3. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/111479502) |
+|LinkedBlockingQueue|1. 链表<br>2. 阻塞队列<br>3. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/106544796) |
+|PriorityQueue|1. 完全二叉树<br>2. 小顶堆<br>3. 大顶堆<br>4. 优先队列|[CSDN](https://jpeony.blog.csdn.net/article/details/123066761) |
+|PriorityBlockingQueue|1. PriorityQueue 线程安全版本<br>2. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/111523096) |
+|Stack|1. Vector<br>2. 栈<br>3. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109497794) |
+|ArrayDeque|1. 数组<br>2. 栈|[CSDN](https://jpeony.blog.csdn.net/article/details/122915721) |
+|HashTable|1. 数组<br>2. 链表<br>3. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109698072) |
+|HashMap|1. 数组<br>2. 链表<br>3. 红黑树<br>4. 非线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/110446413) |
+|SynchronizedMap|1. HashMap<br>2. synchronized 线程同步|[CSDN](https://jpeony.blog.csdn.net/article/details/117566333) |
+|LinkedHashMap|1. HashMap 结构<br>2. 链表<br>3. 顺序性|[CSDN](https://jpeony.blog.csdn.net/article/details/118516205) |
+|ConcurrentHashMap|1. 数组<br>2. 链表<br>3. 红黑树<br>4. synchronized + cas 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/110677912) |
 |----------------------------------------------|----------------------------------------------|----------|
 
 # java-annotation
