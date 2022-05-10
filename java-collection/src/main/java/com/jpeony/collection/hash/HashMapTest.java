@@ -16,6 +16,7 @@ public class HashMapTest {
         hashMap.put("key1", "hello world!");
         System.out.println(hashMap.get("key1"));
 
+        hashMap.remove("key1");
         Collection<String> values = hashMap.values();
         for (String str : values) {
             System.out.println(str);
