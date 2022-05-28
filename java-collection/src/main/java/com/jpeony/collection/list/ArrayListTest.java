@@ -32,6 +32,12 @@ public class ArrayListTest {
             System.out.println("element[" + i + "] = " + list.get(i));
         }
 
+        try {
+            Thread.sleep(1000000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     private static class ListComparator implements Comparator {
