@@ -4,158 +4,124 @@ JDK8 源码。
 
 # 基础
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|运算符大全 |1. 运算符优先级<br>2. 算术运算符<br>3. 自动递增、递减<br>4. 关系运算符<br>5. 逻辑运算符<br>6.按位运算符<br>7. 三目运算符<br>8. 字符串运算|[CSDN](https://jpeony.blog.csdn.net/article/details/51636764) |
-|String、StringBuffer、StringBuilder|1. 线程安全<br>2. GC 回收|[CSDN](https://jpeony.blog.csdn.net/article/details/53514127) |
-|final关键字|1. final 修饰的类，不能被继承<br>2. final 修饰的方法，不能被重写<br>3. final 修饰的变量，不能被修改|[CSDN](https://jpeony.blog.csdn.net/article/details/80873505) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【基础】Java 运算符大全](https://jpeony.blog.csdn.net/article/details/51636764)
+- [【基础】String、StringBuffer、StringBuilder 源码分析](https://jpeony.blog.csdn.net/article/details/53514127)
 
 # java-io
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|概述|1. 输入输出原理<br>2. 流的概述<br>3. Java IO 特性和用途<br>4. Java IO API 类图 |[CSDN](https://jpeony.blog.csdn.net/article/details/79269481) |
-|读写文件|1. FileInputStream<br>2. FileOutputStream<br>3. FileReader<br>4. FileWriter<br>5.RandomAccessFile |[CSDN](https://jpeony.blog.csdn.net/article/details/79272792) |
-|管道|1. PipedInputStream<br>2. PipedOutputStream<br>3. PipedReader<br>4. PipedWriter |[CSDN](https://jpeony.blog.csdn.net/article/details/79283851) |
-|字节和字符数组|1. ByteArrayInputStream<br>2. ByteArrayOutputStream<br>3. CharArrayReader<br>4. CharArrayWriter |[CSDN](https://jpeony.blog.csdn.net/article/details/79287693) |
-|InputStream|1. 字节输入流<br>2. read |[CSDN](https://jpeony.blog.csdn.net/article/details/79293064) |
-|OutputStream|1. 字节输出流<br>2. write<br>3. flush 刷盘|[CSDN](https://jpeony.blog.csdn.net/article/details/79306969) |
-|FileInputStream|1. 字节流方式读取文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79309114) |
-|FileOutputStream|1. 字节流方式写入文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79309856) |
-|RandomAccessFile|1. 文件随机读写|[CSDN](https://jpeony.blog.csdn.net/article/details/79311286) |
-|File|1. 文件基类|[CSDN](https://jpeony.blog.csdn.net/article/details/79313737) |
-|BufferedInputStream|1. 缓冲区字节数组读取文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79318713) |
-|BufferedOutputStream|1. 缓冲区字节数组写入文件|[CSDN](https://jpeony.blog.csdn.net/article/details/79319121) |
-|BufferedReader|1. 字符输入流|[CSDN](https://jpeony.blog.csdn.net/article/details/79319447) |
-|BufferedWriter|1. 字符输出流|[CSDN](https://jpeony.blog.csdn.net/article/details/79319467) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【IO】概述](https://jpeony.blog.csdn.net/article/details/79269481)
+- [【IO】读写文件(FileInputStream、FileOutputStream、FileReader、FileWriter、RandomAccessFile)](https://jpeony.blog.csdn.net/article/details/79272792)
+- [【IO】管道(PipedInputStream、PipedOutputStream、PipedReader、PipedWriter)](https://jpeony.blog.csdn.net/article/details/79283851)
+- [【IO】字节和字符数组(ByteArrayInputStream、ByteArrayOutputStream、CharArrayReader、CharArrayWriter)](https://jpeony.blog.csdn.net/article/details/79287693)
+- [【IO】InputStream](https://jpeony.blog.csdn.net/article/details/79293064)
+- [【IO】OutputStream](https://jpeony.blog.csdn.net/article/details/79306969)
+- [【IO】FileInputStream](https://jpeony.blog.csdn.net/article/details/79309114)
+- [【IO】FileOutputStream](https://jpeony.blog.csdn.net/article/details/79309856)
+- [【IO】RandomAccessFile](https://jpeony.blog.csdn.net/article/details/79311286)
+- [【IO】File](https://jpeony.blog.csdn.net/article/details/79313737)
+- [【IO】BufferedInputStream](https://jpeony.blog.csdn.net/article/details/79318713)
+- [【IO】BufferedOutputStream](https://jpeony.blog.csdn.net/article/details/79319121)
+- [【IO】BufferedReader](https://jpeony.blog.csdn.net/article/details/79319447)
+- [【IO】BufferedWriter](https://jpeony.blog.csdn.net/article/details/79319467)
 
 # java-nio
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|概述|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79327212) |
-|Buffer|1. 缓冲区读写<br>2. capacity,position,limit 重要属性<br>3. flip 读写模式切换|[CSDN](https://jpeony.blog.csdn.net/article/details/79331010) |
-|Channel|1. FileChannel<br>2. DatagramChannel<br>3. SocketChannel<br>4. ServerSocketChannel|[CSDN](https://jpeony.blog.csdn.net/article/details/79329521) |
-|通道之间数据传输|1. transferFrom<br>2. transferTo|[CSDN](https://jpeony.blog.csdn.net/article/details/79331309) |
-|Selector(选择器)|1. Selector 选择器<br>2. SelectionKey |[CSDN](https://jpeony.blog.csdn.net/article/details/79332092) |
-|FileChannel|1. FileChannel 读写操作 |[CSDN](https://jpeony.blog.csdn.net/article/details/79335384) |
-|SocketChannel|1. TCP 网络套接字<br>2. SocketChannel 读写操作<br>|[CSDN](https://jpeony.blog.csdn.net/article/details/79335552) |
-|ServerSocketChannel|1. TCP 网络套接字<br>2. ServerSocketChannel 读写操作<br> |[CSDN](https://jpeony.blog.csdn.net/article/details/79335692) |
-|DatagramChannel|1. UDP是无连接的网络协议<br>2. DatagramChannel 读写发送操作|[CSDN](https://jpeony.blog.csdn.net/article/details/79336635) |
-|Pipe|1. source 通道和 sink 通道<br>2. 管道读取数据读写操作|[CSDN](https://jpeony.blog.csdn.net/article/details/79336762) |
-|scatter/gather|1. 分散(scatter)<br>2. 聚集(gather)<br>3. 从 Channel 读取或从 Buffer 写入|[CSDN](https://jpeony.blog.csdn.net/article/details/79419822) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【NIO】概述](https://jpeony.blog.csdn.net/article/details/79327212)
+- [【NIO】Buffer（缓冲区）](https://jpeony.blog.csdn.net/article/details/79331010)
+- [【NIO】Channel（通道）](https://jpeony.blog.csdn.net/article/details/79329521)
+- [【NIO】通道之间数据传输](https://jpeony.blog.csdn.net/article/details/79331309)
+- [【NIO】Selector（选择器）](https://jpeony.blog.csdn.net/article/details/79332092)
+- [【NIO】FileChannel](https://jpeony.blog.csdn.net/article/details/79335384)
+- [【NIO】SocketChannel](https://jpeony.blog.csdn.net/article/details/79335552)
+- [【NIO】ServerSocketChannel](https://jpeony.blog.csdn.net/article/details/79335692)
+- [【NIO】DatagramChannel](https://jpeony.blog.csdn.net/article/details/79336635)
+- [【NIO】Pipe（管道）](https://jpeony.blog.csdn.net/article/details/79336762)
+- [【NIO】scatter/gather](https://jpeony.blog.csdn.net/article/details/79419822)
 
 # java-reflect
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|概述|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79347933) |
-|Class 对象|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79348852) |
-|造器(Constructor)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79349851) |
-|变量(Field)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79350171) |
-|方法(Method)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79352369) |
-|Getters和Setters|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79352588) |
-|私有变量和私有方法|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79352664) |
-|注解(Annotation)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79355943) |
-|泛型(generics)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79357038) |
-|数组(Array)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79357237) |
-|动态代理(Proxy)|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79357372) |
-|动态类加载和重载|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/79357673) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【Reflect】概述](https://jpeony.blog.csdn.net/article/details/79347933)
+- [【Reflect】Class 对象](https://jpeony.blog.csdn.net/article/details/79348852)
+- [【Reflect】造器(Constructor)](https://jpeony.blog.csdn.net/article/details/79349851)
+- [【Reflect】变量(Field)](https://jpeony.blog.csdn.net/article/details/79350171)
+- [【Reflect】方法(Method)](https://jpeony.blog.csdn.net/article/details/79352369)
+- [【Reflect】Getters和Setters](https://jpeony.blog.csdn.net/article/details/79352588)
+- [【Reflect】私有变量和私有方法](https://jpeony.blog.csdn.net/article/details/79352664)
+- [【Reflect】注解(Annotation)](https://jpeony.blog.csdn.net/article/details/79355943)
+- [【Reflect】泛型(generics)](https://jpeony.blog.csdn.net/article/details/79357038)
+- [【Reflect】数组(Array)](https://jpeony.blog.csdn.net/article/details/79357237)
+- [【Reflect】动态代理(Proxy)](https://jpeony.blog.csdn.net/article/details/79357372)
+- [【Reflect】动态类加载和重载](https://jpeony.blog.csdn.net/article/details/79357673)
 
 # java-collection
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|ArrayList|1. 数组<br>2. 非线程安全<br>3. 插入和删除性能|[CSDN](https://jpeony.blog.csdn.net/article/details/108910769) |
-|LinkedList|1. 链表<br>2. 双向链表<br>3. 插入和删除性能|[CSDN](https://jpeony.blog.csdn.net/article/details/109435496) |
-|Vector|1. Set<br>2. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109426679) |
-|CopyOnWriteArrayList|1. 数组<br>2. 线程副本<br>3. 读写分离|[CSDN](https://jpeony.blog.csdn.net/article/details/106138813) |
-|HashSet|1. 底层基于 HashMap 存储<br>2. 存储不重复对象<br>3. 支持按照对象查找和删除 |[CSDN](https://jpeony.blog.csdn.net/article/details/117688345) |
-|ArrayBlockingQueue|1. 数组<br>2. 阻塞队列<br>3. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/111479502) |
-|LinkedBlockingQueue|1. 链表<br>2. 阻塞队列<br>3. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/106544796) |
-|PriorityQueue|1. 完全二叉树<br>2. 小顶堆<br>3. 大顶堆<br>4. 优先队列|[CSDN](https://jpeony.blog.csdn.net/article/details/123066761) |
-|PriorityBlockingQueue|1. PriorityQueue 线程安全版本<br>2. 等待通知机制|[CSDN](https://jpeony.blog.csdn.net/article/details/111523096) |
-|Stack|1. Vector<br>2. 栈<br>3. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109497794) |
-|ArrayDeque|1. 数组<br>2. 栈|[CSDN](https://jpeony.blog.csdn.net/article/details/122915721) |
-|HashTable|1. 数组<br>2. 链表<br>3. 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/109698072) |
-|HashMap|1. 数组<br>2. 链表<br>3. 红黑树<br>4. 非线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/110446413) |
-|SynchronizedMap|1. HashMap<br>2. synchronized 线程同步|[CSDN](https://jpeony.blog.csdn.net/article/details/117566333) |
-|LinkedHashMap|1. HashMap 结构<br>2. 链表<br>3. 顺序性|[CSDN](https://jpeony.blog.csdn.net/article/details/118516205) |
-|ConcurrentHashMap|1. 数组<br>2. 链表<br>3. 红黑树<br>4. synchronized + cas 线程安全|[CSDN](https://jpeony.blog.csdn.net/article/details/110677912) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【集合】ArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/108910769)
+- [【集合】LinkedList 源码分析](https://jpeony.blog.csdn.net/article/details/109435496)
+- [【集合】Vector 源码分析](https://jpeony.blog.csdn.net/article/details/109426679)
+- [【集合】CopyOnWriteArrayList 源码分析](https://jpeony.blog.csdn.net/article/details/106138813)
+- [【集合】HashSet 源码分析](https://jpeony.blog.csdn.net/article/details/117688345)
+- [【集合】ArrayBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111479502)
+- [【集合】LinkedBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/106544796)
+- [【集合】PriorityQueue 源码分析](https://jpeony.blog.csdn.net/article/details/123066761)
+- [【集合】PriorityBlockingQueue 源码分析](https://jpeony.blog.csdn.net/article/details/111523096)
+- [【集合】Stack 源码分析](https://jpeony.blog.csdn.net/article/details/109497794)
+- [【集合】ArrayDeque 源码分析](https://jpeony.blog.csdn.net/article/details/122915721)
+- [【集合】HashTable 源码分析](https://jpeony.blog.csdn.net/article/details/109698072)
+- [【集合】HashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110446413)
+- [【集合】SynchronizedMap 源码分析](https://jpeony.blog.csdn.net/article/details/117566333)
+- [【集合】LinkedHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/118516205)
+- [【集合】ConcurrentHashMap 源码分析](https://jpeony.blog.csdn.net/article/details/110677912)
 
 # java-annotation
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|注解实现原理|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80826238) |
-|----------------------------------------------|----------------------------------------------|----------|
+[【Annotatin】注解实现原理](https://blog.csdn.net/yhl_jxy/article/details/80826238)
 
 # java-net
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|TODO|1. TODO<br>2. TODO|[CSDN]() |
-|----------------------------------------------|----------------------------------------------|----------|
+[CSDN]()
 
 # java-jdbc
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|TODO|1. TODO<br>2. TODO|[CSDN]() |
-|----------------------------------------------|----------------------------------------------|----------|
+[CSDN]()
 
 # java-concurrent
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|进程与线程|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/107590038) |
-|Daemon 线程|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/113590258) |
-|Java 线程实现方式|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/86665107) |
-|Java 线程生命周期状态|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/86668152) |
-|Java 线程终止方式|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/86673805) |
-|Java 线程顺序执行方式|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/107618820) |
-|wait、notify、notifyAll|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87347946) |
-|PipedOutputStream和PipedInputStream|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87372602) |
-|ThreadLocal|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87866907) |
-|CAS和ABA|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87520148) |
-|AQS|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/102535590) |
-|Java锁|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/101687960) |
-|线程池|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/86677049) |
-|饱和策略|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/103218700) |
-|synchronized 原理|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87008888) |
-|synchronized 对象锁和类锁|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87012803) |
-|volatile|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87072642) |
-|ReentrantLock|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87088314) |
-|ReentrantReadWriteLock|1. AQS 模板方法<br>2. WriteLock<br>3. ReadLock<br>4. 写写互斥，写读互斥，读读共享<br>|[CSDN](https://jpeony.blog.csdn.net/article/details/113250932) |
-|CountDownLatch|1. AQS 模板方法<br>2. countDown() 源码分析<br>3. await() 源码分析|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87181895) |
-|CyclicBarrier|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87256321) |
-|Semaphore|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/87279383) |
-|FutureTask|1. TODO<br>2. TODO|[CSDN](https://jpeony.blog.csdn.net/article/details/82664829) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【并发编程】进程与线程](https://jpeony.blog.csdn.net/article/details/107590038)
+- [【并发编程】Daemon 线程](https://jpeony.blog.csdn.net/article/details/113590258)
+- [【并发编程】线程实现方式](https://blog.csdn.net/yhl_jxy/article/details/86665107)
+- [【并发编程】线程生命周期状态](https://blog.csdn.net/yhl_jxy/article/details/86668152)
+- [【并发编程】线程终止方式](https://blog.csdn.net/yhl_jxy/article/details/86673805)
+- [【并发编程】Java线程顺序执行方式](https://jpeony.blog.csdn.net/article/details/107618820)
+- [【并发编程】wait、notify、notifyAll 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87347946)
+- [【并发编程】PipedOutputStream和PipedInputStream管道实现线程通信](https://blog.csdn.net/yhl_jxy/article/details/87372602)
+- [【并发编程】ThreadLocal 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87866907)
+- [【并发编程】CAS 和 ABA](https://blog.csdn.net/yhl_jxy/article/details/87520148)
+- [【并发编程】AQS 源码分析](https://blog.csdn.net/yhl_jxy/article/details/102535590)
+- [【并发编程】Java 锁实现原理](https://blog.csdn.net/yhl_jxy/article/details/101687960)
+- [【并发编程】线程池源码分析](https://blog.csdn.net/yhl_jxy/article/details/86677049)
+- [【并发编程】饱和策略实现原理](https://blog.csdn.net/yhl_jxy/article/details/103218700)
+- [【并发编程】synchronized 实现原理](https://blog.csdn.net/yhl_jxy/article/details/87008888)
+- [【并发编程】synchronized 对象锁和类锁](https://blog.csdn.net/yhl_jxy/article/details/87012803)
+- [【并发编程】volatile 实现原理](https://blog.csdn.net/yhl_jxy/article/details/87072642)
+- [【并发编程】ReentrantLock 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87088314)
+- [【并发编程】ReentrantReadWriteLock 源码分析](https://jpeony.blog.csdn.net/article/details/113250932)
+- [【并发编程】CountDownLatch 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87181895)
+- [【并发编程】CyclicBarrier 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87256321)
+- [【并发编程】Semaphore 源码分析](https://blog.csdn.net/yhl_jxy/article/details/87279383)
+- [【并发编程】FutureTask 源码分析](https://jpeony.blog.csdn.net/article/details/82664829)
 
 # java-jvm
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|内存结构|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80882595) |
-|类加载机制|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/81295635) |
-|内存溢出分析|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80946511) |
-|HotSpot对象创建、内存、访问|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80893288) |
-|如何判定对象可以回收|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80950336) |
-|垃圾收集算法|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80953776) |
-|垃圾收集器|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80956479) |
-|内存分配和回收策略|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/80968456) |
-|Java 内存模型|1. TODO<br>2. TODO|[CSDN](https://blog.csdn.net/yhl_jxy/article/details/103216421) |
-|----------------------------------------------|----------------------------------------------|----------|
+- [【JVM原理】jvm 内存结构](https://blog.csdn.net/yhl_jxy/article/details/80882595)
+- [【JVM原理】类加载机制](https://blog.csdn.net/yhl_jxy/article/details/81295635)
+- [【JVM原理】内存溢出分析](https://blog.csdn.net/yhl_jxy/article/details/80946511)
+- [【JVM原理】HotSpot对象创建、内存、访问](https://blog.csdn.net/yhl_jxy/article/details/80893288)
+- [【JVM原理】如何判定对象可以回收](https://blog.csdn.net/yhl_jxy/article/details/80950336)
+- [【JVM原理】垃圾收集算法](https://blog.csdn.net/yhl_jxy/article/details/80953776)
+- [【JVM原理】垃圾收集器](https://blog.csdn.net/yhl_jxy/article/details/80956479)
+- [【JVM原理】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
+- [【JVM原理】Java 内存模型](https://blog.csdn.net/yhl_jxy/article/details/103216421)
 
 # java8
 
-| 知识树 | 核心理论 | 博客文章 | 
-|:------|:------|:------|
-|TODO|1. TODO<br>2. TODO|[CSDN]() |
-|----------------------------------------------|----------------------------------------------|----------|
+[CSDN]()
