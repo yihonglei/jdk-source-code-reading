@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.semaphore;
+package com.jpeony.concurrent.locks.semaphore;
 
 import java.util.concurrent.Semaphore;
 

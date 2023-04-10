@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.countdownlatch;
+package com.jpeony.concurrent.locks.countdownlatch;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

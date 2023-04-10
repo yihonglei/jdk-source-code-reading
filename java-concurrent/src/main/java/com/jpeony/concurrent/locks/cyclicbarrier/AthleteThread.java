@@ -1,6 +1,6 @@
-package com.jpeony.concurrent.cyclicbarrier;
+package com.jpeony.concurrent.locks.cyclicbarrier;
 
-import com.jpeony.concurrent.countdownlatch.CountDownLatchTest;
+import com.jpeony.concurrent.locks.countdownlatch.CountDownLatchTest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
