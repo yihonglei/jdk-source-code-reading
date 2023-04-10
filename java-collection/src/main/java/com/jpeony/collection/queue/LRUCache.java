@@ -1,4 +1,4 @@
-package com.jpeony.collection.linked;
+package com.jpeony.collection.queue;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

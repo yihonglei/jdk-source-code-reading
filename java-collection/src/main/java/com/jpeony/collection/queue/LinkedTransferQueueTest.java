@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.queue;
+package com.jpeony.collection.queue;
 
 import java.util.concurrent.LinkedTransferQueue;
 

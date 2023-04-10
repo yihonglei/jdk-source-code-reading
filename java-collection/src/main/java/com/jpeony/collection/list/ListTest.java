@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.list;
+package com.jpeony.collection.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

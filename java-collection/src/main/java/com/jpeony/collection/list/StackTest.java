@@ -1,4 +1,4 @@
-package com.jpeony.collection.stack;
+package com.jpeony.collection.list;
 
 import java.util.Stack;
 

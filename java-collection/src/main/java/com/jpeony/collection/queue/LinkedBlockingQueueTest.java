@@ -1,4 +1,4 @@
-package com.jpeony.concurrent.queue;
+package com.jpeony.collection.queue;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.jpeony.collection.hash;
+package com.jpeony.collection.map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

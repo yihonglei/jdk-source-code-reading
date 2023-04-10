@@ -1,4 +1,4 @@
-package com.jpeony.collection.deque;
+package com.jpeony.collection.queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
