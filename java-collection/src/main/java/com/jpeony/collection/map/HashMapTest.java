@@ -14,6 +14,7 @@ public class HashMapTest {
 
         // 【demo1】简单测试 put() 和 get()
         hashMap.put("key1", "hello world!");
+        hashMap.put("key1", "hello world2!");
         System.out.println(hashMap.get("key1"));
 
         hashMap.remove("key1");
