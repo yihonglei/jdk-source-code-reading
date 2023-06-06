@@ -3,10 +3,11 @@ package com.jpeony.jvm.oom;
 import java.util.LinkedList;
 
 /**
+ * 【运行时常量池 OutOfMemoryError 异常演示演示】
  * VM Args:
  * jdk6以前：-XX:PermSize=10M -XX:MaxPermSize=10M
  * jdk7开始：-Xms10m -Xmx10m -XX:-UseGCOverheadLimit
- *
+ * <p>
  * 参数说明：
  * XX:+UseGCOverheadLimit：限制GC的运行时间。如果GC耗时过长，就抛OOM。
  *

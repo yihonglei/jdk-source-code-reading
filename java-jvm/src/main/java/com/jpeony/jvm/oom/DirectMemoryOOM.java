@@ -5,9 +5,9 @@ import sun.misc.Unsafe;
 import java.lang.reflect.Field;
 
 /**
- * 本机直接内存溢出，该类执行完ide都崩掉了，小心！！！
+ * 【直接内存 OutOfMemoryError 异常演示】该类执行完ide都崩掉了，小心！！！
  * VM Args: -Xmx20M -XX:MaxDirectMemorySize=10M
- *
+ * <p>
  * 参数说明：-XX:MaxDirectMemorySize=10M直接内存大小设置。
  *
  * @author yihonglei
