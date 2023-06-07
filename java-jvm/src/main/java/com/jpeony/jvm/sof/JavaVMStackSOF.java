@@ -1,7 +1,7 @@
 package com.jpeony.jvm.sof;
 
 /**
- * StackOverflowError栈溢出演示！
+ * 【StackOverflowError 栈溢出演示】
  * VM Args: -Xss256k
  *
  * @author yihonglei
