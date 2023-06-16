@@ -23,6 +23,8 @@ public class HashMapTest {
             System.out.println(str);
         }
 
+        hashMap.putIfAbsent("", "");
+
         // 【demo2】测试 key 相同时，新值覆盖掉旧值
 //        hashMap.put("key1", "hello world 1");
 //        hashMap.put("key1", "hello world 2");
