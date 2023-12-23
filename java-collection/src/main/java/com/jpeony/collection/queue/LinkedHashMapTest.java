@@ -1,6 +1,5 @@
 package com.jpeony.collection.queue;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
