@@ -73,7 +73,8 @@ public class HashTest {
         }
         logger.info("SynchronizedMap end!!!!!!");
 
-        // 5、ConcurrentHashMap：线程安全，分段锁，高效，key不支持null，value不支持null
+        // 5、ConcurrentHashMap：jdk1.7 线程安全，分段锁，高效，key不支持null，value不支持null
+        // jdk1.8 线程安全 cas + synchronized，高效，key不支持null，value不支持null
         logger.info("ConcurrentHashMap start ......");
         Map<String, String> concurrentHashMap = new ConcurrentHashMap<>(16);
         concurrentHashMap.put("1", "conc1");
