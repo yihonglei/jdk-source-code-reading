@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>java</module>
+        <module>java-base</module>
         <module>java-jvm</module>
         <module>java-concurrent</module>
         <module>java-io</module>
