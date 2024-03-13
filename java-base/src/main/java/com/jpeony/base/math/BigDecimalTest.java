@@ -12,5 +12,8 @@ public class BigDecimalTest {
         Integer travelTimeMinutes = travelTimeB.divide(BigDecimal.valueOf(60000), BigDecimal.ROUND_HALF_UP).intValue();
 
         System.out.println(travelTimeMinutes);
+
+        String s = String.valueOf(0);
+        System.out.println(s.contains("0"));
     }
 }
