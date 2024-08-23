@@ -5,8 +5,6 @@ import java.util.concurrent.CountDownLatch;
 /**
  * CountDownLatch控制线程执行顺序，通过await方法为0时，线程才会执行特性，阻塞线程执行，通过上一个线程执行完成，
  * 减掉下一个线程的计数器，使下一个线程计数器为0，线程变为可执行，来控制线程执行顺序。
- *
- * @author yihonglei
  */
 public class CountDownLatchOrder {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.lockclass;
 
-/**
- * @author yihonglei
- */
 public class ThreadE extends Thread {
     private Task mTask;
 

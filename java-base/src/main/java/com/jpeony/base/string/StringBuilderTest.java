@@ -2,8 +2,6 @@ package com.jpeony.base.string;
 
 /**
  * 非线程安全
- *
- * @author yihonglei
  */
 public class StringBuilderTest {
     public static void main(String[] args) {

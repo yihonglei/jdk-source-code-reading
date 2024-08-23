@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author yihonglei
- */
 @Data
 public class User implements Comparable<User> {
     private int age;

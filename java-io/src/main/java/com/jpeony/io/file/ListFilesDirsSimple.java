@@ -4,8 +4,6 @@ import java.io.File;
 
 /**
  *  列出指定目录中所有包含的子文件与子目录
- *
- * @author yihonglei
  */
 public class ListFilesDirsSimple {
 

@@ -7,8 +7,6 @@ import java.sql.Statement;
 
 /**
  * ResultSet解析查询结果
- *
- * @author yihonglei
  */
 public class JDBCResultSet {
     public static void main(String[] args) {

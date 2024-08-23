@@ -3,9 +3,6 @@ package com.jpeony.base.object;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author yihonglei
- */
 public class Services {
     private Services() {
 

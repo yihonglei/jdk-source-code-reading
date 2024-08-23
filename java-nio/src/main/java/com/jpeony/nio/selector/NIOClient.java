@@ -11,8 +11,6 @@ import java.util.Set;
 
 /**
  * Client 实例代码
- *
- * @author yihonglei
  */
 public class NIOClient {
     /**

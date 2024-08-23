@@ -5,8 +5,6 @@ import java.util.Set;
 
 /**
  * 存放不重复对象。
- *
- * @author yihonglei
  */
 public class HashSetTest {
     public static void main(String[] args) {

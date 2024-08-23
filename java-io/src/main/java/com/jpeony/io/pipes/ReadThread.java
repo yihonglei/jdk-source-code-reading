@@ -5,8 +5,6 @@ import java.io.PipedInputStream;
 
 /**
  * 通过管道输入流(PipedInputStream)从管道输出流(PipedInputStream)的缓存区读取数据。
- *
- * @author yihonglei
  */
 public class ReadThread implements Runnable {
     /**

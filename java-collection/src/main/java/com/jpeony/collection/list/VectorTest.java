@@ -2,9 +2,6 @@ package com.jpeony.collection.list;
 
 import java.util.Vector;
 
-/**
- * @author yihonglei
- */
 public class VectorTest {
     public static void main(String[] args) {
         Vector<Integer> vector = new Vector<>();

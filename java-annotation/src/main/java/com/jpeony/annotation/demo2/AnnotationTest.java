@@ -4,8 +4,6 @@ import java.util.List;
 
 /**
  * 测试类
- *
- * @author yihonglei
  */
 public class AnnotationTest {
     @SuppressWarnings({"unchecked", "rawtypes"})

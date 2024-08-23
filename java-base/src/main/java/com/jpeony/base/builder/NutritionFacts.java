@@ -1,8 +1,5 @@
 package com.jpeony.base.builder;
 
-/**
- * @author yihonglei
- */
 public class NutritionFacts {
     private int servingSize;
     private int servings;

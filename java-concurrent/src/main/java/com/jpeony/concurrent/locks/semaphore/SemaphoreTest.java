@@ -5,8 +5,6 @@ import java.util.concurrent.Executors;
 
 /**
  * Semaphore（信号量）测试
- *
- * @author yihonglei
  */
 public class SemaphoreTest {
     public static void main(String[] args) {

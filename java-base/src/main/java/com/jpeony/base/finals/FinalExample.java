@@ -2,8 +2,6 @@ package com.jpeony.base.finals;
 
 /**
  * final内存模型
- *
- * @author yihonglei
  */
 public class FinalExample {
     /**

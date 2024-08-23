@@ -7,8 +7,6 @@ import java.io.OutputStream;
 
 /**
  * write(byte b[])：将字节数组中全部数据写入到输出流中。
- *
- * @author yihonglei
  */
 public class FileOutputStream2 {
     public static void main(String[] args) {

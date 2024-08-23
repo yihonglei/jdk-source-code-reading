@@ -2,9 +2,6 @@ package com.jpeony.collection.queue;
 
 import java.util.concurrent.PriorityBlockingQueue;
 
-/**
- * @author yihonglei
- */
 public class PriorityBlockingQueueTest {
     public static void main(String[] args) throws InterruptedException {
         PriorityBlockingQueue<String> priorityQueue = new PriorityBlockingQueue<>(2);

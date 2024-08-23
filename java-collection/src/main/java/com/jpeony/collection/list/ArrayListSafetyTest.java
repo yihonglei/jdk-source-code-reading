@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * ArrayList 非线程安全
- *
- * @author yihonglei
  */
 public class ArrayListSafetyTest {
     public static void main(String[] args) throws InterruptedException {

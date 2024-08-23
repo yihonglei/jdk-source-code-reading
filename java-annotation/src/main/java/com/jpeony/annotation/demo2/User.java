@@ -2,8 +2,6 @@ package com.jpeony.annotation.demo2;
 
 /**
  * 实体类
- *
- * @author yihonglei
  */
 public class User {
     @FieldMeta(id=true, name="序列号", order=1)

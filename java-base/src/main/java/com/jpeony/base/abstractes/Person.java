@@ -10,8 +10,6 @@ package com.jpeony.base.abstractes;
  * 3）抽象方法没有方法体，只是定义功能，没有实现；
  * <p>
  * 4）非抽象方法为正常的方法
- *
- * @author yihonglei
  */
 public abstract class Person {
 

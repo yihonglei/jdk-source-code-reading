@@ -11,8 +11,6 @@ import java.io.Reader;
  * 3、创建字符数组
  * 4、读取内容，放到字符数组里面
  * 5、关闭输入流
- *
- * @author yihonglei
  */
 public class FileReaderSimple {
     public static void main(String[] args) {

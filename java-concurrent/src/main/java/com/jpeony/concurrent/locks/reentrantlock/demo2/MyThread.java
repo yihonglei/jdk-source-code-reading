@@ -2,8 +2,6 @@ package com.jpeony.concurrent.locks.reentrantlock.demo2;
 
 /**
  * 线程
- *
- * @author yihonglei
  */
 public class MyThread extends Thread {
     private MyService service;

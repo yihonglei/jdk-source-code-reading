@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.volatiles;
 
-/**
- * @author yihonglei
- */
 public class VolatileObj {
     /**
      * 普通变量，线程私有，多线程之间数据不共享

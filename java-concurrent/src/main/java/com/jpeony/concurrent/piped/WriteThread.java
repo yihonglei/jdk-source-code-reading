@@ -5,8 +5,6 @@ import java.io.PipedOutputStream;
 
 /**
  * 写入数据线程
- *
- * @author yihonglei
  */
 public class WriteThread extends Thread {
     private WriteData writeData;

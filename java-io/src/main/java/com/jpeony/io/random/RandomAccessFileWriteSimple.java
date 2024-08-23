@@ -3,9 +3,6 @@ package com.jpeony.io.random;
 import java.io.File;
 import java.io.RandomAccessFile;
 
-/**
- * @author yihonglei
- */
 public class RandomAccessFileWriteSimple {
 
     public static void main(String[] args) {

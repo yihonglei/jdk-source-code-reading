@@ -5,8 +5,6 @@ import java.io.IOException;
 
 /**
  * 在指定位置创建一个空文件，成功就返回true，如果已存在就不创建然后返回false。
- *
- * @author yihonglei
  */
 public class CreateNewFileSimple {
 

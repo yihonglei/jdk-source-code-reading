@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 
 /**
  * PreparedStatement查询
- *
- * @author yihonglei
  */
 public class PreparedStatementQuery {
     public static void main(String[] args) {

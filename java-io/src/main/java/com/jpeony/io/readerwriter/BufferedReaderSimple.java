@@ -2,9 +2,6 @@ package com.jpeony.io.readerwriter;
 
 import java.io.*;
 
-/**
- * @author yihonglei
- */
 public class BufferedReaderSimple {
 
     public static void main(String[] args) {

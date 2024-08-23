@@ -5,8 +5,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 线程命名
- *
- * @author yihonglei
  */
 public class NameThreadFactory implements ThreadFactory {
     private static final AtomicInteger POOL_NUMBER = new AtomicInteger(1);

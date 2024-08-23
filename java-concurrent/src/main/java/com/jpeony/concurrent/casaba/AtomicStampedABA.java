@@ -4,8 +4,6 @@ import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
  * 增加标记，解决ABA问题
- *
- * @author yihonglei
  */
 public class AtomicStampedABA {
     private static AtomicStampedReference atomicStampedRef = new AtomicStampedReference(18, 0);

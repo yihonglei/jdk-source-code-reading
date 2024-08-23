@@ -5,8 +5,6 @@ import java.io.File;
 /**
  * delete()
  * 删除文件或一个空文件夹，如果是文件夹且不为空，则不能删除，成功返回true，失败返回false。
- *
- * @author yihonglei
  */
 public class DeleteFileSimple {
 

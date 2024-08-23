@@ -8,8 +8,6 @@ import java.util.List;
  * VM Args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  * 可以通过增加-XX:HeapDumpPath=./来指定dump文件存储路径。
  * 描述: -XX:+HeapDumpOnOutOfMemoryError 生成hprof文件，该文件在项目目录下，方便后续分析
- *
- * @author yihonglei
  */
 public class HeapOOM {
 

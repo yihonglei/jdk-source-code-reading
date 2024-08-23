@@ -2,8 +2,6 @@ package com.jpeony.jvm.optimize;
 
 /**
  * 乘法/除法等采用移位操作
- *
- * @author yihonglei
  */
 public class Optimize09 {
     public static void main(String[] args) {

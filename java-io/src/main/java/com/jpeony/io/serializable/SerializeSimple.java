@@ -7,8 +7,6 @@ import java.io.ObjectOutputStream;
 
 /**
  * 序列化
- *
- * @author yihonglei
  */
 public class SerializeSimple {
     public static void main(String[] args) {

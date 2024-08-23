@@ -6,9 +6,6 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 
 import java.nio.ByteBuffer;
 
-/**
- * @author yihonglei
- */
 public class LongEventMainJava8 {
     public static void main(String[] args) throws Exception {
         // Specify the size of the ring buffer, must be power of 2.

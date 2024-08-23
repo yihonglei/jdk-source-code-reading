@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.releases;
 
-/**
- * @author yihonglei
- */
 public class ThreadA extends Thread {
     private MyService myService;
 

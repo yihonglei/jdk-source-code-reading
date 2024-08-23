@@ -9,8 +9,6 @@ import java.util.concurrent.FutureTask;
 
 /**
  * 实现Callable，有返回值
- *
- * @author yihonglei
  */
 public class MyCallable implements Callable<String> {
     private final static Logger logger = LoggerFactory.getLogger(MyCallable.class);

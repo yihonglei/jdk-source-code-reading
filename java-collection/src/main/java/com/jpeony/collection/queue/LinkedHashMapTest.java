@@ -3,9 +3,6 @@ package com.jpeony.collection.queue;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * @author yihonglei
- */
 public class LinkedHashMapTest {
     public static void main(String[] args) {
         LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();

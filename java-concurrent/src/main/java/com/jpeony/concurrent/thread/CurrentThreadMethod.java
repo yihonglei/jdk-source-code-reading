@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Thread类中的currentThread()方法，返回当前的线程对象
- *
- * @author yihonglei
  */
 public class CurrentThreadMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(CurrentThreadMethod.class);

@@ -5,8 +5,6 @@ import java.sql.DriverManager;
 
 /**
  * 只读和自动提交设置
- *
- * @author yihonglei
  */
 public class JdbcSetField {
     public static void main(String[] args) {

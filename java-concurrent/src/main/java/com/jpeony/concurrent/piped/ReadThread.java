@@ -5,8 +5,6 @@ import java.io.PipedInputStream;
 
 /**
  * 读出数据线程
- *
- * @author yihonglei
  */
 public class ReadThread extends Thread {
     private ReadData readData;

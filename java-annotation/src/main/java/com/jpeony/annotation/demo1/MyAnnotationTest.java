@@ -4,9 +4,6 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * @author yihonglei
- */
 public class MyAnnotationTest {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         AnnotationTest annotationTest = new AnnotationTest();

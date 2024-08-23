@@ -7,8 +7,6 @@ import java.nio.channels.FileChannel;
 
 /**
  * 通道中的数据分散写入到多个缓冲区
- *
- * @author yihonglei
  */
 public class ScatterTest {
     public static void main(String[] args) {

@@ -15,8 +15,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 2、IO密集（本地处理比较少，大量远程调用希望得到及时响应，这个时候在资源允许范围内开启尽量多的线程去处理）
  * StandardThreadExecutor execute()执行策略：
  * 优先扩充线程到maximumPoolSize，再offer到queue，如果满了就reject，比较适合于业务处理需要远程资源的场景
- *
- * @author yihonglei
  */
 public class StandardThreadExecutor extends ThreadPoolExecutor {
     /**
@@ -123,8 +121,6 @@ public class StandardThreadExecutor extends ThreadPoolExecutor {
 /**
  * LinkedTransferQueue 能保证更高性能，相比与LinkedBlockingQueue有明显提升，
  * 不过LinkedTransferQueue的缺点是没有队列长度控制，需要在外层协助控制。
- *
- * @author yihonglei
  */
 class TaskQueue extends LinkedTransferQueue<Runnable> {
     private static final long serialVersionUID = -265236426751004839L;
@@ -140,8 +136,7 @@ class TaskQueue extends LinkedTransferQueue<Runnable> {
 
     /**
      * Note：The code comes from Tomcat's TaskQueue modification.
-     *
-     * @author yihonglei
+    
      */
     public boolean force(Runnable o) {
         if (threadPoolExecutor.isShutdown()) {
@@ -153,8 +148,7 @@ class TaskQueue extends LinkedTransferQueue<Runnable> {
 
     /**
      * Note：The code comes from Tomcat's TaskQueue modification.
-     *
-     * @author yihonglei
+    
      */
     @Override
     public boolean offer(Runnable o) {

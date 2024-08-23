@@ -3,9 +3,6 @@ package com.jpeony.concurrent.thread;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author yihonglei
- */
 public class Run {
     private final static Logger logger = LoggerFactory.getLogger(Run.class);
 

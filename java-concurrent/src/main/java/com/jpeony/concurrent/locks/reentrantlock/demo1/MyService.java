@@ -7,8 +7,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 加锁和释放锁
- *
- * @author yihonglei
  */
 public class MyService {
     private final static Logger logger = LoggerFactory.getLogger(MyService.class);

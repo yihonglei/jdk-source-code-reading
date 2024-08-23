@@ -19,8 +19,6 @@ import java.util.concurrent.Executors;
  * 当不断提交任务时，队列满了的话，并且已经有线程在忙活任务的时候，直接不断创建线程执行任务，当没有任务的时候，
  * <p>
  * 线程池里的所有线程都会退出。
- *
- * @author yihonglei
  */
 public class NewCachedThreadPoolTest {
     private final static Logger logger = LoggerFactory.getLogger(NewCachedThreadPoolTest.class);

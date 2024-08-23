@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.waitnotify.notifyall;
 
-/**
- * @author yihonglei
- */
 public class MyService {
     public void serviceMethod(Object lock) {
         try {

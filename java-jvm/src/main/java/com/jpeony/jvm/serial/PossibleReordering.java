@@ -1,8 +1,6 @@
 package com.jpeony.jvm.serial;
 
-/**
- * @author yihonglei
- */
+
 public class PossibleReordering {
     static int x = 0, y = 0;
     static int a = 0, b = 0;

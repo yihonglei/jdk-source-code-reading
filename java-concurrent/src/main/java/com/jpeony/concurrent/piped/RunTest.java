@@ -6,8 +6,6 @@ import java.io.PipedOutputStream;
 
 /**
  * 测试类
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

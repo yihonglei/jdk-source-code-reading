@@ -12,8 +12,6 @@ package com.jpeony.concurrent.waitnotify.no;
  * 比如,如果B线程判断改为myList.size() == 5，则可能出现A线程添加到5的时候，
  * B线程没有轮询到，当B线程执行到myList.size()的时候，可能取到的值为6,
  * 哪么就会出现，B线程错过了与A线程精准对接的条件，导致B线程与A线程错过了通信的机会
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

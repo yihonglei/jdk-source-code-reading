@@ -5,8 +5,7 @@ import java.net.Socket;
 
 /**
  * BIO-客户端
- *
- * @author yihonglei
+
  */
 public class SocketClient {
     public static void main(String[] args) throws IOException {

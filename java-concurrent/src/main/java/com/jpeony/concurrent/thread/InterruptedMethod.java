@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 判断当前线程是否已经中断，同时执行结束时清除线程状态并将线程状态标识为默认状态false。
- *
- * @author yihonglei
  */
 public class InterruptedMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(InterruptedMethod.class);

@@ -7,8 +7,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * ABA 问题演示
- *
- * @author yihonglei
  */
 public class AtomicIntegerABA {
     private final static Logger logger = LoggerFactory.getLogger(AtomicIntegerABA.class);

@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 
 /**
  * 存储过程调用
- *
- * @author yihonglei
  */
 public class JDBCCallableStatement {
     public static void main(String[] args) {

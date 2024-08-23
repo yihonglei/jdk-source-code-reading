@@ -9,8 +9,6 @@ import java.nio.channels.FileChannel;
  * FileChannel的transferTo源码:
  * public abstract long transferTo(long position, long count, WritableByteChannel target) throws IOException;
  * transferTo()方法将数据从FileChannel传输到其他的Channel中。
- *
- * @author yihonglei
  */
 public class TransferToTest {
     /**

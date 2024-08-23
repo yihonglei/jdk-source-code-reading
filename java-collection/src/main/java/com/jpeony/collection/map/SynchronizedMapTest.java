@@ -4,9 +4,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author yihonglei
- */
 public class SynchronizedMapTest {
     public static void main(String[] args) {
         Map<String, String> synchronizedMap = Collections.synchronizedMap(new HashMap<>(16));

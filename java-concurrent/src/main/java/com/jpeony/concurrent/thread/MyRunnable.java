@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 通过实现Runnable接口，实现run方法，创建线程
- *
- * @author yihonglei
  */
 public class MyRunnable implements Runnable {
     private final static Logger logger = LoggerFactory.getLogger(MyRunnable.class);

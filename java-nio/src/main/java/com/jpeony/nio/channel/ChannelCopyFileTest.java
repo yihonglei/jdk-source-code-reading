@@ -9,8 +9,6 @@ import java.nio.channels.FileChannel;
 
 /**
  * 基于 NIO 完成文件复制
- *
- * @author yihonglei
  */
 public class ChannelCopyFileTest {
     public static void main(String[] args) {

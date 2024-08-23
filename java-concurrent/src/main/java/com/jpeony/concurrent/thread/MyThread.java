@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 通过继承Thread类，重写run方法，创建线程
- *
- * @author yihonglei
  */
 public class MyThread extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(MyThread.class);

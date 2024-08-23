@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.thread;
 
-/**
- * @author yihonglei
- */
 public class SimpleThread {
     public static void main(String[] args) throws InterruptedException {
         Thread t = new Thread(new SimpleRunner(), "SimpleRunner");

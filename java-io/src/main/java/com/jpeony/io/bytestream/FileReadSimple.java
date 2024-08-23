@@ -11,8 +11,6 @@ import java.io.IOException;
  * 3、创建字节数组
  * 4、读取文件内容，放到字节数组中
  * 5、关闭输入流
- *
- * @author yihonglei
  */
 public class FileReadSimple {
     public static void main(String[] args) {

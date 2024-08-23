@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadlocal;
 
 /**
  * ThreadLocal类的get方法和null值
- *
- * @author yihonglei
  */
 public class RunSimple {
     private static ThreadLocal THREAD_LOCAL = new ThreadLocal();

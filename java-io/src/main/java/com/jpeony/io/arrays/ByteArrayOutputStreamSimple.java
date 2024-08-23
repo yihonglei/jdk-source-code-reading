@@ -9,8 +9,6 @@ import java.io.ByteArrayOutputStream;
  * 3、将字节数组写入到ByteArrayOutputStream，转化为输出流
  * ByteArrayOutputStream中的数据可以通过调用toByteArray方法以字节数组形式返回，
  * 然后我们可以对数组做相应的操作。
- *
- * @author yihonglei
  */
 public class ByteArrayOutputStreamSimple {
 

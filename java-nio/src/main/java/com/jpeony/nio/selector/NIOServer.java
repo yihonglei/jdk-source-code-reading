@@ -10,8 +10,6 @@ import java.util.Set;
 
 /**
  * Server 端实例代码
- *
- * @author yihonglei
  */
 public class NIOServer {
     /**

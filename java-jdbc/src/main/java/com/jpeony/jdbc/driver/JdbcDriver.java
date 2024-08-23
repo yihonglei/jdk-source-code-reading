@@ -5,8 +5,6 @@ import java.util.Enumeration;
 
 /**
  * 加载驱动程序
- *
- * @author yihonglei
  */
 public class JdbcDriver {
     public static void main(String[] args) {

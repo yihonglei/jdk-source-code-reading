@@ -14,8 +14,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * 5、SynchronizedMap 线程安全，是对Map进行线程安全包装，key是否允许为空，取决于用的Map实现；
  * 6、ConcurrentHashMap 线程安全，分段锁，高效，key不支持null，value不支持null；
  * 7、Map提供key到value的映射,一个Map中不能包含相同key，每个key只能映射一个value；
- *
- * @author yihonglei
  */
 public class HashTest {
     private final static Logger logger = LoggerFactory.getLogger(HashTest.class);

@@ -15,8 +15,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * LinkedList 底层基于链表实现，结构散乱；
  * Vector 线程安全，效率低；
  * CopyOnWriteArrayList 特征：线程安全、读写分离场景，高效；
- *
- * @author yihonglei
  */
 public class ListTest {
     public static void main(String[] args) {
@@ -24,8 +22,7 @@ public class ListTest {
          * ArrayList
          * 【数据结构】
          *  底层基于数组实现。
-         *
-         * 【特性】
+                * 【特性】
          *  支持根据下标随机访问时间复杂度 O(1)，插入和删除时间复杂度 O(n)，因为要进行数据元素搬移；
          *  非线程安全，元素有序，可以重复；
          */
@@ -43,8 +40,7 @@ public class ListTest {
          * LinkedList
          * 【数据结构】
          *  底层基于双向链表实现。
-         *
-         * 【特性】
+                * 【特性】
          * 插入和删除时间复杂度 O(1)，不支持随机查找元素，元素查找需要遍历链表，时间复杂度 O(n)
          */
         LinkedList<String> list2 = new LinkedList();
@@ -60,8 +56,7 @@ public class ListTest {
          * Vector
          * 【数据结构】
          * 底层基于数组实现。
-         *
-         * 【特性】
+                * 【特性】
          *  synchronized 加锁保证线程安全，低效。
          */
         Vector<String> list3 = new Vector();
@@ -77,8 +72,7 @@ public class ListTest {
          * CopyOnWriteArrayList
          * 【数据结构】
          * 底层基于数组实现。
-         *
-         * 【特性】
+                * 【特性】
          *  线程安全、读写分离场景，用于读多写少场景；
          */
         List<String> list4 = new CopyOnWriteArrayList<>();

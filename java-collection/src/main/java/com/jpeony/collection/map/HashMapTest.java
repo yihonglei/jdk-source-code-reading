@@ -5,8 +5,6 @@ import java.util.HashMap;
 
 /**
  * 高性能，线程不安全
- *
- * @author yihonglei
  */
 public class HashMapTest {
     public static void main(String[] args) {

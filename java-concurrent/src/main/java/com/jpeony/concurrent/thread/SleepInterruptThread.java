@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 休眠停止：让线程处于休眠状态，再调用interrupt()，线程抛异常中断。
- *
- * @author yihonglei
  */
 public class SleepInterruptThread extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(SleepInterruptThread.class);

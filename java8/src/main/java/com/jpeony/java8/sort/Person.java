@@ -2,9 +2,6 @@ package com.jpeony.java8.sort;
 
 import java.util.Date;
 
-/**
- * @author yihonglei
- */
 public class Person {
     private String name;
     private Integer age;

@@ -1,8 +1,5 @@
 package com.jpeony.base.print;
 
-/**
- * @author yihonglei
- */
 public class PrintTest {
     static boolean out(char c) {
         System.out.println(c);

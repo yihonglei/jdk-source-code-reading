@@ -2,8 +2,6 @@ package com.jpeony.base.equals;
 
 /**
  * 重写equals：对称性研究
- *
- * @author yihonglei
  */
 public class CaseInsensitiveString {
     private final String s;

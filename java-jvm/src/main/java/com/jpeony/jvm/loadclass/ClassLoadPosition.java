@@ -3,8 +3,6 @@ package com.jpeony.jvm.loadclass;
 /**
  * 肢解整个类演示！
  * 1）只有同时被final和static修饰的字段才有ConstantValue属性，且限于基本类型和String。
- *
- * @author yihonglei
  */
 public class ClassLoadPosition {
     /*
@@ -17,16 +15,14 @@ public class ClassLoadPosition {
 
     /**
      * 【类加载机制】static final修饰
-     *
-     * static final修饰的字段在javac编译时生成comstantValue属性，在类加载的准备阶段直接把constantValue的值赋给该字段。
+        * static final修饰的字段在javac编译时生成comstantValue属性，在类加载的准备阶段直接把constantValue的值赋给该字段。
      * 可以理解为在编译期即把结果放入了常量池中。使用时进行建立引用。
      */
     public static int HELLO = 10000;
 
     /**
      * 【类加载机制】static修饰
-     *
-     * 准备阶段加载到常量池中，ConstantValue属性；
+        * 准备阶段加载到常量池中，ConstantValue属性；
      * 变量值在准备阶段过后的初始值为0，而不是10000；
      * 因为这个时候尚未开始执行任何Java方法，而把HELLO赋值为250的putstatic指令是程序被编译后，
      * 存放于类构造器<clinit>方法之中，所以把HELLO赋值为1250的动作将在初始化阶段才会执行；
@@ -49,8 +45,7 @@ public class ClassLoadPosition {
      * 【类加载机制】String变量
      * 编译时确定，存在Constant_String_info里面，表示常量对象；
      * 如果是new的对象，在类初始化时堆里创建，如果字面量一样，都指向同一个内存地址，避免重复。
-     *
-     * 1）变量相加，会在常量池中重新开辟一个空间。
+        * 1）变量相加，会在常量池中重新开辟一个空间。
      * 2）常量相加，会在常量池寻找，有就返回，没有就创建
      * 3）String a = new  String("ABC");  这样会有两个引用，a指向的是堆内存。
      */

@@ -3,8 +3,6 @@ package com.jpeony.base.string;
 /**
  * ==号比较堆地址是否相同，相同为true，否则为 false
  * equals 比较堆地址对应的值是否相同，相同为true，否则为 false
- *
- * @author yihonglei
  */
 public class StringTest {
     public static void main(String[] args) {

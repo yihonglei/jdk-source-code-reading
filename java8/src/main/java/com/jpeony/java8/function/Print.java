@@ -2,8 +2,6 @@ package com.jpeony.java8.function;
 
 /**
  * 函数接口
- *
- * @author yihonglei
  */
 @FunctionalInterface
 interface Print<T> {

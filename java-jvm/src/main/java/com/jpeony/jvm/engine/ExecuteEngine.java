@@ -2,8 +2,6 @@ package com.jpeony.jvm.engine;
 
 /**
  * 执行引擎分析
- *
- * @author yihonglei
  */
 public class ExecuteEngine {
     /**

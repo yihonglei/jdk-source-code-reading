@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.singleobject;
 
-/**
- * @author yihonglei
- */
 public class ThreadB extends Thread {
     private HasSelfPrivateNum hasSelfPrivateNum;
 

@@ -2,8 +2,6 @@ package com.jpeony.jvm.loadclass;
 
 /**
  * jdk自带类加载器器
- *
- * @author yihonglei
  */
 public class JDKClassLoader {
     public static void main(String[] args) {

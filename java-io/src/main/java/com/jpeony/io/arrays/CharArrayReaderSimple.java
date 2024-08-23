@@ -3,9 +3,6 @@ package com.jpeony.io.arrays;
 import java.io.CharArrayReader;
 import java.io.Reader;
 
-/**
- * @author yihonglei
- */
 public class CharArrayReaderSimple {
 
     public static void main(String[] args) {

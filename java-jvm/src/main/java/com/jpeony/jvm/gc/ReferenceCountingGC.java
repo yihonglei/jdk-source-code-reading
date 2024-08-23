@@ -8,8 +8,6 @@ package com.jpeony.jvm.gc;
  * -Xms20m -Xmx20m 堆最大最小设置为 20M，限制堆内存大小为 20M
  * -XX:+PrintGCDetails 用于打印 GC 日志
  * -Xloggc:/Users/hongqi/gc.log 输出 GC 日志到指定目录
- *
- * @author yihonglei
  */
 public class ReferenceCountingGC {
     public Object instance = null;

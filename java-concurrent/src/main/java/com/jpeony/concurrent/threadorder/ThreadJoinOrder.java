@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadorder;
 
 /**
  * join控制线程顺序执行
- *
- * @author yihonglei
  */
 public class ThreadJoinOrder {
     public static void main(String[] args) throws InterruptedException {

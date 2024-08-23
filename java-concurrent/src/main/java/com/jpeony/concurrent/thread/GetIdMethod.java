@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 获取线程id
- *
- * @author yihonglei
  */
 public class GetIdMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(GetIdMethod.class);

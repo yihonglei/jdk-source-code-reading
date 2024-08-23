@@ -1,8 +1,5 @@
 package com.jpeony.base.statics;
 
-/**
- * @author yihonglei
- */
 public class StaticInitialization {
     public static void main(String[] args) {
         System.out.println("Creating new School() in main");
@@ -40,7 +37,6 @@ class Teacher {
 
     static Student s2 = new Student(2);
 }
-
 
 class School {
     Student s3 = new Student(3);

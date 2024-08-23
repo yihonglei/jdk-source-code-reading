@@ -2,8 +2,6 @@ package com.jpeony.concurrent.locks.reentrantlock.demo3;
 
 /**
  * 多等待/多通知测试
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

@@ -2,8 +2,6 @@ package com.jpeony.base.compute;
 
 /**
  * 移位
- *
- * @author yihonglei
  */
 public class MoveTest {
     public static void main(String[] args) {

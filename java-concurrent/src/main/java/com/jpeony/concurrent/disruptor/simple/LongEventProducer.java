@@ -6,8 +6,6 @@ import java.nio.ByteBuffer;
 
 /**
  * 事件生产者（producer）
- *
- * @author yihonglei
  */
 public class LongEventProducer {
     private final RingBuffer<LongEvent> ringBuffer;

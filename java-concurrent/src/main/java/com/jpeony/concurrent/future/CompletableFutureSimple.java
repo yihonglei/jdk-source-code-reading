@@ -6,8 +6,6 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * CompletableFuture简单Demo
- *
- * @author yihonglei
  */
 public class CompletableFutureSimple {
     public static void main(String[] args) throws InterruptedException {

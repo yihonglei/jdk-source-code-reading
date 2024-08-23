@@ -7,8 +7,6 @@ import java.sql.Statement;
 
 /**
  * 简单查询
- *
- * @author yihonglei
  */
 public class JdbcStatement {
     public static void main(String[] args) {

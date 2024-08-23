@@ -5,8 +5,6 @@ import java.io.PipedOutputStream;
 
 /**
  * 通过管道输出流(PipedOutputStream)向管道输入流(PipedInputStream)的缓冲区写入数据。
- *
- * @author yihonglei
  */
 public class WriteThread implements Runnable {
     /**

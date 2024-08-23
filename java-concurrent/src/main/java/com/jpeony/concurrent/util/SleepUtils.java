@@ -4,8 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 休眠工具
- *
- * @author yihonglei
  */
 public class SleepUtils {
     public static void second(long seconds) {

@@ -2,8 +2,6 @@ package com.jpeony.base.innerclass;
 
 /**
  * 创建一个内部类Person，其中包含Teacher，Student两个内部类
- *
- * @author yihonglei
  */
 public class Person {
     /**

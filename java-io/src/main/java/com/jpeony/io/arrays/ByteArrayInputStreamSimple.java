@@ -8,8 +8,6 @@ import java.io.InputStream;
  * 1、将数据转化为字节数组
  * 2、将字节数组内容放入ByteArrayInputStream，转化为输入流
  * 3、通过read方法读取数据并进行相应处理
- *
- * @author yihonglei
  */
 public class ByteArrayInputStreamSimple {
 

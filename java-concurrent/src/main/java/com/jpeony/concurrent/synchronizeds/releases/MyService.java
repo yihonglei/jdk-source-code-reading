@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 使用synchronized当出现异常时，锁会自动释放
- *
- * @author yihonglei
  */
 public class MyService {
     private final static Logger logger = LoggerFactory.getLogger(MyService.class);

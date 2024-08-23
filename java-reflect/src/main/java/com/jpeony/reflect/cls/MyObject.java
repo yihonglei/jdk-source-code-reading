@@ -2,9 +2,6 @@ package com.jpeony.reflect.cls;
 
 import com.jpeony.reflect.annotations.MyAnnotation;
 
-/**
- * @author yihonglei
- */
 @MyAnnotation(name = "testAnnoation", value = "hello world")
 public class MyObject {
     /**

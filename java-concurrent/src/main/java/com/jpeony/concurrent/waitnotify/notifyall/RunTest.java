@@ -5,8 +5,6 @@ package com.jpeony.concurrent.waitnotify.notifyall;
  * wait(long): 表示一个线程等待指定时间内是否有线程对锁进行唤醒，如果没有，将自动唤醒。
  * general(): 随机通知一个线程唤醒，如果通知线程少于等待线程时，将不能及时唤醒多个线程。
  * notifyAll(): 唤醒所有线程。
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

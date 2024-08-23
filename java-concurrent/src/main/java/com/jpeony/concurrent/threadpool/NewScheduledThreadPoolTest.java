@@ -11,8 +11,6 @@ import java.util.concurrent.TimeUnit;
  * 【计划任务】
  * 1、重复任务：提交任务多长时间之后，周期性执行；
  * 2、一次性任务：提交任务多长时间之后，执行一次；
- *
- * @author yihonglei
  */
 public class NewScheduledThreadPoolTest {
     private final static Logger logger = LoggerFactory.getLogger(NewScheduledThreadPoolTest.class);

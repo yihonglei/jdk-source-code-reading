@@ -4,9 +4,6 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 
-/**
- * @author yihonglei
- */
 public class MultiThread {
     public static void main(String[] args) {
         // 获取 Java 线程管理 MXBean

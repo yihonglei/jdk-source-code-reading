@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadlocal;
 
 /**
  * 重写ThreadLocal初始化方法，自定义初始值
- *
- * @author yihonglei
  */
 public class ThreadLocalExt extends ThreadLocal {
 

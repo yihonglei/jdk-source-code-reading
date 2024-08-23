@@ -9,8 +9,6 @@ package com.jpeony.base.object;
  * 6）hashCode与equals密切相关
  * equals返回true的两个实例，hashCode值必须一样；
  * hashCode值一样的两个实例，其equals方法返回不一定为true（可能有哈希碰撞等因素）；
- *
- * @author yihonglei
  */
 public class ObjectTest {
     public static void main(String[] args) {

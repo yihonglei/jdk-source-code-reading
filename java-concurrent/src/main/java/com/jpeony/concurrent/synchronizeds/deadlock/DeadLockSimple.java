@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.deadlock;
 
-/**
- * @author yihonglei
- */
 public class DeadLockSimple {
     private static String A = "A";
     private static String B = "B";

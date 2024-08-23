@@ -5,8 +5,6 @@ import java.io.PipedInputStream;
 
 /**
  * 读出数据
- *
- * @author yihonglei
  */
 public class ReadData {
     public void readMethod(PipedInputStream input) throws IOException {

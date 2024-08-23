@@ -2,8 +2,6 @@ package com.jpeony.concurrent.synchronizeds.lockobject;
 
 /**
  * 对象锁测试
- *
- * @author yihonglei
  */
 public class RunObjectTest {
     public static void main(String[] args) {

@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * LinkedList 基于双向链表实现
- *
- * @author yihonglei
  */
 public class LinkedListTest {
     public static void main(String[] args) {

@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadlocal;
 
 /**
  * InheritableThreadLocal获取父线程往ThreadLocal里面塞入的值。
- *
- * @author yihonglei
  */
 public class InheritableThreadLocalSimple {
     public static ThreadLocal<String> THREAD_LOCAL = new InheritableThreadLocal<>();

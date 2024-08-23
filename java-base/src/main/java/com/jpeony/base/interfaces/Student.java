@@ -2,8 +2,6 @@ package com.jpeony.base.interfaces;
 
 /**
  * 接口的具体实现
- *
- * @author yihonglei
  */
 public class Student implements Person {
 

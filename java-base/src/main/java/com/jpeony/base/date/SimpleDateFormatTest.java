@@ -4,9 +4,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author yihonglei
- */
 public class SimpleDateFormatTest {
     public static String datePattern = "yyyy-MM-dd";
     public static String strPattern = "yyyy年MM月dd日";

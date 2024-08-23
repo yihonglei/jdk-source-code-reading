@@ -4,9 +4,6 @@ import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;
 
-/**
- * @author yihonglei
- */
 public class CompletableFutureTest {
     public static void main(String[] args) {
 //        CompletableFuture<Integer> future1 = CompletableFuture.supplyAsync(new CallImpl());

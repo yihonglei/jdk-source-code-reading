@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.locks.reentrantlock.demo1;
 
-/**
- * @author yihonglei
- */
 public class MyThread extends Thread {
     private MyService service;
 

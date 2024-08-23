@@ -1,8 +1,5 @@
 package com.jpeony.base.constructor;
 
-/**
- * @author yihonglei
- */
 public class ConstructorTest {
     /**
      * 默认构造器，一般创建类时，自带，不需要我们写出来

@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Thread类中的sleep(long millis)方法让当前正在执行的线程休眠指定毫秒数
- *
- * @author yihonglei
  */
 public class SleepMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(SleepMethod.class);

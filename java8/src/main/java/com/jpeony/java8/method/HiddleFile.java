@@ -5,8 +5,6 @@ import java.util.Arrays;
 
 /**
  * 打印文件隐藏名
- *
- * @author yihonglei
  */
 public class HiddleFile {
     public static void main(String[] args) {

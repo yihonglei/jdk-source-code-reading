@@ -3,8 +3,6 @@ package com.jpeony.jvm.loadclass;
 /**
  * 动态类加载！
  * VM Args：-verbose:class 打印类加载过程详细信息。
- *
- * @author yihonglei
  */
 public class DynamicLoad {
     static {

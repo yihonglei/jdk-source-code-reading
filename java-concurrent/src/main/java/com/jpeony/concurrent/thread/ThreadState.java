@@ -4,8 +4,6 @@ import com.jpeony.concurrent.util.SleepUtils;
 
 /**
  * 线程生命周期
- *
- * @author yihonglei
  */
 public class ThreadState {
     public static void main(String[] args) {

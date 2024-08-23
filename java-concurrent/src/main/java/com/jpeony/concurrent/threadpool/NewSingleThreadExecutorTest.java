@@ -8,8 +8,6 @@ import java.util.concurrent.Executors;
 
 /**
  * 线程池只有一个线程，任务按队列先进先出顺序执行。
- *
- * @author yihonglei
  */
 public class NewSingleThreadExecutorTest {
     private final static Logger logger = LoggerFactory.getLogger(NewScheduledThreadPoolTest.class);

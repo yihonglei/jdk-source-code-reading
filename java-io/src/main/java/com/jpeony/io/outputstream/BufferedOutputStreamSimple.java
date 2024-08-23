@@ -2,9 +2,6 @@ package com.jpeony.io.outputstream;
 
 import java.io.*;
 
-/**
- * @author yihonglei
- */
 public class BufferedOutputStreamSimple {
 
     public static void main(String[] args) {

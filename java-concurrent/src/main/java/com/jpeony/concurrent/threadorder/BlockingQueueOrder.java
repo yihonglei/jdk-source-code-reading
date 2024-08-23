@@ -5,8 +5,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 通过阻塞队列+while循环控制线程的顺序性，或者通过ArrayList控制线程的顺序，但是需要在每个线程执行完成时自己从队列移出元素。
- *
- * @author yihonglei
  */
 public class BlockingQueueOrder {
     public static void main(String[] args) throws InterruptedException {

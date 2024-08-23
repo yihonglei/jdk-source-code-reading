@@ -2,9 +2,6 @@ package com.jpeony.base.math;
 
 import java.math.BigDecimal;
 
-/**
- * @author yihonglei
- */
 public class BigDecimalTest {
     public static void main(String[] args) {
         int travelTime = 3743023;

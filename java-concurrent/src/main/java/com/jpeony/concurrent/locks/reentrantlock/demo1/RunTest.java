@@ -2,8 +2,6 @@ package com.jpeony.concurrent.locks.reentrantlock.demo1;
 
 /**
  * 测试
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

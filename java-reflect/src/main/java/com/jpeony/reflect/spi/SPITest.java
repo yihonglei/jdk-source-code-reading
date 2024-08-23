@@ -5,9 +5,6 @@ import sun.misc.Service;
 import java.util.Iterator;
 import java.util.ServiceLoader;
 
-/**
- * @author yihonglei
- */
 public class SPITest {
     public static void main(String[] args) {
         // 方式1

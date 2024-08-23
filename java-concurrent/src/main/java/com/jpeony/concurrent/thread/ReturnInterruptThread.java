@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * return停止：方法中的代码遇到return时，该方法运行结束，利用这种手段，也能达到线程停止的效果。
- *
- * @author yihonglei
  */
 public class ReturnInterruptThread extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(ReturnInterruptThread.class);

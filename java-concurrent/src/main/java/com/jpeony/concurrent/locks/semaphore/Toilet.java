@@ -4,8 +4,6 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 卫生间有 5 个坑
- *
- * @author yihonglei
  */
 public class Toilet {
     /**

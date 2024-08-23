@@ -5,9 +5,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-/**
- * @author yihonglei
- */
 public class BufferedWriterSimple {
 
     public static void main(String[] args) {

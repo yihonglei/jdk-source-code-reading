@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 使用interrupt方法来中断线程，并不能马上就让线程中断，使用interrupt方法只是在当前线程中打了一个停止的标记，并不是真正的停止线程。
- *
- * @author yihonglei
  */
 public class InterruptMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(IsInterruptMethod.class);

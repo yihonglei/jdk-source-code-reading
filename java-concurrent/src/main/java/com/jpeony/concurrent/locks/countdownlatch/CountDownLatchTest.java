@@ -12,8 +12,6 @@ import java.util.concurrent.Executors;
 
 /**
  * CountDownLatch 演示
- *
- * @author yihonglei
  */
 public class CountDownLatchTest {
     private final static Logger logger = LoggerFactory.getLogger(CountDownLatchTest.class);

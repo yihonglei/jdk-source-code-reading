@@ -7,8 +7,6 @@ import java.sql.Statement;
 
 /**
  * statement的executeQuery()方法
- *
- * @author yihonglei
  */
 public class StatementQuery {
     public static void main(String[] args) {

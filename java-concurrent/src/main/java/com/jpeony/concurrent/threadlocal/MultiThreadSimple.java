@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadlocal;
 
 /**
  * ThreadLocal线程隔离，线程内的ThreadLocal相互隔离。
- *
- * @author yihonglei
  */
 public class MultiThreadSimple {
     public static void main(String[] args) throws InterruptedException {

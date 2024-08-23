@@ -2,9 +2,6 @@ package com.jpeony.io.arrays;
 
 import java.io.CharArrayWriter;
 
-/**
- * @author yihonglei
- */
 public class CharArrayWriterSimple {
     public static void main(String[] args) {
         try {

@@ -8,8 +8,6 @@ import java.nio.channels.DatagramChannel;
 
 /**
  * 服务端: 接收客户端发送消息，收取到消息后，给发送方一个回应
- *
- * @author yihonglei
  */
 public class DatagramChannelReceiveTest {
     public static void main(String[] args) throws IOException {

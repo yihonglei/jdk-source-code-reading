@@ -6,8 +6,6 @@ import java.sql.DriverManager;
 
 /**
  * 使用DriverManager类中的getConnection()方法创建与数据源连接
- *
- * @author yihonglei
  */
 public class JdbcConnection {
     public static void main(String[] args) {

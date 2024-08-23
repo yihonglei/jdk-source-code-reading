@@ -10,8 +10,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 等待/通知实现
- *
- * @author yihonglei
  */
 public class MyService {
     private final static Logger logger = LoggerFactory.getLogger(MyService.class);

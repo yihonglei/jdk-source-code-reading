@@ -3,9 +3,6 @@ package com.jpeony.collection.queue;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-/**
- * @author yihonglei
- */
 public class ArrayDequeTest {
     public static void main(String[] args) {
         Deque<String> stack = new ArrayDeque<>();

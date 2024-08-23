@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.waitnotify.notifyall;
 
-/**
- * @author yihonglei
- */
 public class ThreadB extends Thread {
     private Object lock;
 

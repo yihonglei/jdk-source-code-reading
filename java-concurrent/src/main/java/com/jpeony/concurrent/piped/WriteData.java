@@ -5,8 +5,6 @@ import java.io.PipedOutputStream;
 
 /**
  * 写入数据
- *
- * @author yihonglei
  */
 public class WriteData {
     public void writeMethod(PipedOutputStream out) throws IOException {

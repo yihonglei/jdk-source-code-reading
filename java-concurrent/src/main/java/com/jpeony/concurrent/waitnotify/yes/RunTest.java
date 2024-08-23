@@ -2,8 +2,6 @@ package com.jpeony.concurrent.waitnotify.yes;
 
 /**
  * 测试代码
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

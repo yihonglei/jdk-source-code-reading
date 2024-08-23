@@ -2,8 +2,6 @@ package com.jpeony.base.string;
 
 /**
  * 线程安全
- *
- * @author yihonglei
  */
 public class StringBufferTest {
     public static void main(String[] args) {

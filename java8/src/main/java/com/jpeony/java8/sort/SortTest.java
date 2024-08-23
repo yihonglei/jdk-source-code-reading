@@ -8,9 +8,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author yihonglei
- */
 public class SortTest {
     public static void main(String[] args) throws ParseException {
 

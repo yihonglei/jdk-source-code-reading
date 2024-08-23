@@ -10,8 +10,6 @@ import java.util.List;
 
 /**
  * 运行时注解获取基类
- *
- * @author yihonglei
  */
 public class Parent<T> {
     private Class<T> entity;

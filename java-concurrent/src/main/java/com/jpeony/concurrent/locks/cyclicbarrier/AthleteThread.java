@@ -11,8 +11,6 @@ import java.util.concurrent.Executors;
 
 /**
  * 运动员跑步全部就绪-->鸣枪-->开跑
- *
- * @author yihonglei
  */
 public class AthleteThread extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(CountDownLatchTest.class);
@@ -32,8 +30,7 @@ public class AthleteThread extends Thread {
 
     /**
      * 构造器
-     *
-     * @param num 运动员编号
+        * @param num 运动员编号
      */
     public AthleteThread(Integer num) {
         this.num = num;

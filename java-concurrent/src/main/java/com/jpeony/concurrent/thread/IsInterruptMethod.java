@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 判断线程是否已经中断，不清除线程的中断状态标识状态。
- *
- * @author yihonglei
  */
 public class IsInterruptMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(IsInterruptMethod.class);

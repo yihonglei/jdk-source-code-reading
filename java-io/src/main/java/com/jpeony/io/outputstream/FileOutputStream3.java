@@ -7,8 +7,6 @@ import java.io.OutputStream;
 
 /**
  * write(byte b[], int off, int len)：把字节数据中从offset位置开始，length个字节的数据写入到输出流。
- *
- * @author yihonglei
  */
 public class FileOutputStream3 {
     public static void main(String[] args) {

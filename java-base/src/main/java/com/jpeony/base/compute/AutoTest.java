@@ -2,8 +2,6 @@ package com.jpeony.base.compute;
 
 /**
  * 递增(++)和递减(--)
- *
- * @author yihonglei
  */
 public class AutoTest {
     public static void main(String[] args) {

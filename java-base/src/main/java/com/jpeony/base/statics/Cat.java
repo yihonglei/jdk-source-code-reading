@@ -1,8 +1,5 @@
 package com.jpeony.base.statics;
 
-/**
- * @author yihonglei
- */
 public class Cat {
     private String name;
     private Integer age;

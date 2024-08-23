@@ -5,8 +5,6 @@ import java.io.*;
 /**
  * 基于Buffered进行文件复制:
  * 从源文件读取--》写入到目标文件
- *
- * @author yihonglei
  */
 public class BufferedBasicCopySimple {
     public static void main(String[] args) {

@@ -7,8 +7,6 @@ import java.util.concurrent.Executors;
 
 /**
  * CompletableFuture创建方式
- *
- * @author yihonglei
  */
 public class CompletableFutureCreate {
     public static void main(String[] args) {

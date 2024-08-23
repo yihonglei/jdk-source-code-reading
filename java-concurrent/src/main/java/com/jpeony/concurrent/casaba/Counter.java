@@ -6,8 +6,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * CAS实现原子操作
- *
- * @author yihonglei
  */
 public class Counter {
     private AtomicInteger atomicI = new AtomicInteger(0);

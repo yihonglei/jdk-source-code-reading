@@ -4,8 +4,6 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * CompletableFuture顺序执行任务
- *
- * @author yihonglei
  */
 public class CompletableFutureOrder {
     public static void main(String[] args) {

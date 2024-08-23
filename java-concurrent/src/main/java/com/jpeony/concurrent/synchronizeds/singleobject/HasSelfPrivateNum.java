@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 方法addUser上加上同步锁synchronized
- *
- * @author yihonglei
  */
 public class HasSelfPrivateNum {
     private final static Logger logger = LoggerFactory.getLogger(HasSelfPrivateNum.class);

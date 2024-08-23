@@ -10,8 +10,6 @@ import java.io.InputStream;
  * 构建文件流，从输入流中读取字节数据存储到缓冲字节数组中，然后将缓冲字节数组转换成字符串打印到控制台
  * FileInputStream是InputStream的子类，所以可以把FileInputStream赋值给InputStream。
  * 这里使用"try-with-resources"来关闭流，也即当退出try语句块的时候，InputStream流会关闭。
- *
- * @author yihonglei
  */
 public class FileInputStream2 {
     public static void main(String[] args) {

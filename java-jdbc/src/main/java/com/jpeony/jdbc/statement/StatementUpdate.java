@@ -6,8 +6,6 @@ import java.sql.Statement;
 
 /**
  * statement的executeUpdate()方法
- *
- * @author yihonglei
  */
 public class StatementUpdate {
     public static void main(String[] args) {

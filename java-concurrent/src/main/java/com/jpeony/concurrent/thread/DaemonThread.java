@@ -2,8 +2,6 @@ package com.jpeony.concurrent.thread;
 
 /**
  * 守护线程启动前设置，同时 finally 语句块不一定会执行。
- *
- * @author yihonglei
  */
 public class DaemonThread {
     public static void main(String[] args) throws InterruptedException {

@@ -4,9 +4,6 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-/**
- * @author yihonglei
- */
 public class Tmp {
     public static void main(String[] args) {
 //        Vector;

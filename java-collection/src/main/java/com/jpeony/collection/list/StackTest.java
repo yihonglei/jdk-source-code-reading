@@ -4,8 +4,6 @@ import java.util.Stack;
 
 /**
  * 后进先出
- *
- * @author yihonglei
  */
 public class StackTest {
     public static void main(String[] args) {

@@ -3,9 +3,6 @@ package com.jpeony.jvm.gc;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author yihonglei
- */
 public class JConsoleGC {
 
     static class OOMObject {

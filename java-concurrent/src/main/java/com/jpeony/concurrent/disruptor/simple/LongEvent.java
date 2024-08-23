@@ -2,8 +2,6 @@ package com.jpeony.concurrent.disruptor.simple;
 
 /**
  * 定义事件
- *
- * @author yihonglei
  */
 public class LongEvent {
     private long value;

@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.waitnotify.no;
 
-/**
- * @author yihonglei
- */
 public class ThreadA extends Thread {
     private MyList myList;
 

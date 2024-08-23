@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 
 /**
  * PreparedStatement的execute()方法
- *
- * @author yihonglei
  */
 public class PreparedStatementExecute {
     public static void main(String[] args) {

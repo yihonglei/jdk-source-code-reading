@@ -5,8 +5,6 @@ import java.io.File;
 /**
  * mkdirs()
  * 在指定位置创建目录，这会创建路径中所有不存在的目录。
- *
- * @author yihonglei
  */
 public class MkdirsSimple {
 

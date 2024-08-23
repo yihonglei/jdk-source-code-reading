@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.manyobject;
 
-/**
- * @author yihonglei
- */
 public class ThreadB extends Thread {
     private HasSelfPrivateNum hasSelfPrivateNum;
 

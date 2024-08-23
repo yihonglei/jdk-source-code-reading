@@ -3,9 +3,6 @@ package com.jpeony.base.hashcode;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author yihonglei
- */
 public class HashCodeTest {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();

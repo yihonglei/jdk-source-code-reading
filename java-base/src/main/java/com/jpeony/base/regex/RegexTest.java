@@ -7,8 +7,6 @@ import static java.util.regex.Pattern.*;
 
 /**
  * Java正则表达式： matches()、replaceAll()、replaceFirst()、split()；
- *
- * @author yihonglei
  */
 public class RegexTest {
     public static void main(String[] args) {

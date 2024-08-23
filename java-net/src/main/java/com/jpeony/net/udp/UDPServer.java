@@ -15,8 +15,7 @@ import java.net.DatagramSocket;
  * 4）解析数据
  * <p>
  * 5）关闭连接
- *
- * @author yihonglei
+
  */
 public class UDPServer {
     public static void main(String[] args) throws Exception {

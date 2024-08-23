@@ -7,8 +7,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * BIO-服务端
- *
- * @author yihonglei
+
  */
 public class SocketServer {
     public static void main(String[] args) throws IOException {

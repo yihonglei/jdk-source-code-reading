@@ -4,9 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * @author yihonglei
- */
 public class CreateBusyThread {
     /**
      * 线程死锁循环演示

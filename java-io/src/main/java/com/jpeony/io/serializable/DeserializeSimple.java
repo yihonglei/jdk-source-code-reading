@@ -6,8 +6,6 @@ import java.io.ObjectInputStream;
 
 /**
  * 反序列化
- *
- * @author yihonglei
  */
 public class DeserializeSimple {
     public static void main(String[] args) {

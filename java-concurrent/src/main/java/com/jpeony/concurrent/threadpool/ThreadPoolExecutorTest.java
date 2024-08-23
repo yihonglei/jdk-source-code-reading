@@ -8,8 +8,6 @@ import java.util.concurrent.Executors;
 
 /**
  * 提交任务到线程池看源码入口
- *
- * @author yihonglei
  */
 public class ThreadPoolExecutorTest {
     private final static Logger logger = LoggerFactory.getLogger(ThreadPoolExecutorTest.class);

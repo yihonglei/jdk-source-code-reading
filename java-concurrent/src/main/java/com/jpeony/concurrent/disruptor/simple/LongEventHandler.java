@@ -6,8 +6,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 事件处理器（consumer）
- *
- * @author yihonglei
  */
 public class LongEventHandler implements EventHandler<LongEvent> {
     private final static Logger logger = LoggerFactory.getLogger(LongEventHandler.class);

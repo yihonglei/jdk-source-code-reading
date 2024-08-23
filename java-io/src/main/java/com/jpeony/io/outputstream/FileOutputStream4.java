@@ -7,8 +7,6 @@ import java.io.OutputStream;
 
 /**
  * 在finally语句块中关闭流，此方案虽然能关闭流，但是并不完美。
- *
- * @author yihonglei
  */
 public class FileOutputStream4 {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package com.jpeony.base.abstractes;
 
-/**
- * @author yihonglei
- */
 public class AbstractTest {
     public static void main(String[] args) {
         Teacher teacher = new Teacher();

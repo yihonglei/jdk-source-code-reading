@@ -3,9 +3,6 @@ package com.jpeony.base.object;
 //import org.junit.Assert;
 //import org.junit.Test;
 
-/**
- * @author yihonglei
- */
 public class Person {
     public String name;
     public long identity = 0L;

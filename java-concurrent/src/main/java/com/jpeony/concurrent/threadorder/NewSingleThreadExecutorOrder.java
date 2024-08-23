@@ -6,8 +6,6 @@ import java.util.concurrent.Executors;
 /**
  * Executors.newSingleThreadExecutor()：线程池只有一个工作线程，工作线程从BlockingQueue阻塞有序队列取任务执行，
  * 从而保证线程的顺序性执行。
- *
- * @author yihonglei
  */
 public class NewSingleThreadExecutorOrder {
     public static void main(String[] args) {

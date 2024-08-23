@@ -9,8 +9,6 @@ import java.lang.reflect.Field;
  * VM Args: -Xmx20M -XX:MaxDirectMemorySize=10M
  * <p>
  * 参数说明：-XX:MaxDirectMemorySize=10M直接内存大小设置。
- *
- * @author yihonglei
  */
 public class DirectMemoryOOM {
     private static final int _1MB = 1024 * 1024;

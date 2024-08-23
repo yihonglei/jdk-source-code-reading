@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 大便！
- *
- * @author yihonglei
  */
 public class ShiftThread extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(ShiftThread.class);

@@ -6,8 +6,6 @@ import java.io.File;
  * mkdir():
  * 在指定位置创建目录，这只会创建最后一级目录，如果上级目录不存在就抛异常。
  * 创建成功返回true,否则返回false。
- *
- * @author yihonglei
  */
 public class MkdirSimple {
 

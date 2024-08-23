@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 异常法：判断线程中断状态为true时，抛线程中断异常。
- *
- * @author yihonglei
  */
 public class ExceptionMethod extends Thread {
     private final static Logger logger = LoggerFactory.getLogger(ExceptionMethod.class);

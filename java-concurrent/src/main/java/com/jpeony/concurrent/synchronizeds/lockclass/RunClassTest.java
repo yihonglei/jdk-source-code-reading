@@ -2,8 +2,6 @@ package com.jpeony.concurrent.synchronizeds.lockclass;
 
 /**
  * 类锁测试
- *
- * @author yihonglei
  */
 public class RunClassTest {
     public static void main(String[] args) {

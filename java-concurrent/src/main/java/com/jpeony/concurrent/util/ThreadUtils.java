@@ -7,8 +7,6 @@ import java.util.concurrent.*;
 
 /**
  * 线程工具
- *
- * @author yihonglei
  */
 public class ThreadUtils {
     private static final Logger logger = LoggerFactory.getLogger(ThreadUtils.class);
@@ -38,8 +36,7 @@ public class ThreadUtils {
 
     /**
      * CPU密集,无返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static void execute(Runnable task) {
         executor.execute(task);
@@ -47,8 +44,7 @@ public class ThreadUtils {
 
     /**
      * CPU密集,有返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static <V> Future<V> submit(Callable<V> task) {
         return executor.submit(task);
@@ -56,8 +52,7 @@ public class ThreadUtils {
 
     /**
      * CPU密集,有返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static <V> Future<V> submit(Runnable task, V v) {
         return executor.submit(task, v);
@@ -65,8 +60,7 @@ public class ThreadUtils {
 
     /**
      * IO密集,有无返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static void executeStandard(Runnable task) {
         standardExecutor.execute(task);
@@ -74,8 +68,7 @@ public class ThreadUtils {
 
     /**
      * IO密集,有返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static <V> Future<V> submitStandard(Callable<V> task) {
         return executor.submit(task);
@@ -83,8 +76,7 @@ public class ThreadUtils {
 
     /**
      * IO密集,有返回值
-     *
-     * @param task 业务线程
+        * @param task 业务线程
      */
     public static <V> Future<V> submitStandard(Runnable task, V v) {
         return executor.submit(task, v);

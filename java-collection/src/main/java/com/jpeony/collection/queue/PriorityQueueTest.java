@@ -4,8 +4,6 @@ import java.util.PriorityQueue;
 
 /**
  * 优先队列
- *
- * @author yihonglei
  */
 public class PriorityQueueTest {
     public static void main(String[] args) {

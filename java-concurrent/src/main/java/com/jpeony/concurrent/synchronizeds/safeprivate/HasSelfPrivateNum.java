@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 方法内部的私有变量都是线程安全的
- *
- * @author yihonglei
  */
 public class HasSelfPrivateNum {
     private final static Logger logger = LoggerFactory.getLogger(HasSelfPrivateNum.class);

@@ -5,8 +5,6 @@ import java.util.concurrent.FutureTask;
 
 /**
  * FutureTask控制线程顺序，通过get方法阻塞获取上一个线程结果，只有当上一个线程执行完成并返回结果时，才继续执行下一个线程。
- *
- * @author yihonglei
  */
 public class FutureTaskOrder {
     public static void main(String[] args) {

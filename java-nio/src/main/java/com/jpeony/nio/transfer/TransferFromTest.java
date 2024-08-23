@@ -9,8 +9,6 @@ import java.nio.channels.FileChannel;
  * FileChannel中transferFrom源码:
  * public abstract long transferFrom(ReadableByteChannel src, long position, long count) throws IOException;
  * FileChannel的transferFrom()方法可以将数据从源通道传输到FileChannel中。
- *
- * @author yihonglei
  */
 public class TransferFromTest {
     /**

@@ -2,8 +2,6 @@ package com.jpeony.base.constructor;
 
 /**
  * 基类加载顺序
- *
- * @author yihonglei
  */
 public class Cartoon extends Drawing {
     public Cartoon() {

@@ -2,8 +2,6 @@ package com.jpeony.base.constructor;
 
 /**
  * 子类通过super调用相应参数列表的父类构造器
- *
- * @author yihonglei
  */
 public class Chess extends BoardGame {
     Chess() {

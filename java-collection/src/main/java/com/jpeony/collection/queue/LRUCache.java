@@ -5,8 +5,6 @@ import java.util.Map;
 
 /**
  * 【题源】https://leetcode-cn.com/problems/lru-cache/
- *
- * @author yihonglei
  */
 public class LRUCache extends LinkedHashMap<Integer, Integer> {
     int capacity = 0;

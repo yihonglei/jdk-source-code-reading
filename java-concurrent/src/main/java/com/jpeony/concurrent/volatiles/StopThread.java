@@ -3,8 +3,6 @@ package com.jpeony.concurrent.volatiles;
 /**
  * sign标识是否停止线程:
  * sign false表示不停止，如果为true 表示停止。
- *
- * @author yihonglei
  */
 public class StopThread {
     /**

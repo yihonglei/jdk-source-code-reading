@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.unsafeobject;
 
-/**
- * @author yihonglei
- */
 public class ThreadA extends Thread {
     private HasSelfPrivateNum hasSelfPrivateNum;
 

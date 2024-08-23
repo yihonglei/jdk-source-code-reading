@@ -1,8 +1,5 @@
 package com.jpeony.base.finals;
 
-/**
- * @author yihonglei
- */
 public class FinalArgumentsTest {
     public static void main(String[] args) {
 

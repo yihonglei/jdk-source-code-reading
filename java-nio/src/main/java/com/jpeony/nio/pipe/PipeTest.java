@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.Pipe;
 
-/**
- * @author yihonglei
- */
 public class PipeTest {
     public static void main(String[] args) throws IOException {
         // 1. 获取管道

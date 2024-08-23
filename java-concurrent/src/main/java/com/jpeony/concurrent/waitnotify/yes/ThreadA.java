@@ -2,8 +2,6 @@ package com.jpeony.concurrent.waitnotify.yes;
 
 /**
  * 用于处理等待
- *
- * @author yihonglei
  */
 public class ThreadA extends Thread {
     private final Object lock;

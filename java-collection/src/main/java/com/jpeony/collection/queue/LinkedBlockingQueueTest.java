@@ -7,8 +7,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 阻塞队列
- *
- * @author yihonglei
  */
 public class LinkedBlockingQueueTest {
     private final static Logger logger = LoggerFactory.getLogger(LinkedBlockingQueueTest.class);

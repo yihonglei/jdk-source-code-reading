@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.volatiles;
 
-/**
- * @author yihonglei
- */
 public class VolatileObjTest {
     public static void main(String[] args) throws InterruptedException {
         VolatileObj obj1 = new VolatileObj();

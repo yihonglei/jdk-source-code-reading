@@ -18,8 +18,6 @@ import java.nio.channels.FileChannel;
  * 有两种方式能清空缓冲区：
  * 1）clear() 方法会清空整个缓冲区。
  * 2）compact() 方法只会清除已经读过的数据。任何未读的数据都被移到缓冲区的起始处，新写入的数据将放到缓冲区未读数据的后面。
- *
- * @author yihonglei
  */
 public class BufferRWTest {
     /**

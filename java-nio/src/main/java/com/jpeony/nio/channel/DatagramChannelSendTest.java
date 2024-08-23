@@ -10,8 +10,6 @@ import java.util.Scanner;
 
 /**
  * 客户端: 发送控制台输入的内容并接收服务端回应
- *
- * @author yihonglei
  */
 public class DatagramChannelSendTest {
     public static void main(String[] args) throws IOException {

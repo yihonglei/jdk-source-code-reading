@@ -9,8 +9,7 @@ import java.net.Socket;
 
 /**
  * java net
- *
- * @author yihonglei
+
  */
 public class ServerSocketTest {
     private static int portNumber = 8889;

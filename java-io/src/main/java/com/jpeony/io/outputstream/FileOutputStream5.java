@@ -8,8 +8,6 @@ import java.io.OutputStream;
 /**
  * FileOutputStream(File file, boolean append)的append设置为false，覆盖掉文件。
  * 如果为false，与FileOutputStream(File)构造器一致。
- *
- * @author yihonglei
  */
 public class FileOutputStream5 {
 

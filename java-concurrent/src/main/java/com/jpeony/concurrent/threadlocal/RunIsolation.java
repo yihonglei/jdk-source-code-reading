@@ -2,8 +2,6 @@ package com.jpeony.concurrent.threadlocal;
 
 /**
  * ThreadLocal 线程隔离测试
- *
- * @author yihonglei
  */
 public class RunIsolation {
     public static void main(String[] args) {

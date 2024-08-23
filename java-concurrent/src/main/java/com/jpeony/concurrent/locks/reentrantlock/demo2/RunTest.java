@@ -13,8 +13,6 @@ package com.jpeony.concurrent.locks.reentrantlock.demo2;
  * await(long time, TimeUnit unit)相当于Object对象中的wait(long timeout)方法
  * signal() 通知单个线程相当于Object对象中的notify()方法
  * signalAll() 通知所有线程相当于Object对象中的notifyAll()方法
- *
- * @author yihonglei
  */
 public class RunTest {
     public static void main(String[] args) {

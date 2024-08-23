@@ -21,8 +21,7 @@ import java.net.SocketException;
  * 4）发送数据
  * <p>
  * 5）关闭连接
- *
- * @author yihonglei
+
  */
 public class UDPClient {
     public static void main(String[] args) throws Exception {

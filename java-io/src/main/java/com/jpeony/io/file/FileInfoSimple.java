@@ -9,9 +9,6 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileOwnerAttributeView;
 import java.util.Date;
 
-/**
- * @author yihonglei
- */
 public class FileInfoSimple {
     public static void main(String[] args) throws IOException {
         Path testPath = Paths.get("C:\\mycode\\hello.txt");

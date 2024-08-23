@@ -4,8 +4,6 @@ import java.util.Hashtable;
 
 /**
  * synchronized 实现线程安全，并发度低
- *
- * @author yihonglei
  */
 public class HashTableTest {
     public static void main(String[] args) {

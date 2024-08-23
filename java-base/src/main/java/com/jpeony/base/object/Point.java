@@ -2,8 +2,6 @@ package com.jpeony.base.object;
 
 /**
  * 重写equals方法
- *
- * @author yihonglei
  */
 public class Point {
     private final int x;

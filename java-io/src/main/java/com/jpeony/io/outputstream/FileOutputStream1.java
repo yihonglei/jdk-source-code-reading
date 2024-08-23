@@ -7,8 +7,6 @@ import java.io.OutputStream;
 
 /**
  * write(int b)：把单个字节写入到输出流中。
- *
- * @author yihonglei
  */
 public class FileOutputStream1 {
     public static void main(String[] args) {

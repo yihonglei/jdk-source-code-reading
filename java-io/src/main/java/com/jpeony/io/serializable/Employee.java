@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 /**
  * 实现序列化接口--Serializable
- *
- * @author yihonglei
  */
 public class Employee implements Serializable {
     private static final long serialVersionUID = 8182014220967586096L;

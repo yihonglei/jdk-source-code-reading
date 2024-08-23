@@ -1,8 +1,5 @@
 package com.jpeony.concurrent.synchronizeds.singleobject;
 
-/**
- * @author yihonglei
- */
 public class RunTest {
     public static void main(String[] args) {
         // 创建实例
