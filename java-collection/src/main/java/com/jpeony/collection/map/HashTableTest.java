@@ -8,8 +8,9 @@ import java.util.Hashtable;
 public class HashTableTest {
     public static void main(String[] args) {
         Hashtable<String, String> hashTable = new Hashtable<>();
-
-        hashTable.put("key1", "hello world!");
+        for (int i = 0; i < 200; i++) {
+            hashTable.put("key" + i, "hello world!");
+        }
 
         System.out.println(hashTable.get("key1"));
     }
