@@ -1,4 +1,4 @@
-Classfile /Users/hongqi/Documents/jpeony/jdk-source-code-reading/java-jvm/src/main/java/com/jpeony/jvm/hotspot/Foo.class
+Classfile /Users/hongqi/Documents/jpeony/thinking-in-java/java-jvm/src/main/java/com/jpeony/jvm/hotspot/Foo.class
   Last modified Nov 21, 2023; size 413 bytes
   MD5 checksum 0a07c47ae1c76789212255993462bdb4
   Compiled from "Foo.java"

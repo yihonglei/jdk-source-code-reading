@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>jdk-source-code-reading</artifactId>
+        <artifactId>thinking-in-java</artifactId>
         <groupId>com.jpeony</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
