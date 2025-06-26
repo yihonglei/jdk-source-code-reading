@@ -78,11 +78,7 @@ JDK8 源码。
 
 # java-net
 
-[CSDN]()
-
 # java-jdbc
-
-[CSDN]()
 
 # java-concurrent
 
@@ -122,6 +118,4 @@ JDK8 源码。
 - [【JVM原理】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
 - [【JVM原理】Java 内存模型](https://blog.csdn.net/yhl_jxy/article/details/103216421)
 
-# java8
-
-[CSDN]()
+# java8 新特性
