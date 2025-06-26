@@ -1,8 +1,9 @@
-# 概述
+# 介绍
 
-JDK8 源码。
+- 1、java-base，java-io，java-nio，java-reflect，java-collection，java-annotation，java-net，java-jdbc，java-concurrent，java-jvm 默认以 JDK8 为基础学习。
+- 2、相较于 JDK8 之前的新特性学习分别放在对应版本项目，java8-new，java11-new, java17-new 新特性知识学习。
 
-# 基础
+# java-base（基础知识）
 
 - [【基础】Java 运算符大全](https://jpeony.blog.csdn.net/article/details/51636764)
 - [【基础】String、StringBuffer、StringBuilder 源码分析](https://jpeony.blog.csdn.net/article/details/53514127)
@@ -24,7 +25,7 @@ JDK8 源码。
 - [【IO】BufferedReader](https://jpeony.blog.csdn.net/article/details/79319447)
 - [【IO】BufferedWriter](https://jpeony.blog.csdn.net/article/details/79319467)
 
-# java-nio
+## java-nio
 
 - [【NIO】概述](https://jpeony.blog.csdn.net/article/details/79327212)
 - [【NIO】Buffer（缓冲区）](https://jpeony.blog.csdn.net/article/details/79331010)
@@ -118,4 +119,10 @@ JDK8 源码。
 - [【JVM原理】内存分配和回收策略](https://blog.csdn.net/yhl_jxy/article/details/80968456)
 - [【JVM原理】Java 内存模型](https://blog.csdn.net/yhl_jxy/article/details/103216421)
 
-# java8 新特性
+# java8-new
+
+# java11-new
+
+# java17-new
+
+
