@@ -1,7 +1,7 @@
 # 介绍
 
-- 1、java-base，java-io，java-nio，java-reflect，java-collection，java-annotation，java-net，java-jdbc，java-concurrent，java-jvm 默认以 JDK8 为基础学习。
-- 2、相较于 JDK8 之前的新特性学习分别放在对应版本项目，java8-new，java11-new, java17-new 新特性知识学习。
+- 1、java-base，java-io，java-nio，java-reflect，java-collection，java-annotation，java-net，java-jdbc，java-concurrent，java-jvm 默认基于 JDK8。
+- 2、相较于之前版本的新特性分别放在对应版本特性项目 java8-new，java11-new, java17-new。
 
 # java-base（基础知识）
 
